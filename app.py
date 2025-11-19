@@ -10,8 +10,8 @@ st.text("Plain fixed-width text for code-like things.")
 st.markdown("You can use **Markdown** here, including *italic* and `code`.")
 st.divider()
 st.header("Display data")
-df = pd.DataFrame({
-"name": ["Alice", "Bob", "Charlie"],
+df = pd.DataFrame(
+{"name": ["Alice", "Bob", "Charlie"],
 "age": [25, 32, 29]
 })
 st.write("Here is a small dataframe:")
