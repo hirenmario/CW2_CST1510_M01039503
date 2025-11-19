@@ -24,7 +24,7 @@ columns=["x", "y", "size"]
 )
 st.subheader("Scatter chart")
 st.scatter_chart(scatter_data, x="x", y="y", size="size")
-# Map (requires lat/lon columns)
+
 st.subheader("Map")
 map_data = pd.DataFrame({
 "lat": 51.5 + np.random.randn(100) * 0.01,
