@@ -27,7 +27,7 @@ st.caption("This is just demo content – replace with your own dashboard.")
 # Sidebar filters
 with st.sidebar:
     st.header("Filters")
-    n_points = st.slider("Number of data points", 10, 200, 50)
+    n_points = st.slider("Number of data points", 5, 200, 50)
 
 # Fake data
 data = pd.DataFrame(
