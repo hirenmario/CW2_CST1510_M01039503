@@ -1,2 +1,4 @@
-# Ignore the specific file in the week_10 directory
+# Ignore the specific files in the week_10 directory
 week_10/chatgpt_basic.py
+.env
+
