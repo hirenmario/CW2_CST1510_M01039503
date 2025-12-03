@@ -46,12 +46,34 @@ def create_datasets_metadata_table(conn):
         )
     """)
 
-    
+def Create_IT_Tickets_Table(conn):
+    """
+    Create the it_tickets table.
+    """
+    cursor = conn.cursor()
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS Users (
+            id: INTEGER PRIMARY KEY AUTOINCREMENT
+            ticket_id: TEXT UNIQUE NOT NULL
+            priority: TEXT 
+            status: TEXT 
+            category: TEX
+            subject: TEXT NOT NULL
+            description: TEXT
+            created_date: TEXT
+            resolved_date: TEXT
+            assigned_to: TEXT
+            created_at: TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+    """)
     conn.commit()
-    print("✅ Datasets metadata table created successfully!")
+
+
+print("✅ Datasets metadata table created successfully!")
 def create_all_tables(conn):
     """Create all tables."""
     create_users_table(conn)
     create_cyber_incidents_table(conn)
     create_datasets_metadata_table(conn)
-    create_it_tickets_table(conn)
+    create_IT_tickets_table(conn)
+    
