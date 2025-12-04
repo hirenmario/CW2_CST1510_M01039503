@@ -124,7 +124,7 @@ def main():
                 input("\nPress Enter to return to main menu...")
             
         elif choice == '3':
-            print("\nThank you for using the authentication system.")
+            print("\nThank you for using authentication system.")
             print("Exiting...")
             break
             
