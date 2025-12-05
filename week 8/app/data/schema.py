@@ -75,5 +75,5 @@ def create_all_tables(conn):
     create_users_table(conn)
     create_cyber_incidents_table(conn)
     create_datasets_metadata_table(conn)
-    create_IT_tickets_table(conn)
+    Create_IT_Tickets_Table(conn)
     
