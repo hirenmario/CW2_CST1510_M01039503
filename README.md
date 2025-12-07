@@ -1,8 +1,8 @@
 Hiren Mario Fernando's Coursework 2 Repository for Module CST1510
 
 # Week 7: Secure Authentication System
-Student Name: [Hiren Mario Fernando]:
-Student ID: [M01039503]
+Student Name: [Hiren Mario Fernando]:/n
+Student ID: [M01039503]/n
 Course: CST1510 -CW2 - Multi-Domain Intelligence Platform
 ## Project Description
 A command-line authentication system implementing secure password hashing
