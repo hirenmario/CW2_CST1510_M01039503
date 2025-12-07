@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.set_page_config(page_title="Dashboard", page_icon="📊", layout="wide")
+st.set_page_config(page_title="IT", page_icon="📊", layout="wide")
 
 # Ensure state keys exist (in case user opens this page first)
 if "logged_in" not in st.session_state:
