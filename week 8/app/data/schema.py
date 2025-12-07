@@ -52,18 +52,18 @@ def Create_IT_Tickets_Table(conn):
     """
     cursor = conn.cursor()
     cursor.execute("""
-        CREATE TABLE IF NOT EXISTS Users (
-            id: INTEGER PRIMARY KEY AUTOINCREMENT
-            ticket_id: TEXT UNIQUE NOT NULL
-            priority: TEXT 
-            status: TEXT 
-            category: TEX
-            subject: TEXT NOT NULL
-            description: TEXT
-            created_date: TEXT
-            resolved_date: TEXT
-            assigned_to: TEXT
-            created_at: TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        CREATE TABLE IF NOT EXISTS IT_tickets (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            ticket_id TEXT UNIQUE NOT NULL,
+            priority TEXT ,
+            status TEXT ,
+            category TEXT,
+            subject TEXT NOT NULL,
+            description TEXT,
+            created_date TEXT,
+            resolved_date TEXT,
+            assigned_to TEXT,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         )
     """)
     conn.commit()

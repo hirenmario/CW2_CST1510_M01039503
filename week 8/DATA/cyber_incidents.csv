@@ -1,1001 +1,1001 @@
-id,title,severity,status,date
-1,Incident 1: Malware,critical,open,2023-12-28
-2,Incident 2: Phishing,critical,open,2024-02-29
-3,Incident 3: Data Leak,high,open,2024-06-28
-4,Incident 4: Data Leak,medium,resolved,2024-03-28
-5,Incident 5: Data Leak,critical,open,2024-05-17
-6,Incident 6: Malware,medium,resolved,2024-08-06
-7,Incident 7: DDoS,high,in progress,2024-10-09
-8,Incident 8: Malware,high,open,2023-02-25
-9,Incident 9: Unauthorized Access,low,resolved,2024-08-06
-10,Incident 10: Unauthorized Access,critical,open,2023-01-14
-11,Incident 11: Malware,low,in progress,2023-08-21
-12,Incident 12: Malware,critical,resolved,2023-05-07
-13,Incident 13: DDoS,medium,in progress,2023-09-28
-14,Incident 14: Malware,low,in progress,2024-03-07
-15,Incident 15: DDoS,medium,in progress,2023-03-21
-16,Incident 16: Phishing,low,open,2023-11-16
-17,Incident 17: Unauthorized Access,critical,closed,2024-07-27
-18,Incident 18: Data Leak,high,resolved,2023-11-30
-19,Incident 19: DDoS,critical,open,2024-05-18
-20,Incident 20: DDoS,critical,resolved,2023-07-10
-21,Incident 21: Data Leak,critical,closed,2024-02-14
-22,Incident 22: Data Leak,low,closed,2023-04-02
-23,Incident 23: Data Leak,critical,resolved,2023-04-04
-24,Incident 24: Phishing,critical,open,2024-06-16
-25,Incident 25: DDoS,critical,open,2023-08-28
-26,Incident 26: Unauthorized Access,low,in progress,2023-10-07
-27,Incident 27: Malware,medium,closed,2024-09-10
-28,Incident 28: Malware,critical,closed,2024-03-24
-29,Incident 29: Unauthorized Access,high,in progress,2024-06-27
-30,Incident 30: Data Leak,critical,in progress,2023-05-23
-31,Incident 31: Unauthorized Access,medium,open,2024-11-10
-32,Incident 32: Unauthorized Access,low,open,2023-10-11
-33,Incident 33: Malware,medium,in progress,2023-09-05
-34,Incident 34: Data Leak,medium,in progress,2024-03-08
-35,Incident 35: Unauthorized Access,low,resolved,2023-10-12
-36,Incident 36: Phishing,low,open,2023-08-27
-37,Incident 37: Data Leak,critical,open,2024-06-28
-38,Incident 38: DDoS,medium,open,2024-02-21
-39,Incident 39: Malware,high,in progress,2023-05-03
-40,Incident 40: Data Leak,low,open,2024-04-02
-41,Incident 41: DDoS,low,closed,2023-08-14
-42,Incident 42: Malware,medium,resolved,2024-01-26
-43,Incident 43: DDoS,high,open,2024-08-27
-44,Incident 44: Data Leak,medium,closed,2024-03-03
-45,Incident 45: Phishing,medium,open,2024-04-28
-46,Incident 46: Phishing,low,resolved,2023-07-10
-47,Incident 47: DDoS,low,closed,2024-09-21
-48,Incident 48: DDoS,low,closed,2023-12-27
-49,Incident 49: Data Leak,medium,open,2024-06-12
-50,Incident 50: Unauthorized Access,high,in progress,2023-01-31
-51,Incident 51: DDoS,low,in progress,2024-07-12
-52,Incident 52: Malware,critical,open,2023-01-28
-53,Incident 53: Data Leak,critical,resolved,2024-09-14
-54,Incident 54: DDoS,medium,resolved,2024-05-28
-55,Incident 55: Unauthorized Access,low,closed,2023-02-28
-56,Incident 56: DDoS,medium,closed,2024-05-13
-57,Incident 57: Unauthorized Access,critical,resolved,2023-03-28
-58,Incident 58: Malware,medium,closed,2023-09-23
-59,Incident 59: Data Leak,low,resolved,2024-06-15
-60,Incident 60: Data Leak,high,in progress,2023-07-14
-61,Incident 61: DDoS,medium,closed,2024-04-02
-62,Incident 62: DDoS,low,closed,2024-01-06
-63,Incident 63: Malware,high,closed,2023-12-07
-64,Incident 64: DDoS,high,open,2024-07-06
-65,Incident 65: DDoS,low,open,2023-01-20
-66,Incident 66: Data Leak,critical,in progress,2024-04-01
-67,Incident 67: Malware,low,closed,2023-02-28
-68,Incident 68: Data Leak,high,open,2024-10-11
-69,Incident 69: Unauthorized Access,low,in progress,2024-11-09
-70,Incident 70: Unauthorized Access,high,in progress,2023-11-05
-71,Incident 71: Malware,high,open,2023-01-05
-72,Incident 72: Unauthorized Access,high,resolved,2024-10-06
-73,Incident 73: DDoS,high,open,2024-03-17
-74,Incident 74: Unauthorized Access,medium,open,2024-02-05
-75,Incident 75: Phishing,high,resolved,2023-12-25
-76,Incident 76: Unauthorized Access,medium,resolved,2023-07-08
-77,Incident 77: DDoS,critical,closed,2023-11-17
-78,Incident 78: Data Leak,low,closed,2024-05-04
-79,Incident 79: DDoS,low,resolved,2024-06-19
-80,Incident 80: DDoS,critical,closed,2023-11-22
-81,Incident 81: Malware,critical,closed,2024-06-05
-82,Incident 82: Data Leak,medium,closed,2024-10-14
-83,Incident 83: Unauthorized Access,low,open,2023-04-15
-84,Incident 84: DDoS,high,resolved,2023-01-31
-85,Incident 85: Malware,critical,resolved,2024-03-31
-86,Incident 86: Phishing,low,resolved,2023-02-12
-87,Incident 87: Unauthorized Access,critical,open,2023-12-10
-88,Incident 88: Unauthorized Access,medium,in progress,2023-04-07
-89,Incident 89: Malware,critical,in progress,2024-07-22
-90,Incident 90: Malware,low,in progress,2023-07-23
-91,Incident 91: DDoS,critical,resolved,2024-04-14
-92,Incident 92: Malware,low,open,2023-02-05
-93,Incident 93: Unauthorized Access,medium,closed,2024-11-28
-94,Incident 94: Malware,critical,closed,2024-06-21
-95,Incident 95: Malware,critical,in progress,2024-06-04
-96,Incident 96: Phishing,low,resolved,2024-11-14
-97,Incident 97: Data Leak,low,resolved,2023-02-18
-98,Incident 98: Data Leak,critical,open,2023-09-02
-99,Incident 99: Phishing,low,in progress,2023-04-10
-100,Incident 100: Phishing,high,open,2023-07-30
-101,Incident 101: DDoS,low,closed,2024-08-04
-102,Incident 102: Unauthorized Access,high,in progress,2023-07-20
-103,Incident 103: Data Leak,low,in progress,2023-09-24
-104,Incident 104: Unauthorized Access,critical,in progress,2023-12-18
-105,Incident 105: Phishing,medium,resolved,2024-03-23
-106,Incident 106: Data Leak,high,resolved,2023-04-24
-107,Incident 107: Malware,high,resolved,2023-11-19
-108,Incident 108: DDoS,high,open,2024-04-21
-109,Incident 109: Unauthorized Access,critical,open,2023-04-24
-110,Incident 110: Malware,critical,open,2024-09-25
-111,Incident 111: DDoS,low,closed,2023-08-01
-112,Incident 112: Unauthorized Access,high,resolved,2023-03-01
-113,Incident 113: Malware,low,in progress,2023-04-01
-114,Incident 114: Phishing,low,resolved,2023-12-01
-115,Incident 115: DDoS,medium,resolved,2024-04-19
-116,Incident 116: Phishing,high,open,2024-04-09
-117,Incident 117: Unauthorized Access,high,closed,2024-07-11
-118,Incident 118: Phishing,critical,closed,2024-07-11
-119,Incident 119: Phishing,high,open,2024-02-06
-120,Incident 120: Data Leak,medium,closed,2024-09-04
-121,Incident 121: Unauthorized Access,high,closed,2024-02-24
-122,Incident 122: Phishing,high,resolved,2023-04-13
-123,Incident 123: Phishing,low,open,2024-08-09
-124,Incident 124: Data Leak,low,open,2024-11-05
-125,Incident 125: Unauthorized Access,high,in progress,2023-12-13
-126,Incident 126: DDoS,critical,closed,2024-11-27
-127,Incident 127: Data Leak,low,in progress,2023-01-25
-128,Incident 128: Data Leak,low,resolved,2024-05-07
-129,Incident 129: Unauthorized Access,critical,resolved,2024-05-07
-130,Incident 130: Unauthorized Access,critical,open,2024-01-01
-131,Incident 131: Data Leak,low,closed,2023-08-30
-132,Incident 132: Malware,critical,open,2024-04-19
-133,Incident 133: Malware,high,in progress,2024-11-27
-134,Incident 134: Unauthorized Access,critical,in progress,2024-03-22
-135,Incident 135: Phishing,high,resolved,2023-11-12
-136,Incident 136: Phishing,low,open,2024-11-02
-137,Incident 137: Unauthorized Access,medium,closed,2023-06-26
-138,Incident 138: Malware,low,resolved,2023-12-19
-139,Incident 139: Data Leak,medium,resolved,2024-06-28
-140,Incident 140: Phishing,low,open,2024-10-04
-141,Incident 141: DDoS,medium,open,2024-09-16
-142,Incident 142: DDoS,critical,in progress,2024-06-10
-143,Incident 143: Phishing,critical,open,2023-07-05
-144,Incident 144: Phishing,high,resolved,2024-01-08
-145,Incident 145: Data Leak,low,resolved,2023-09-11
-146,Incident 146: Phishing,high,in progress,2023-05-27
-147,Incident 147: Data Leak,low,open,2023-11-16
-148,Incident 148: Unauthorized Access,medium,resolved,2024-06-15
-149,Incident 149: Unauthorized Access,low,in progress,2023-01-07
-150,Incident 150: Phishing,medium,in progress,2023-08-15
-151,Incident 151: Unauthorized Access,low,open,2023-08-23
-152,Incident 152: Unauthorized Access,high,open,2023-02-18
-153,Incident 153: DDoS,high,in progress,2023-09-13
-154,Incident 154: Data Leak,high,open,2023-07-04
-155,Incident 155: Data Leak,low,closed,2023-07-18
-156,Incident 156: Phishing,medium,open,2023-06-29
-157,Incident 157: Phishing,low,in progress,2024-01-04
-158,Incident 158: Phishing,low,open,2023-01-31
-159,Incident 159: Malware,critical,open,2023-03-16
-160,Incident 160: Malware,critical,in progress,2024-05-22
-161,Incident 161: Phishing,medium,in progress,2024-08-30
-162,Incident 162: Phishing,medium,resolved,2023-06-12
-163,Incident 163: Phishing,critical,resolved,2024-09-09
-164,Incident 164: Malware,low,open,2024-11-10
-165,Incident 165: Unauthorized Access,high,resolved,2024-07-05
-166,Incident 166: Unauthorized Access,medium,in progress,2023-01-21
-167,Incident 167: Malware,critical,closed,2024-05-07
-168,Incident 168: Phishing,high,in progress,2023-03-29
-169,Incident 169: DDoS,high,open,2023-10-17
-170,Incident 170: Phishing,high,in progress,2023-11-10
-171,Incident 171: Unauthorized Access,critical,resolved,2023-01-11
-172,Incident 172: Phishing,medium,resolved,2023-07-22
-173,Incident 173: DDoS,low,resolved,2023-08-27
-174,Incident 174: Unauthorized Access,medium,in progress,2023-06-12
-175,Incident 175: Malware,low,in progress,2024-02-22
-176,Incident 176: DDoS,high,closed,2023-01-11
-177,Incident 177: Data Leak,medium,in progress,2023-09-10
-178,Incident 178: DDoS,medium,closed,2024-08-06
-179,Incident 179: Malware,high,open,2023-03-08
-180,Incident 180: Phishing,low,in progress,2024-02-28
-181,Incident 181: Malware,critical,open,2024-09-11
-182,Incident 182: Malware,high,closed,2024-11-16
-183,Incident 183: Malware,high,closed,2023-09-04
-184,Incident 184: Unauthorized Access,medium,closed,2023-09-24
-185,Incident 185: DDoS,critical,open,2023-03-29
-186,Incident 186: Phishing,low,closed,2024-03-26
-187,Incident 187: Phishing,critical,closed,2024-08-08
-188,Incident 188: Phishing,high,in progress,2023-10-15
-189,Incident 189: Unauthorized Access,medium,open,2023-11-07
-190,Incident 190: Data Leak,high,closed,2023-04-21
-191,Incident 191: Unauthorized Access,medium,open,2023-03-19
-192,Incident 192: Malware,low,closed,2023-09-21
-193,Incident 193: Malware,critical,in progress,2023-07-18
-194,Incident 194: Phishing,low,in progress,2024-02-16
-195,Incident 195: Malware,high,resolved,2024-06-08
-196,Incident 196: DDoS,low,closed,2024-02-15
-197,Incident 197: Unauthorized Access,medium,closed,2024-04-04
-198,Incident 198: Phishing,low,open,2024-10-31
-199,Incident 199: DDoS,low,resolved,2023-09-30
-200,Incident 200: Phishing,critical,closed,2024-10-14
-201,Incident 201: DDoS,low,in progress,2023-08-20
-202,Incident 202: Phishing,medium,in progress,2023-01-14
-203,Incident 203: Unauthorized Access,high,open,2024-11-29
-204,Incident 204: Malware,low,closed,2023-08-24
-205,Incident 205: Data Leak,low,resolved,2023-01-06
-206,Incident 206: Unauthorized Access,low,open,2023-04-01
-207,Incident 207: Data Leak,low,closed,2024-06-14
-208,Incident 208: Malware,low,open,2023-06-20
-209,Incident 209: Data Leak,high,closed,2023-04-13
-210,Incident 210: DDoS,medium,open,2024-07-16
-211,Incident 211: Data Leak,critical,open,2023-11-29
-212,Incident 212: DDoS,high,in progress,2023-10-19
-213,Incident 213: Data Leak,critical,open,2024-07-26
-214,Incident 214: Phishing,medium,resolved,2024-07-07
-215,Incident 215: Phishing,high,open,2024-04-18
-216,Incident 216: Data Leak,high,closed,2024-05-31
-217,Incident 217: Malware,critical,resolved,2024-03-31
-218,Incident 218: Data Leak,critical,closed,2024-08-11
-219,Incident 219: Data Leak,critical,in progress,2023-11-05
-220,Incident 220: DDoS,high,resolved,2024-03-24
-221,Incident 221: Data Leak,critical,in progress,2024-03-17
-222,Incident 222: Phishing,critical,in progress,2023-08-13
-223,Incident 223: Unauthorized Access,high,open,2023-11-09
-224,Incident 224: Data Leak,medium,open,2024-01-09
-225,Incident 225: DDoS,high,open,2023-01-23
-226,Incident 226: DDoS,low,closed,2023-04-13
-227,Incident 227: Data Leak,critical,closed,2024-09-03
-228,Incident 228: Unauthorized Access,medium,resolved,2024-03-19
-229,Incident 229: Unauthorized Access,high,open,2024-10-05
-230,Incident 230: Unauthorized Access,medium,closed,2023-03-30
-231,Incident 231: Malware,high,closed,2023-03-09
-232,Incident 232: Unauthorized Access,critical,in progress,2023-06-27
-233,Incident 233: Phishing,medium,closed,2024-05-01
-234,Incident 234: Malware,critical,open,2023-01-05
-235,Incident 235: Unauthorized Access,critical,in progress,2023-08-31
-236,Incident 236: Phishing,medium,in progress,2023-04-20
-237,Incident 237: Malware,low,open,2023-10-18
-238,Incident 238: Unauthorized Access,high,open,2023-11-03
-239,Incident 239: Unauthorized Access,medium,resolved,2024-06-10
-240,Incident 240: Data Leak,high,in progress,2024-07-03
-241,Incident 241: Malware,medium,resolved,2024-08-22
-242,Incident 242: Data Leak,critical,in progress,2024-07-28
-243,Incident 243: Data Leak,low,open,2023-12-13
-244,Incident 244: Malware,medium,open,2024-04-13
-245,Incident 245: Data Leak,critical,open,2023-02-10
-246,Incident 246: Malware,medium,closed,2024-04-04
-247,Incident 247: Malware,low,resolved,2024-05-10
-248,Incident 248: DDoS,low,open,2023-01-02
-249,Incident 249: Phishing,critical,resolved,2024-07-26
-250,Incident 250: DDoS,critical,resolved,2023-03-28
-251,Incident 251: Unauthorized Access,high,in progress,2023-06-17
-252,Incident 252: Phishing,medium,open,2024-09-16
-253,Incident 253: Data Leak,medium,closed,2024-05-12
-254,Incident 254: Malware,low,resolved,2023-05-05
-255,Incident 255: Unauthorized Access,high,closed,2023-07-07
-256,Incident 256: DDoS,critical,closed,2023-06-14
-257,Incident 257: Malware,high,in progress,2024-03-08
-258,Incident 258: Malware,low,open,2023-09-06
-259,Incident 259: Malware,medium,in progress,2023-03-14
-260,Incident 260: Phishing,high,closed,2023-08-22
-261,Incident 261: Malware,medium,in progress,2024-11-09
-262,Incident 262: Malware,critical,in progress,2024-04-26
-263,Incident 263: DDoS,low,open,2024-07-20
-264,Incident 264: DDoS,low,open,2023-05-26
-265,Incident 265: Phishing,critical,closed,2023-05-28
-266,Incident 266: Data Leak,high,closed,2023-08-28
-267,Incident 267: DDoS,medium,resolved,2024-07-11
-268,Incident 268: Phishing,critical,open,2024-06-17
-269,Incident 269: Phishing,critical,closed,2024-08-13
-270,Incident 270: DDoS,high,resolved,2023-11-09
-271,Incident 271: Malware,low,in progress,2023-07-05
-272,Incident 272: Data Leak,medium,resolved,2024-02-22
-273,Incident 273: Unauthorized Access,high,closed,2024-02-24
-274,Incident 274: Unauthorized Access,medium,closed,2023-09-03
-275,Incident 275: Malware,medium,in progress,2024-04-14
-276,Incident 276: Phishing,critical,open,2023-10-18
-277,Incident 277: Data Leak,medium,open,2024-03-21
-278,Incident 278: Unauthorized Access,medium,in progress,2023-04-21
-279,Incident 279: Unauthorized Access,critical,closed,2024-05-20
-280,Incident 280: Phishing,low,open,2024-07-17
-281,Incident 281: Malware,critical,open,2023-02-23
-282,Incident 282: Unauthorized Access,low,open,2023-03-17
-283,Incident 283: Data Leak,critical,in progress,2024-08-16
-284,Incident 284: Phishing,low,open,2024-11-11
-285,Incident 285: DDoS,critical,in progress,2023-11-26
-286,Incident 286: Unauthorized Access,low,in progress,2023-03-24
-287,Incident 287: Phishing,low,open,2024-06-23
-288,Incident 288: Phishing,critical,open,2023-09-26
-289,Incident 289: DDoS,high,resolved,2023-10-15
-290,Incident 290: Data Leak,low,open,2024-07-08
-291,Incident 291: Malware,critical,open,2023-01-06
-292,Incident 292: DDoS,high,resolved,2024-03-20
-293,Incident 293: Malware,critical,in progress,2023-12-01
-294,Incident 294: DDoS,low,in progress,2024-08-04
-295,Incident 295: Unauthorized Access,low,open,2023-08-29
-296,Incident 296: Malware,medium,resolved,2023-06-14
-297,Incident 297: Unauthorized Access,low,resolved,2023-09-01
-298,Incident 298: Unauthorized Access,low,resolved,2024-08-30
-299,Incident 299: Malware,low,resolved,2023-11-20
-300,Incident 300: Phishing,medium,in progress,2023-09-24
-301,Incident 301: Unauthorized Access,critical,open,2023-06-29
-302,Incident 302: Malware,high,open,2023-10-08
-303,Incident 303: DDoS,medium,resolved,2024-09-13
-304,Incident 304: Phishing,medium,open,2023-03-26
-305,Incident 305: Malware,high,closed,2023-12-28
-306,Incident 306: Phishing,medium,open,2023-12-06
-307,Incident 307: Phishing,low,closed,2024-11-20
-308,Incident 308: DDoS,low,resolved,2023-01-25
-309,Incident 309: Malware,critical,closed,2023-05-28
-310,Incident 310: Unauthorized Access,medium,closed,2023-07-27
-311,Incident 311: DDoS,medium,resolved,2024-07-16
-312,Incident 312: Data Leak,high,in progress,2023-10-19
-313,Incident 313: Malware,high,closed,2023-09-23
-314,Incident 314: Phishing,low,closed,2023-10-12
-315,Incident 315: Unauthorized Access,high,closed,2024-04-06
-316,Incident 316: Data Leak,low,open,2023-08-25
-317,Incident 317: Unauthorized Access,low,open,2023-03-21
-318,Incident 318: Data Leak,critical,closed,2023-08-29
-319,Incident 319: Phishing,high,resolved,2023-12-11
-320,Incident 320: DDoS,medium,closed,2023-10-30
-321,Incident 321: Malware,high,in progress,2023-01-30
-322,Incident 322: Malware,high,closed,2023-06-29
-323,Incident 323: Data Leak,critical,resolved,2024-04-10
-324,Incident 324: Unauthorized Access,high,in progress,2023-05-09
-325,Incident 325: Unauthorized Access,low,resolved,2024-09-16
-326,Incident 326: DDoS,medium,in progress,2024-04-07
-327,Incident 327: DDoS,medium,open,2024-07-04
-328,Incident 328: Unauthorized Access,critical,in progress,2024-04-02
-329,Incident 329: Phishing,critical,resolved,2024-10-25
-330,Incident 330: Data Leak,high,in progress,2023-09-06
-331,Incident 331: Unauthorized Access,low,closed,2024-10-28
-332,Incident 332: Malware,medium,closed,2024-04-22
-333,Incident 333: Phishing,low,closed,2023-10-19
-334,Incident 334: DDoS,critical,in progress,2024-05-30
-335,Incident 335: DDoS,medium,open,2024-02-12
-336,Incident 336: Data Leak,low,resolved,2024-09-11
-337,Incident 337: Malware,critical,resolved,2024-03-27
-338,Incident 338: Unauthorized Access,critical,in progress,2023-02-03
-339,Incident 339: Malware,medium,in progress,2023-03-08
-340,Incident 340: Data Leak,low,in progress,2024-04-05
-341,Incident 341: Malware,critical,in progress,2024-11-02
-342,Incident 342: Data Leak,critical,closed,2024-07-13
-343,Incident 343: DDoS,high,closed,2023-08-23
-344,Incident 344: Data Leak,high,resolved,2023-02-12
-345,Incident 345: Malware,critical,closed,2024-06-18
-346,Incident 346: Phishing,medium,open,2023-04-11
-347,Incident 347: Malware,critical,resolved,2024-10-18
-348,Incident 348: Unauthorized Access,medium,open,2024-03-31
-349,Incident 349: Malware,low,resolved,2024-10-01
-350,Incident 350: Malware,medium,closed,2024-10-15
-351,Incident 351: Unauthorized Access,medium,in progress,2024-01-01
-352,Incident 352: Unauthorized Access,critical,open,2023-09-12
-353,Incident 353: Unauthorized Access,low,resolved,2024-02-23
-354,Incident 354: Malware,medium,closed,2024-05-06
-355,Incident 355: Unauthorized Access,critical,resolved,2023-12-14
-356,Incident 356: Data Leak,critical,resolved,2023-05-20
-357,Incident 357: Data Leak,low,resolved,2024-05-15
-358,Incident 358: Phishing,critical,in progress,2024-07-23
-359,Incident 359: Unauthorized Access,critical,closed,2024-02-19
-360,Incident 360: Data Leak,high,closed,2023-06-27
-361,Incident 361: Malware,medium,resolved,2024-11-02
-362,Incident 362: DDoS,critical,resolved,2024-06-05
-363,Incident 363: Malware,high,resolved,2024-01-09
-364,Incident 364: DDoS,critical,resolved,2023-03-16
-365,Incident 365: Unauthorized Access,low,resolved,2023-07-25
-366,Incident 366: Data Leak,low,closed,2024-08-19
-367,Incident 367: Data Leak,medium,open,2023-06-12
-368,Incident 368: Data Leak,critical,resolved,2024-08-22
-369,Incident 369: Unauthorized Access,high,closed,2023-11-14
-370,Incident 370: Malware,low,open,2023-10-26
-371,Incident 371: Phishing,low,open,2023-06-28
-372,Incident 372: Phishing,low,in progress,2024-05-10
-373,Incident 373: Unauthorized Access,medium,open,2023-06-20
-374,Incident 374: Malware,critical,closed,2023-04-02
-375,Incident 375: Phishing,medium,open,2023-11-29
-376,Incident 376: Phishing,critical,resolved,2023-04-17
-377,Incident 377: Data Leak,critical,in progress,2024-10-15
-378,Incident 378: Unauthorized Access,medium,closed,2024-04-03
-379,Incident 379: Malware,low,resolved,2024-04-23
-380,Incident 380: Data Leak,high,closed,2023-11-23
-381,Incident 381: DDoS,high,in progress,2023-05-02
-382,Incident 382: Unauthorized Access,low,resolved,2024-09-16
-383,Incident 383: Data Leak,low,open,2024-05-28
-384,Incident 384: Malware,critical,resolved,2023-05-10
-385,Incident 385: Phishing,low,in progress,2024-10-03
-386,Incident 386: Malware,high,open,2023-02-26
-387,Incident 387: DDoS,low,in progress,2024-01-25
-388,Incident 388: Data Leak,low,resolved,2023-02-15
-389,Incident 389: Unauthorized Access,medium,open,2023-10-06
-390,Incident 390: DDoS,high,in progress,2024-06-08
-391,Incident 391: DDoS,high,open,2023-04-14
-392,Incident 392: Data Leak,critical,resolved,2023-04-11
-393,Incident 393: Malware,high,open,2024-08-02
-394,Incident 394: Malware,low,in progress,2023-12-14
-395,Incident 395: Phishing,low,resolved,2023-09-26
-396,Incident 396: DDoS,low,resolved,2023-04-08
-397,Incident 397: Data Leak,medium,closed,2024-01-02
-398,Incident 398: Phishing,low,in progress,2024-07-03
-399,Incident 399: DDoS,low,closed,2023-11-30
-400,Incident 400: Unauthorized Access,medium,open,2023-04-12
-401,Incident 401: Data Leak,critical,resolved,2024-11-11
-402,Incident 402: Phishing,medium,in progress,2024-03-14
-403,Incident 403: Malware,medium,open,2023-01-25
-404,Incident 404: DDoS,low,open,2024-10-11
-405,Incident 405: Unauthorized Access,low,open,2023-12-05
-406,Incident 406: Unauthorized Access,medium,open,2023-08-18
-407,Incident 407: Data Leak,low,closed,2024-04-04
-408,Incident 408: Malware,high,closed,2024-02-15
-409,Incident 409: Unauthorized Access,high,in progress,2024-08-23
-410,Incident 410: Unauthorized Access,medium,in progress,2023-06-11
-411,Incident 411: Phishing,high,open,2024-09-30
-412,Incident 412: Phishing,medium,open,2023-11-28
-413,Incident 413: Unauthorized Access,high,open,2024-10-08
-414,Incident 414: DDoS,low,open,2024-02-29
-415,Incident 415: Data Leak,critical,open,2024-05-30
-416,Incident 416: Phishing,critical,in progress,2024-04-22
-417,Incident 417: Phishing,low,open,2023-09-12
-418,Incident 418: Malware,low,resolved,2024-04-07
-419,Incident 419: Malware,medium,in progress,2023-02-23
-420,Incident 420: Phishing,high,closed,2023-08-03
-421,Incident 421: Malware,medium,in progress,2023-01-15
-422,Incident 422: Malware,critical,open,2024-01-06
-423,Incident 423: Unauthorized Access,medium,open,2023-11-24
-424,Incident 424: Data Leak,low,open,2023-08-09
-425,Incident 425: Data Leak,low,in progress,2023-11-22
-426,Incident 426: DDoS,high,open,2023-01-26
-427,Incident 427: DDoS,medium,in progress,2024-05-17
-428,Incident 428: Unauthorized Access,critical,in progress,2024-08-16
-429,Incident 429: Phishing,low,resolved,2023-01-31
-430,Incident 430: Malware,high,closed,2023-06-17
-431,Incident 431: Phishing,high,open,2023-08-10
-432,Incident 432: Unauthorized Access,critical,resolved,2024-07-08
-433,Incident 433: Data Leak,high,closed,2023-08-11
-434,Incident 434: Phishing,low,closed,2024-02-07
-435,Incident 435: DDoS,critical,resolved,2024-02-22
-436,Incident 436: Unauthorized Access,low,resolved,2023-11-26
-437,Incident 437: DDoS,low,resolved,2023-09-22
-438,Incident 438: DDoS,low,resolved,2023-11-21
-439,Incident 439: DDoS,low,open,2024-01-10
-440,Incident 440: Phishing,medium,resolved,2023-10-01
-441,Incident 441: Malware,low,open,2024-05-16
-442,Incident 442: Malware,low,resolved,2023-08-30
-443,Incident 443: Data Leak,medium,in progress,2023-02-18
-444,Incident 444: DDoS,high,closed,2023-10-28
-445,Incident 445: Phishing,critical,in progress,2023-12-03
-446,Incident 446: DDoS,medium,open,2024-02-05
-447,Incident 447: Unauthorized Access,critical,closed,2023-08-06
-448,Incident 448: DDoS,medium,in progress,2024-04-13
-449,Incident 449: Malware,medium,resolved,2024-01-30
-450,Incident 450: Malware,medium,open,2023-04-02
-451,Incident 451: Malware,high,open,2024-09-03
-452,Incident 452: Unauthorized Access,medium,closed,2023-08-17
-453,Incident 453: Data Leak,low,in progress,2023-01-21
-454,Incident 454: Malware,high,resolved,2023-05-09
-455,Incident 455: Malware,critical,open,2023-11-26
-456,Incident 456: Data Leak,critical,resolved,2024-10-02
-457,Incident 457: DDoS,critical,open,2023-10-03
-458,Incident 458: Malware,medium,closed,2023-10-01
-459,Incident 459: DDoS,low,in progress,2023-12-22
-460,Incident 460: Phishing,critical,resolved,2023-03-29
-461,Incident 461: Unauthorized Access,high,resolved,2024-04-08
-462,Incident 462: DDoS,critical,closed,2023-11-30
-463,Incident 463: Malware,low,closed,2023-02-20
-464,Incident 464: Phishing,critical,resolved,2023-03-13
-465,Incident 465: Malware,critical,closed,2023-03-04
-466,Incident 466: Malware,medium,open,2023-02-18
-467,Incident 467: Phishing,low,resolved,2023-03-16
-468,Incident 468: Malware,medium,resolved,2023-07-13
-469,Incident 469: DDoS,low,open,2023-10-03
-470,Incident 470: Malware,medium,in progress,2023-08-15
-471,Incident 471: Data Leak,medium,closed,2023-06-17
-472,Incident 472: DDoS,high,closed,2024-06-02
-473,Incident 473: DDoS,high,in progress,2023-05-10
-474,Incident 474: Data Leak,critical,closed,2023-10-02
-475,Incident 475: Unauthorized Access,critical,closed,2024-01-28
-476,Incident 476: Unauthorized Access,high,resolved,2024-09-13
-477,Incident 477: DDoS,critical,open,2023-05-11
-478,Incident 478: Malware,high,in progress,2024-11-28
-479,Incident 479: Malware,critical,resolved,2023-01-16
-480,Incident 480: Malware,medium,closed,2024-04-20
-481,Incident 481: Malware,low,in progress,2024-03-18
-482,Incident 482: Data Leak,high,open,2023-05-22
-483,Incident 483: Unauthorized Access,medium,open,2023-09-03
-484,Incident 484: DDoS,low,in progress,2024-01-30
-485,Incident 485: DDoS,low,open,2024-03-07
-486,Incident 486: Unauthorized Access,critical,closed,2024-04-24
-487,Incident 487: Malware,low,open,2023-06-06
-488,Incident 488: Unauthorized Access,high,closed,2023-08-10
-489,Incident 489: Phishing,critical,in progress,2024-10-15
-490,Incident 490: DDoS,high,closed,2023-12-18
-491,Incident 491: Unauthorized Access,medium,open,2024-04-26
-492,Incident 492: Unauthorized Access,medium,closed,2023-10-03
-493,Incident 493: Data Leak,high,resolved,2024-09-09
-494,Incident 494: Malware,high,in progress,2024-06-08
-495,Incident 495: Malware,medium,resolved,2024-01-24
-496,Incident 496: Malware,low,open,2023-07-17
-497,Incident 497: Unauthorized Access,low,open,2024-06-24
-498,Incident 498: Unauthorized Access,low,closed,2023-12-18
-499,Incident 499: Data Leak,critical,closed,2024-01-02
-500,Incident 500: Phishing,low,closed,2024-09-04
-501,Incident 501: Malware,high,resolved,2023-02-07
-502,Incident 502: DDoS,critical,in progress,2023-06-02
-503,Incident 503: Unauthorized Access,high,in progress,2024-01-07
-504,Incident 504: Phishing,low,resolved,2024-02-14
-505,Incident 505: Phishing,critical,in progress,2024-10-27
-506,Incident 506: Phishing,low,open,2024-04-01
-507,Incident 507: Data Leak,high,open,2023-03-12
-508,Incident 508: Data Leak,high,in progress,2024-11-06
-509,Incident 509: Unauthorized Access,low,in progress,2024-11-16
-510,Incident 510: Data Leak,critical,open,2023-09-08
-511,Incident 511: Data Leak,high,in progress,2023-02-09
-512,Incident 512: Data Leak,low,closed,2023-01-26
-513,Incident 513: Malware,high,closed,2023-08-24
-514,Incident 514: Data Leak,medium,in progress,2023-03-21
-515,Incident 515: Phishing,high,in progress,2024-01-07
-516,Incident 516: DDoS,critical,open,2023-06-14
-517,Incident 517: Data Leak,high,in progress,2024-01-20
-518,Incident 518: DDoS,critical,closed,2023-01-29
-519,Incident 519: Phishing,medium,resolved,2024-10-24
-520,Incident 520: Unauthorized Access,critical,open,2023-03-11
-521,Incident 521: Phishing,high,open,2024-07-29
-522,Incident 522: Malware,medium,closed,2024-01-25
-523,Incident 523: Data Leak,critical,resolved,2023-05-31
-524,Incident 524: Phishing,medium,open,2024-08-07
-525,Incident 525: Unauthorized Access,low,closed,2023-05-30
-526,Incident 526: Unauthorized Access,high,in progress,2023-09-08
-527,Incident 527: Data Leak,critical,resolved,2024-02-18
-528,Incident 528: Unauthorized Access,high,resolved,2023-04-04
-529,Incident 529: Phishing,medium,closed,2023-08-09
-530,Incident 530: DDoS,low,open,2024-08-28
-531,Incident 531: Phishing,critical,closed,2024-11-21
-532,Incident 532: Phishing,high,closed,2023-04-29
-533,Incident 533: DDoS,critical,open,2023-01-24
-534,Incident 534: Malware,critical,open,2024-02-07
-535,Incident 535: Data Leak,medium,in progress,2023-11-24
-536,Incident 536: Phishing,critical,resolved,2023-04-15
-537,Incident 537: Phishing,critical,resolved,2023-09-22
-538,Incident 538: Unauthorized Access,critical,open,2023-03-15
-539,Incident 539: Unauthorized Access,medium,open,2023-04-24
-540,Incident 540: DDoS,critical,closed,2023-06-15
-541,Incident 541: DDoS,critical,open,2023-04-09
-542,Incident 542: DDoS,critical,open,2023-08-24
-543,Incident 543: Unauthorized Access,low,open,2024-04-10
-544,Incident 544: Unauthorized Access,low,open,2024-05-13
-545,Incident 545: Unauthorized Access,low,in progress,2023-07-09
-546,Incident 546: Data Leak,medium,closed,2024-06-17
-547,Incident 547: Data Leak,medium,resolved,2024-10-17
-548,Incident 548: DDoS,critical,open,2024-09-28
-549,Incident 549: Data Leak,critical,open,2024-09-01
-550,Incident 550: DDoS,high,in progress,2024-11-26
-551,Incident 551: Malware,medium,open,2024-09-28
-552,Incident 552: Data Leak,low,open,2023-05-01
-553,Incident 553: Data Leak,low,in progress,2023-08-08
-554,Incident 554: Data Leak,critical,resolved,2024-07-27
-555,Incident 555: Unauthorized Access,medium,open,2023-10-30
-556,Incident 556: DDoS,medium,open,2023-11-04
-557,Incident 557: DDoS,high,open,2024-02-05
-558,Incident 558: DDoS,medium,closed,2024-08-24
-559,Incident 559: Malware,medium,closed,2023-03-05
-560,Incident 560: Data Leak,medium,open,2024-06-21
-561,Incident 561: Unauthorized Access,medium,open,2023-04-24
-562,Incident 562: DDoS,high,resolved,2023-06-10
-563,Incident 563: DDoS,medium,closed,2024-01-30
-564,Incident 564: Phishing,low,in progress,2023-11-03
-565,Incident 565: DDoS,critical,in progress,2024-01-30
-566,Incident 566: DDoS,medium,resolved,2023-07-18
-567,Incident 567: Data Leak,low,closed,2023-06-25
-568,Incident 568: Phishing,low,open,2024-03-31
-569,Incident 569: Unauthorized Access,medium,in progress,2023-03-19
-570,Incident 570: DDoS,critical,in progress,2023-02-25
-571,Incident 571: DDoS,medium,open,2024-05-09
-572,Incident 572: Malware,critical,resolved,2024-05-14
-573,Incident 573: DDoS,low,resolved,2024-09-23
-574,Incident 574: Unauthorized Access,critical,in progress,2024-06-18
-575,Incident 575: Data Leak,low,open,2024-03-12
-576,Incident 576: DDoS,critical,open,2023-02-20
-577,Incident 577: DDoS,critical,in progress,2023-10-17
-578,Incident 578: Data Leak,medium,open,2024-11-19
-579,Incident 579: Phishing,critical,in progress,2024-04-18
-580,Incident 580: Data Leak,medium,open,2023-06-21
-581,Incident 581: DDoS,medium,closed,2024-10-28
-582,Incident 582: Data Leak,critical,open,2024-06-21
-583,Incident 583: DDoS,critical,in progress,2023-12-17
-584,Incident 584: Data Leak,low,resolved,2024-05-11
-585,Incident 585: Data Leak,high,in progress,2024-03-31
-586,Incident 586: Phishing,medium,closed,2023-03-24
-587,Incident 587: Data Leak,medium,open,2024-11-23
-588,Incident 588: DDoS,critical,resolved,2023-02-14
-589,Incident 589: Unauthorized Access,medium,resolved,2024-03-31
-590,Incident 590: DDoS,medium,closed,2023-05-29
-591,Incident 591: Phishing,high,resolved,2023-10-18
-592,Incident 592: Unauthorized Access,high,open,2024-10-03
-593,Incident 593: Data Leak,medium,resolved,2023-11-22
-594,Incident 594: Data Leak,high,in progress,2024-04-27
-595,Incident 595: DDoS,critical,resolved,2024-01-18
-596,Incident 596: Unauthorized Access,critical,closed,2023-05-17
-597,Incident 597: Unauthorized Access,medium,open,2024-10-04
-598,Incident 598: DDoS,medium,in progress,2024-03-24
-599,Incident 599: Phishing,critical,closed,2023-06-19
-600,Incident 600: Data Leak,low,in progress,2024-07-23
-601,Incident 601: DDoS,high,in progress,2024-06-12
-602,Incident 602: Phishing,critical,closed,2024-10-05
-603,Incident 603: Unauthorized Access,medium,open,2024-10-26
-604,Incident 604: Phishing,low,in progress,2024-07-28
-605,Incident 605: DDoS,critical,resolved,2023-06-12
-606,Incident 606: DDoS,low,open,2024-08-05
-607,Incident 607: Unauthorized Access,low,closed,2023-08-27
-608,Incident 608: Malware,critical,in progress,2024-09-19
-609,Incident 609: Malware,low,resolved,2023-05-16
-610,Incident 610: Malware,medium,resolved,2024-08-02
-611,Incident 611: DDoS,low,open,2023-04-15
-612,Incident 612: Data Leak,critical,closed,2024-08-20
-613,Incident 613: Unauthorized Access,medium,in progress,2023-05-21
-614,Incident 614: Phishing,critical,closed,2023-08-28
-615,Incident 615: DDoS,high,in progress,2023-09-07
-616,Incident 616: Data Leak,medium,in progress,2023-05-26
-617,Incident 617: Phishing,medium,resolved,2023-07-07
-618,Incident 618: Unauthorized Access,critical,closed,2023-04-18
-619,Incident 619: Unauthorized Access,critical,open,2023-12-13
-620,Incident 620: Data Leak,low,open,2023-12-16
-621,Incident 621: Unauthorized Access,low,open,2024-07-12
-622,Incident 622: Unauthorized Access,high,closed,2023-08-06
-623,Incident 623: DDoS,low,in progress,2023-08-20
-624,Incident 624: Unauthorized Access,high,closed,2023-04-12
-625,Incident 625: Malware,high,resolved,2023-01-18
-626,Incident 626: Unauthorized Access,medium,resolved,2024-08-29
-627,Incident 627: Phishing,critical,closed,2023-01-30
-628,Incident 628: Unauthorized Access,low,in progress,2023-05-29
-629,Incident 629: Phishing,high,in progress,2023-09-30
-630,Incident 630: Malware,critical,resolved,2023-04-29
-631,Incident 631: Unauthorized Access,critical,closed,2024-03-09
-632,Incident 632: DDoS,critical,in progress,2023-10-10
-633,Incident 633: Data Leak,medium,in progress,2024-08-19
-634,Incident 634: Malware,low,resolved,2024-07-06
-635,Incident 635: Phishing,low,open,2024-10-21
-636,Incident 636: Unauthorized Access,medium,resolved,2023-08-15
-637,Incident 637: DDoS,low,resolved,2023-11-08
-638,Incident 638: Malware,high,in progress,2024-04-11
-639,Incident 639: Data Leak,high,open,2023-03-29
-640,Incident 640: Data Leak,high,open,2023-03-08
-641,Incident 641: Malware,low,closed,2024-11-29
-642,Incident 642: Phishing,low,open,2023-01-22
-643,Incident 643: DDoS,low,in progress,2023-01-09
-644,Incident 644: Unauthorized Access,critical,open,2023-05-02
-645,Incident 645: DDoS,low,in progress,2023-03-29
-646,Incident 646: Unauthorized Access,critical,closed,2024-03-31
-647,Incident 647: Data Leak,low,open,2024-02-09
-648,Incident 648: Unauthorized Access,critical,in progress,2023-10-10
-649,Incident 649: Unauthorized Access,critical,in progress,2023-06-30
-650,Incident 650: DDoS,low,resolved,2024-06-12
-651,Incident 651: Data Leak,medium,closed,2023-02-18
-652,Incident 652: Data Leak,high,in progress,2023-05-13
-653,Incident 653: Unauthorized Access,medium,in progress,2023-01-19
-654,Incident 654: Data Leak,critical,resolved,2023-03-07
-655,Incident 655: Phishing,critical,closed,2023-08-19
-656,Incident 656: Data Leak,high,closed,2024-07-09
-657,Incident 657: Malware,critical,closed,2024-04-24
-658,Incident 658: DDoS,critical,in progress,2023-11-01
-659,Incident 659: DDoS,critical,open,2023-12-08
-660,Incident 660: Malware,critical,closed,2023-05-29
-661,Incident 661: Unauthorized Access,high,resolved,2024-08-15
-662,Incident 662: Unauthorized Access,low,open,2023-02-07
-663,Incident 663: Malware,high,in progress,2023-02-02
-664,Incident 664: Phishing,medium,closed,2024-01-18
-665,Incident 665: DDoS,high,open,2023-07-22
-666,Incident 666: Malware,low,in progress,2023-02-24
-667,Incident 667: Unauthorized Access,low,in progress,2024-07-27
-668,Incident 668: DDoS,high,open,2024-06-21
-669,Incident 669: DDoS,critical,closed,2024-09-06
-670,Incident 670: Data Leak,low,open,2023-01-18
-671,Incident 671: Malware,low,resolved,2023-11-14
-672,Incident 672: Phishing,critical,closed,2024-03-21
-673,Incident 673: Unauthorized Access,critical,open,2024-03-17
-674,Incident 674: Data Leak,critical,in progress,2024-09-23
-675,Incident 675: DDoS,low,open,2024-05-06
-676,Incident 676: Malware,low,resolved,2023-12-12
-677,Incident 677: Phishing,low,open,2024-06-15
-678,Incident 678: DDoS,critical,open,2024-01-31
-679,Incident 679: Data Leak,critical,open,2024-05-21
-680,Incident 680: Data Leak,critical,closed,2024-01-25
-681,Incident 681: DDoS,high,resolved,2023-05-27
-682,Incident 682: Unauthorized Access,low,resolved,2024-10-29
-683,Incident 683: Unauthorized Access,low,open,2024-10-01
-684,Incident 684: Data Leak,critical,resolved,2023-05-20
-685,Incident 685: DDoS,high,closed,2024-08-07
-686,Incident 686: Unauthorized Access,medium,resolved,2024-10-02
-687,Incident 687: Unauthorized Access,low,resolved,2024-02-28
-688,Incident 688: Malware,low,open,2023-11-08
-689,Incident 689: Unauthorized Access,critical,in progress,2024-09-27
-690,Incident 690: Unauthorized Access,low,closed,2024-10-14
-691,Incident 691: Unauthorized Access,low,resolved,2023-10-14
-692,Incident 692: Malware,high,open,2024-02-22
-693,Incident 693: Data Leak,critical,open,2023-10-16
-694,Incident 694: DDoS,low,resolved,2023-07-02
-695,Incident 695: Unauthorized Access,low,closed,2024-09-28
-696,Incident 696: Malware,low,resolved,2023-08-06
-697,Incident 697: Unauthorized Access,medium,in progress,2023-04-02
-698,Incident 698: Malware,low,open,2024-04-18
-699,Incident 699: Unauthorized Access,critical,open,2024-01-26
-700,Incident 700: Phishing,medium,closed,2024-08-16
-701,Incident 701: DDoS,critical,resolved,2024-02-01
-702,Incident 702: Data Leak,high,closed,2023-03-27
-703,Incident 703: Data Leak,critical,closed,2023-08-27
-704,Incident 704: Unauthorized Access,critical,in progress,2024-06-13
-705,Incident 705: Data Leak,low,resolved,2024-10-29
-706,Incident 706: DDoS,high,in progress,2024-04-23
-707,Incident 707: Data Leak,low,resolved,2023-08-07
-708,Incident 708: Unauthorized Access,low,closed,2024-06-02
-709,Incident 709: DDoS,medium,open,2023-03-05
-710,Incident 710: Phishing,critical,closed,2023-09-29
-711,Incident 711: Unauthorized Access,critical,in progress,2024-03-11
-712,Incident 712: Malware,critical,resolved,2023-04-09
-713,Incident 713: Data Leak,medium,in progress,2024-06-18
-714,Incident 714: Data Leak,low,closed,2024-01-13
-715,Incident 715: Phishing,low,closed,2023-04-25
-716,Incident 716: Malware,high,open,2024-11-21
-717,Incident 717: Malware,critical,open,2024-01-07
-718,Incident 718: Phishing,low,open,2023-07-18
-719,Incident 719: Unauthorized Access,medium,open,2024-04-29
-720,Incident 720: Unauthorized Access,low,open,2023-06-29
-721,Incident 721: Data Leak,critical,in progress,2024-08-28
-722,Incident 722: Data Leak,high,in progress,2023-07-28
-723,Incident 723: Data Leak,high,closed,2023-09-21
-724,Incident 724: Unauthorized Access,high,in progress,2024-02-19
-725,Incident 725: DDoS,critical,in progress,2024-10-08
-726,Incident 726: DDoS,critical,in progress,2024-04-11
-727,Incident 727: Unauthorized Access,high,open,2024-05-20
-728,Incident 728: DDoS,low,open,2024-08-18
-729,Incident 729: Phishing,medium,open,2024-08-10
-730,Incident 730: Malware,low,in progress,2023-05-03
-731,Incident 731: Malware,medium,in progress,2024-07-02
-732,Incident 732: Data Leak,medium,in progress,2023-08-26
-733,Incident 733: Malware,high,in progress,2023-10-14
-734,Incident 734: Data Leak,critical,resolved,2024-07-05
-735,Incident 735: Unauthorized Access,medium,closed,2023-08-27
-736,Incident 736: Malware,medium,in progress,2023-05-03
-737,Incident 737: Data Leak,medium,in progress,2024-03-25
-738,Incident 738: Unauthorized Access,high,open,2023-11-01
-739,Incident 739: Phishing,high,closed,2024-03-19
-740,Incident 740: DDoS,medium,closed,2023-08-24
-741,Incident 741: DDoS,critical,closed,2023-05-01
-742,Incident 742: DDoS,low,closed,2024-09-15
-743,Incident 743: Data Leak,critical,in progress,2024-09-04
-744,Incident 744: Malware,low,closed,2023-04-05
-745,Incident 745: Phishing,low,closed,2024-02-11
-746,Incident 746: Malware,high,open,2023-12-07
-747,Incident 747: Phishing,low,open,2024-03-21
-748,Incident 748: Phishing,high,in progress,2024-11-22
-749,Incident 749: Malware,critical,resolved,2024-11-14
-750,Incident 750: Data Leak,critical,resolved,2023-08-08
-751,Incident 751: Unauthorized Access,low,in progress,2024-05-14
-752,Incident 752: Unauthorized Access,critical,resolved,2023-11-06
-753,Incident 753: Malware,critical,closed,2024-01-28
-754,Incident 754: Unauthorized Access,low,in progress,2023-05-05
-755,Incident 755: Malware,low,open,2023-06-24
-756,Incident 756: Unauthorized Access,medium,resolved,2023-06-21
-757,Incident 757: Data Leak,medium,closed,2024-04-13
-758,Incident 758: Data Leak,low,closed,2024-07-08
-759,Incident 759: Phishing,medium,open,2023-10-19
-760,Incident 760: Unauthorized Access,critical,open,2024-11-25
-761,Incident 761: Malware,low,closed,2024-10-26
-762,Incident 762: DDoS,critical,open,2023-12-14
-763,Incident 763: Data Leak,medium,closed,2024-06-19
-764,Incident 764: Data Leak,high,in progress,2023-04-13
-765,Incident 765: Malware,low,in progress,2024-08-18
-766,Incident 766: Malware,high,closed,2023-10-02
-767,Incident 767: DDoS,low,resolved,2023-09-24
-768,Incident 768: Data Leak,medium,resolved,2024-03-29
-769,Incident 769: DDoS,high,resolved,2024-07-27
-770,Incident 770: Phishing,high,in progress,2023-04-06
-771,Incident 771: Unauthorized Access,medium,closed,2023-07-23
-772,Incident 772: Data Leak,critical,closed,2023-03-19
-773,Incident 773: Data Leak,critical,closed,2023-06-07
-774,Incident 774: Malware,high,open,2024-10-11
-775,Incident 775: Unauthorized Access,low,open,2023-12-21
-776,Incident 776: Phishing,critical,in progress,2023-01-06
-777,Incident 777: Unauthorized Access,critical,resolved,2023-06-17
-778,Incident 778: Phishing,high,open,2023-10-11
-779,Incident 779: DDoS,medium,closed,2023-05-15
-780,Incident 780: Unauthorized Access,high,open,2024-04-05
-781,Incident 781: Unauthorized Access,medium,open,2024-01-28
-782,Incident 782: Phishing,high,closed,2024-05-06
-783,Incident 783: Unauthorized Access,high,resolved,2023-10-16
-784,Incident 784: Phishing,low,open,2023-11-22
-785,Incident 785: DDoS,high,resolved,2024-09-19
-786,Incident 786: Malware,low,in progress,2023-11-11
-787,Incident 787: Unauthorized Access,high,closed,2023-11-21
-788,Incident 788: Phishing,high,open,2024-10-12
-789,Incident 789: DDoS,low,closed,2024-11-27
-790,Incident 790: DDoS,high,open,2023-12-15
-791,Incident 791: Phishing,low,in progress,2024-05-15
-792,Incident 792: Malware,medium,resolved,2024-06-23
-793,Incident 793: Phishing,high,in progress,2024-07-18
-794,Incident 794: Phishing,medium,resolved,2023-07-17
-795,Incident 795: Phishing,critical,resolved,2024-03-08
-796,Incident 796: Unauthorized Access,high,resolved,2023-06-02
-797,Incident 797: DDoS,critical,open,2024-08-03
-798,Incident 798: Data Leak,critical,in progress,2024-02-01
-799,Incident 799: Unauthorized Access,low,in progress,2024-08-31
-800,Incident 800: Data Leak,high,open,2024-01-26
-801,Incident 801: Unauthorized Access,high,in progress,2024-04-16
-802,Incident 802: Malware,high,resolved,2023-06-21
-803,Incident 803: Malware,critical,resolved,2024-08-31
-804,Incident 804: Unauthorized Access,high,closed,2023-03-16
-805,Incident 805: DDoS,high,open,2023-09-22
-806,Incident 806: Unauthorized Access,medium,resolved,2023-03-20
-807,Incident 807: Unauthorized Access,low,open,2023-12-14
-808,Incident 808: Phishing,critical,resolved,2023-01-23
-809,Incident 809: Unauthorized Access,high,in progress,2023-11-07
-810,Incident 810: Unauthorized Access,low,resolved,2024-03-17
-811,Incident 811: Data Leak,high,open,2023-04-19
-812,Incident 812: Malware,medium,resolved,2024-06-17
-813,Incident 813: Unauthorized Access,critical,resolved,2024-06-11
-814,Incident 814: Malware,low,open,2024-10-07
-815,Incident 815: Unauthorized Access,critical,resolved,2023-03-31
-816,Incident 816: Malware,low,in progress,2023-08-02
-817,Incident 817: Phishing,critical,resolved,2023-03-17
-818,Incident 818: Unauthorized Access,low,open,2024-05-17
-819,Incident 819: DDoS,critical,open,2023-11-27
-820,Incident 820: DDoS,high,open,2023-07-27
-821,Incident 821: Unauthorized Access,low,open,2023-03-28
-822,Incident 822: Phishing,critical,open,2024-05-05
-823,Incident 823: Data Leak,critical,closed,2023-09-15
-824,Incident 824: Data Leak,low,in progress,2024-02-17
-825,Incident 825: Phishing,medium,resolved,2023-01-22
-826,Incident 826: DDoS,critical,closed,2024-03-22
-827,Incident 827: Data Leak,high,closed,2024-11-13
-828,Incident 828: Unauthorized Access,critical,in progress,2023-02-20
-829,Incident 829: DDoS,low,resolved,2024-06-25
-830,Incident 830: Phishing,medium,closed,2023-04-13
-831,Incident 831: Malware,high,open,2023-05-22
-832,Incident 832: Malware,low,open,2024-04-24
-833,Incident 833: Data Leak,medium,resolved,2024-04-30
-834,Incident 834: Data Leak,critical,closed,2023-06-14
-835,Incident 835: Phishing,high,resolved,2023-04-09
-836,Incident 836: Data Leak,high,closed,2023-03-12
-837,Incident 837: Data Leak,low,closed,2024-02-04
-838,Incident 838: Malware,high,resolved,2024-11-02
-839,Incident 839: Unauthorized Access,critical,open,2023-03-10
-840,Incident 840: Phishing,medium,in progress,2023-01-03
-841,Incident 841: Malware,low,resolved,2023-09-21
-842,Incident 842: Malware,medium,closed,2024-01-18
-843,Incident 843: Data Leak,medium,open,2024-07-05
-844,Incident 844: Phishing,low,open,2023-02-05
-845,Incident 845: Unauthorized Access,low,open,2023-05-03
-846,Incident 846: DDoS,high,resolved,2024-04-16
-847,Incident 847: Unauthorized Access,medium,resolved,2024-11-25
-848,Incident 848: Unauthorized Access,high,open,2024-05-13
-849,Incident 849: Phishing,critical,resolved,2024-04-30
-850,Incident 850: Phishing,medium,open,2024-07-04
-851,Incident 851: Unauthorized Access,critical,open,2023-08-02
-852,Incident 852: Malware,medium,in progress,2024-07-28
-853,Incident 853: Phishing,critical,closed,2024-06-30
-854,Incident 854: DDoS,low,closed,2024-02-07
-855,Incident 855: Malware,critical,closed,2024-08-05
-856,Incident 856: Data Leak,medium,in progress,2024-07-31
-857,Incident 857: Phishing,high,resolved,2023-08-06
-858,Incident 858: DDoS,medium,closed,2024-10-10
-859,Incident 859: Unauthorized Access,medium,open,2023-06-29
-860,Incident 860: Phishing,low,open,2023-04-23
-861,Incident 861: DDoS,low,closed,2023-01-10
-862,Incident 862: Phishing,medium,resolved,2023-06-10
-863,Incident 863: Malware,critical,in progress,2023-05-25
-864,Incident 864: Malware,critical,open,2023-03-24
-865,Incident 865: Unauthorized Access,critical,open,2024-04-03
-866,Incident 866: Unauthorized Access,low,resolved,2024-03-24
-867,Incident 867: Phishing,medium,resolved,2023-03-29
-868,Incident 868: Unauthorized Access,critical,in progress,2023-04-27
-869,Incident 869: Phishing,medium,in progress,2024-03-30
-870,Incident 870: DDoS,low,open,2023-06-04
-871,Incident 871: Malware,low,in progress,2024-10-28
-872,Incident 872: Phishing,high,in progress,2024-07-23
-873,Incident 873: Malware,critical,in progress,2023-11-03
-874,Incident 874: DDoS,low,closed,2024-10-07
-875,Incident 875: Unauthorized Access,high,closed,2024-05-09
-876,Incident 876: Malware,medium,closed,2024-09-10
-877,Incident 877: Unauthorized Access,high,closed,2023-03-13
-878,Incident 878: Unauthorized Access,critical,in progress,2023-11-06
-879,Incident 879: Unauthorized Access,low,open,2023-06-24
-880,Incident 880: Malware,high,resolved,2024-07-30
-881,Incident 881: Malware,low,open,2024-04-11
-882,Incident 882: Phishing,low,open,2024-09-30
-883,Incident 883: Unauthorized Access,critical,in progress,2023-02-08
-884,Incident 884: DDoS,medium,open,2024-11-18
-885,Incident 885: Phishing,high,open,2023-11-09
-886,Incident 886: DDoS,high,in progress,2023-06-18
-887,Incident 887: Malware,critical,in progress,2024-04-08
-888,Incident 888: DDoS,high,in progress,2024-09-28
-889,Incident 889: DDoS,medium,open,2023-03-12
-890,Incident 890: DDoS,low,in progress,2023-05-01
-891,Incident 891: Phishing,low,closed,2023-12-12
-892,Incident 892: Unauthorized Access,critical,open,2024-01-11
-893,Incident 893: DDoS,low,resolved,2023-06-06
-894,Incident 894: Malware,critical,in progress,2023-02-03
-895,Incident 895: Malware,low,closed,2023-05-27
-896,Incident 896: Phishing,critical,open,2023-09-20
-897,Incident 897: DDoS,medium,in progress,2023-06-08
-898,Incident 898: Data Leak,critical,open,2024-01-10
-899,Incident 899: Unauthorized Access,high,closed,2024-04-12
-900,Incident 900: Unauthorized Access,critical,closed,2023-06-12
-901,Incident 901: Phishing,critical,closed,2024-10-23
-902,Incident 902: DDoS,medium,resolved,2023-10-08
-903,Incident 903: Data Leak,critical,closed,2023-11-24
-904,Incident 904: DDoS,critical,resolved,2023-06-18
-905,Incident 905: Phishing,high,open,2024-04-05
-906,Incident 906: Phishing,low,open,2023-12-27
-907,Incident 907: Phishing,critical,in progress,2024-10-16
-908,Incident 908: Data Leak,low,closed,2023-12-05
-909,Incident 909: Malware,medium,open,2024-03-05
-910,Incident 910: Unauthorized Access,high,resolved,2023-11-28
-911,Incident 911: Unauthorized Access,critical,in progress,2023-06-26
-912,Incident 912: Phishing,critical,in progress,2023-06-02
-913,Incident 913: Unauthorized Access,low,resolved,2024-06-07
-914,Incident 914: Phishing,critical,closed,2023-03-22
-915,Incident 915: Unauthorized Access,critical,in progress,2024-10-22
-916,Incident 916: DDoS,critical,open,2023-10-22
-917,Incident 917: Data Leak,low,in progress,2024-08-24
-918,Incident 918: Malware,critical,resolved,2024-08-04
-919,Incident 919: DDoS,critical,resolved,2023-04-21
-920,Incident 920: Data Leak,low,resolved,2023-07-22
-921,Incident 921: DDoS,critical,closed,2023-08-02
-922,Incident 922: Malware,high,in progress,2024-01-03
-923,Incident 923: Malware,low,in progress,2024-03-22
-924,Incident 924: Data Leak,low,open,2023-12-26
-925,Incident 925: Phishing,critical,open,2024-10-28
-926,Incident 926: Unauthorized Access,high,closed,2023-05-23
-927,Incident 927: Unauthorized Access,low,open,2023-09-13
-928,Incident 928: Unauthorized Access,high,resolved,2024-02-01
-929,Incident 929: Data Leak,medium,in progress,2023-08-02
-930,Incident 930: Malware,low,closed,2023-02-28
-931,Incident 931: DDoS,medium,open,2023-12-26
-932,Incident 932: Unauthorized Access,low,resolved,2024-06-09
-933,Incident 933: Malware,high,resolved,2023-08-11
-934,Incident 934: Unauthorized Access,high,resolved,2023-01-21
-935,Incident 935: Unauthorized Access,critical,closed,2023-02-12
-936,Incident 936: DDoS,low,resolved,2023-08-09
-937,Incident 937: Phishing,low,open,2023-08-25
-938,Incident 938: Phishing,low,resolved,2024-04-23
-939,Incident 939: Data Leak,low,resolved,2023-07-28
-940,Incident 940: Phishing,critical,in progress,2023-02-03
-941,Incident 941: Unauthorized Access,critical,in progress,2024-03-22
-942,Incident 942: Unauthorized Access,medium,open,2023-10-26
-943,Incident 943: DDoS,medium,closed,2024-03-04
-944,Incident 944: Data Leak,high,closed,2023-02-05
-945,Incident 945: Malware,medium,open,2024-08-26
-946,Incident 946: DDoS,critical,resolved,2023-02-19
-947,Incident 947: DDoS,critical,closed,2023-11-14
-948,Incident 948: Data Leak,critical,in progress,2023-06-23
-949,Incident 949: Malware,critical,open,2024-04-28
-950,Incident 950: DDoS,low,resolved,2024-09-18
-951,Incident 951: Data Leak,medium,closed,2023-08-13
-952,Incident 952: DDoS,critical,in progress,2024-05-11
-953,Incident 953: DDoS,critical,resolved,2024-10-27
-954,Incident 954: Malware,critical,resolved,2024-10-23
-955,Incident 955: Unauthorized Access,medium,closed,2023-04-29
-956,Incident 956: DDoS,high,open,2024-01-01
-957,Incident 957: Unauthorized Access,critical,open,2024-05-20
-958,Incident 958: Unauthorized Access,medium,in progress,2023-12-19
-959,Incident 959: Phishing,medium,open,2024-09-10
-960,Incident 960: Phishing,low,resolved,2023-08-14
-961,Incident 961: Unauthorized Access,low,closed,2024-02-19
-962,Incident 962: DDoS,critical,open,2023-07-25
-963,Incident 963: Malware,low,resolved,2024-09-24
-964,Incident 964: DDoS,high,in progress,2024-01-11
-965,Incident 965: Malware,critical,open,2024-10-05
-966,Incident 966: Data Leak,critical,open,2023-05-13
-967,Incident 967: Data Leak,medium,open,2023-01-27
-968,Incident 968: Unauthorized Access,low,closed,2023-09-26
-969,Incident 969: Malware,high,in progress,2023-07-14
-970,Incident 970: DDoS,critical,resolved,2023-02-22
-971,Incident 971: Unauthorized Access,high,closed,2024-01-05
-972,Incident 972: Malware,low,resolved,2023-02-15
-973,Incident 973: Malware,low,in progress,2023-06-06
-974,Incident 974: DDoS,low,open,2024-04-29
-975,Incident 975: Data Leak,high,in progress,2023-01-20
-976,Incident 976: Data Leak,critical,open,2024-09-03
-977,Incident 977: Unauthorized Access,high,in progress,2024-10-04
-978,Incident 978: Unauthorized Access,low,closed,2023-01-07
-979,Incident 979: Malware,critical,closed,2023-08-25
-980,Incident 980: Malware,critical,open,2023-12-01
-981,Incident 981: Malware,high,closed,2024-05-11
-982,Incident 982: Phishing,critical,open,2024-07-15
-983,Incident 983: Data Leak,medium,closed,2023-02-18
-984,Incident 984: DDoS,low,in progress,2023-10-03
-985,Incident 985: Unauthorized Access,low,resolved,2024-06-29
-986,Incident 986: Phishing,low,open,2024-09-09
-987,Incident 987: Malware,medium,closed,2024-07-01
-988,Incident 988: Phishing,medium,resolved,2024-11-07
-989,Incident 989: Malware,medium,closed,2024-10-12
-990,Incident 990: DDoS,low,in progress,2024-01-05
-991,Incident 991: Unauthorized Access,medium,open,2023-04-07
-992,Incident 992: Data Leak,high,closed,2024-05-01
-993,Incident 993: Data Leak,critical,in progress,2023-04-04
-994,Incident 994: Phishing,medium,closed,2023-09-11
-995,Incident 995: DDoS,high,resolved,2024-03-16
-996,Incident 996: Malware,low,open,2023-08-15
-997,Incident 997: Unauthorized Access,high,closed,2024-04-30
-998,Incident 998: Phishing,high,closed,2023-10-29
-999,Incident 999: Data Leak,medium,closed,2023-07-31
-1000,Incident 1000: Unauthorized Access,high,in progress,2024-03-27
+id,date,incident_type,severity,status,description,reported_by,created_at
+1,2025-03-20,Malware,High,Open,Sample description 1,user41,2025-10-21 07:11:31
+2,2025-09-26,Unauthorized Access,Low,Open,Sample description 2,user1,2025-10-23 07:11:31
+3,2025-08-23,DDoS,High,In Progress,Sample description 3,user37,2025-05-18 07:11:31
+4,2025-03-03,Phishing,Critical,Closed,Sample description 4,user12,2025-02-15 07:11:31
+5,2025-02-18,Phishing,Low,In Progress,Sample description 5,user44,2025-04-14 07:11:31
+6,2025-09-24,Data Leak,High,In Progress,Sample description 6,user30,2025-09-15 07:11:31
+7,2025-11-27,Unauthorized Access,Low,In Progress,Sample description 7,user37,2025-02-18 07:11:31
+8,2025-10-03,DDoS,Medium,Closed,Sample description 8,user25,2025-06-23 07:11:31
+9,2025-02-15,Malware,High,Open,Sample description 9,user14,2025-11-24 07:11:31
+10,2024-12-22,Ransomware,Low,Closed,Sample description 10,user5,2025-10-14 07:11:31
+11,2025-07-01,Unauthorized Access,High,Closed,Sample description 11,user8,2025-06-01 07:11:31
+12,2025-04-18,Ransomware,Critical,Open,Sample description 12,user31,2025-07-03 07:11:31
+13,2025-11-15,Phishing,Medium,In Progress,Sample description 13,user25,2025-07-20 07:11:31
+14,2025-08-10,Ransomware,Low,Closed,Sample description 14,user22,2025-04-02 07:11:31
+15,2024-12-25,Ransomware,Medium,Closed,Sample description 15,user45,2024-12-31 07:11:31
+16,2025-10-25,Malware,Critical,In Progress,Sample description 16,user10,2025-02-21 07:11:31
+17,2025-05-26,Phishing,Low,In Progress,Sample description 17,user3,2025-08-13 07:11:31
+18,2025-03-08,Ransomware,Low,In Progress,Sample description 18,user42,2025-06-04 07:11:31
+19,2025-02-11,Data Leak,Low,Resolved,Sample description 19,user47,2025-09-14 07:11:31
+20,2024-12-15,DDoS,Medium,In Progress,Sample description 20,user9,2025-07-13 07:11:31
+21,2025-09-26,Ransomware,High,Closed,Sample description 21,user48,2025-06-10 07:11:31
+22,2025-06-18,Phishing,High,Closed,Sample description 22,user28,2025-08-22 07:11:31
+23,2025-09-18,Malware,Medium,Resolved,Sample description 23,user48,2025-08-01 07:11:31
+24,2025-06-28,Ransomware,Medium,In Progress,Sample description 24,user14,2025-07-01 07:11:31
+25,2025-09-25,Malware,Critical,Closed,Sample description 25,user34,2025-06-20 07:11:31
+26,2025-04-05,Ransomware,Medium,In Progress,Sample description 26,user26,2025-06-14 07:11:31
+27,2025-07-28,Unauthorized Access,High,In Progress,Sample description 27,user49,2025-10-31 07:11:31
+28,2025-04-30,Ransomware,High,Closed,Sample description 28,user4,2025-07-26 07:11:31
+29,2024-12-30,Phishing,Low,Closed,Sample description 29,user3,2025-04-09 07:11:31
+30,2025-02-04,Malware,Medium,Resolved,Sample description 30,user5,2025-06-10 07:11:31
+31,2025-05-01,Ransomware,Critical,Resolved,Sample description 31,user8,2025-09-13 07:11:31
+32,2025-05-25,DDoS,High,In Progress,Sample description 32,user10,2025-10-29 07:11:31
+33,2025-08-17,Ransomware,Critical,Closed,Sample description 33,user2,2025-07-29 07:11:31
+34,2025-11-09,DDoS,Medium,Closed,Sample description 34,user9,2025-02-13 07:11:31
+35,2025-05-14,DDoS,High,Resolved,Sample description 35,user4,2025-02-15 07:11:31
+36,2025-07-23,Phishing,Critical,Resolved,Sample description 36,user12,2025-01-15 07:11:31
+37,2025-05-20,Ransomware,High,Open,Sample description 37,user4,2025-05-25 07:11:31
+38,2024-12-31,Unauthorized Access,Critical,Closed,Sample description 38,user6,2025-01-07 07:11:31
+39,2025-05-24,Malware,Medium,Resolved,Sample description 39,user10,2025-06-24 07:11:31
+40,2025-10-15,DDoS,Medium,Open,Sample description 40,user46,2025-07-03 07:11:31
+41,2025-08-17,Ransomware,Critical,Open,Sample description 41,user24,2025-09-10 07:11:31
+42,2025-09-11,DDoS,High,Open,Sample description 42,user3,2025-04-18 07:11:31
+43,2025-09-29,Ransomware,Critical,Resolved,Sample description 43,user32,2025-07-08 07:11:31
+44,2024-12-25,Ransomware,Medium,Closed,Sample description 44,user33,2025-05-10 07:11:31
+45,2025-10-08,Unauthorized Access,Low,Closed,Sample description 45,user26,2025-02-13 07:11:31
+46,2025-08-18,DDoS,Medium,Resolved,Sample description 46,user21,2025-06-06 07:11:31
+47,2025-01-05,Unauthorized Access,Critical,Closed,Sample description 47,user33,2025-08-18 07:11:31
+48,2025-04-18,Malware,Critical,Open,Sample description 48,user13,2025-11-18 07:11:31
+49,2025-08-13,Data Leak,Medium,In Progress,Sample description 49,user19,2025-10-23 07:11:31
+50,2025-06-17,Ransomware,High,In Progress,Sample description 50,user42,2024-12-22 07:11:31
+51,2025-08-10,Unauthorized Access,Medium,Closed,Sample description 51,user20,2025-04-12 07:11:31
+52,2025-04-29,Ransomware,Medium,In Progress,Sample description 52,user18,2025-07-26 07:11:31
+53,2025-08-25,Malware,Low,Closed,Sample description 53,user23,2025-03-12 07:11:31
+54,2025-03-14,Unauthorized Access,High,Open,Sample description 54,user12,2025-04-15 07:11:31
+55,2025-07-05,Data Leak,Critical,Resolved,Sample description 55,user50,2025-06-19 07:11:31
+56,2024-12-26,DDoS,Medium,Closed,Sample description 56,user13,2025-10-04 07:11:31
+57,2025-05-24,Malware,Critical,Closed,Sample description 57,user46,2025-07-30 07:11:31
+58,2025-03-30,Phishing,Low,In Progress,Sample description 58,user32,2025-11-08 07:11:31
+59,2025-02-04,Unauthorized Access,Low,Closed,Sample description 59,user4,2024-12-17 07:11:31
+60,2025-10-31,DDoS,Critical,In Progress,Sample description 60,user24,2025-07-09 07:11:31
+61,2025-09-07,Unauthorized Access,High,In Progress,Sample description 61,user45,2025-07-28 07:11:31
+62,2025-03-20,DDoS,High,Closed,Sample description 62,user36,2025-09-27 07:11:31
+63,2025-09-19,DDoS,Medium,Resolved,Sample description 63,user25,2024-12-19 07:11:31
+64,2025-09-25,Unauthorized Access,Medium,In Progress,Sample description 64,user31,2025-02-23 07:11:31
+65,2025-03-31,DDoS,Critical,Open,Sample description 65,user6,2025-07-18 07:11:31
+66,2025-06-14,Malware,High,In Progress,Sample description 66,user4,2025-04-19 07:11:31
+67,2025-09-14,Phishing,High,Resolved,Sample description 67,user2,2025-08-29 07:11:31
+68,2025-07-20,Malware,High,Resolved,Sample description 68,user40,2025-01-19 07:11:31
+69,2025-12-06,Ransomware,Low,Resolved,Sample description 69,user24,2025-09-24 07:11:31
+70,2025-04-23,Unauthorized Access,Critical,In Progress,Sample description 70,user3,2025-04-14 07:11:31
+71,2024-12-28,Unauthorized Access,Medium,Closed,Sample description 71,user1,2025-03-18 07:11:31
+72,2025-06-15,Unauthorized Access,High,Open,Sample description 72,user22,2024-12-08 07:11:31
+73,2024-12-09,Data Leak,High,In Progress,Sample description 73,user50,2025-07-08 07:11:31
+74,2025-09-07,Ransomware,Low,In Progress,Sample description 74,user12,2025-10-25 07:11:31
+75,2025-03-18,Data Leak,High,Closed,Sample description 75,user24,2025-07-26 07:11:31
+76,2024-12-15,Phishing,Medium,Closed,Sample description 76,user17,2025-10-16 07:11:31
+77,2025-03-21,Unauthorized Access,Critical,Open,Sample description 77,user25,2024-12-29 07:11:31
+78,2025-03-15,DDoS,Critical,Open,Sample description 78,user26,2025-09-12 07:11:31
+79,2025-07-16,Ransomware,High,In Progress,Sample description 79,user40,2025-06-02 07:11:31
+80,2025-07-28,Ransomware,Low,Closed,Sample description 80,user45,2025-05-12 07:11:31
+81,2025-07-30,Unauthorized Access,Critical,Open,Sample description 81,user15,2025-04-27 07:11:31
+82,2025-05-18,Malware,Low,Resolved,Sample description 82,user29,2025-10-27 07:11:31
+83,2025-08-19,Ransomware,Low,Resolved,Sample description 83,user47,2025-07-07 07:11:31
+84,2025-08-26,Phishing,Low,Resolved,Sample description 84,user10,2025-01-14 07:11:31
+85,2025-08-26,Unauthorized Access,Critical,In Progress,Sample description 85,user42,2025-06-16 07:11:31
+86,2025-02-23,DDoS,High,In Progress,Sample description 86,user29,2024-12-21 07:11:31
+87,2025-05-18,Unauthorized Access,High,Closed,Sample description 87,user49,2025-03-14 07:11:31
+88,2025-04-12,Phishing,Critical,Resolved,Sample description 88,user44,2025-01-22 07:11:31
+89,2025-07-30,Ransomware,High,Closed,Sample description 89,user1,2025-09-15 07:11:31
+90,2025-03-03,DDoS,Medium,Resolved,Sample description 90,user40,2025-06-14 07:11:31
+91,2025-03-30,Data Leak,High,Resolved,Sample description 91,user28,2025-06-19 07:11:31
+92,2025-09-12,DDoS,Medium,Closed,Sample description 92,user19,2025-05-10 07:11:31
+93,2025-04-17,Ransomware,High,Closed,Sample description 93,user29,2025-01-07 07:11:31
+94,2025-01-31,Data Leak,High,Closed,Sample description 94,user40,2025-01-19 07:11:31
+95,2025-10-15,Ransomware,Critical,Open,Sample description 95,user36,2025-09-22 07:11:31
+96,2025-03-27,Malware,Low,In Progress,Sample description 96,user2,2025-09-18 07:11:31
+97,2025-10-15,Unauthorized Access,Critical,In Progress,Sample description 97,user49,2025-02-02 07:11:31
+98,2025-02-21,Data Leak,Critical,Closed,Sample description 98,user40,2025-10-09 07:11:31
+99,2024-12-23,Data Leak,Medium,In Progress,Sample description 99,user11,2024-12-11 07:11:31
+100,2025-09-18,Malware,High,Resolved,Sample description 100,user16,2025-07-23 07:11:31
+101,2025-04-01,Phishing,Critical,In Progress,Sample description 101,user3,2025-05-03 07:11:31
+102,2025-02-21,Unauthorized Access,Low,Closed,Sample description 102,user44,2025-08-28 07:11:31
+103,2025-03-09,Ransomware,Medium,Closed,Sample description 103,user38,2025-07-14 07:11:31
+104,2024-12-19,Phishing,Medium,Resolved,Sample description 104,user42,2025-06-15 07:11:31
+105,2025-05-02,Phishing,High,Open,Sample description 105,user8,2025-02-10 07:11:31
+106,2025-05-20,Data Leak,Critical,Closed,Sample description 106,user48,2025-10-12 07:11:31
+107,2025-07-20,Unauthorized Access,Critical,Resolved,Sample description 107,user41,2025-07-05 07:11:31
+108,2025-07-28,Unauthorized Access,High,Resolved,Sample description 108,user9,2025-11-04 07:11:31
+109,2025-06-02,Data Leak,High,Closed,Sample description 109,user41,2025-06-16 07:11:31
+110,2025-10-21,Data Leak,Medium,Open,Sample description 110,user18,2025-01-19 07:11:31
+111,2025-07-30,Phishing,Critical,Resolved,Sample description 111,user16,2025-07-16 07:11:31
+112,2025-02-13,Ransomware,Medium,In Progress,Sample description 112,user24,2025-06-22 07:11:31
+113,2025-01-07,Data Leak,High,Closed,Sample description 113,user47,2025-02-07 07:11:31
+114,2025-03-24,Data Leak,Low,Closed,Sample description 114,user32,2025-11-12 07:11:31
+115,2025-05-04,Malware,Medium,Resolved,Sample description 115,user49,2025-11-14 07:11:31
+116,2025-06-08,DDoS,Low,Closed,Sample description 116,user14,2025-10-01 07:11:31
+117,2025-10-11,Ransomware,High,Open,Sample description 117,user1,2025-05-02 07:11:31
+118,2025-10-23,Data Leak,Low,Resolved,Sample description 118,user40,2025-03-11 07:11:31
+119,2025-09-15,Malware,Critical,In Progress,Sample description 119,user3,2025-11-07 07:11:31
+120,2025-04-08,Malware,Critical,Open,Sample description 120,user26,2025-03-07 07:11:31
+121,2025-11-10,DDoS,High,Closed,Sample description 121,user5,2025-04-21 07:11:31
+122,2025-07-04,Unauthorized Access,High,Resolved,Sample description 122,user46,2025-09-04 07:11:31
+123,2025-03-16,Unauthorized Access,Low,In Progress,Sample description 123,user12,2025-01-13 07:11:31
+124,2025-05-02,DDoS,Medium,Closed,Sample description 124,user28,2025-04-08 07:11:31
+125,2024-12-15,Unauthorized Access,Medium,Resolved,Sample description 125,user42,2025-02-26 07:11:31
+126,2025-09-05,Unauthorized Access,Critical,Open,Sample description 126,user42,2025-03-31 07:11:31
+127,2025-09-18,Unauthorized Access,Medium,Resolved,Sample description 127,user46,2025-01-19 07:11:31
+128,2025-11-10,Data Leak,Medium,Closed,Sample description 128,user27,2025-03-26 07:11:31
+129,2025-09-18,Ransomware,Critical,Closed,Sample description 129,user47,2025-12-07 07:11:31
+130,2025-03-20,Data Leak,High,In Progress,Sample description 130,user13,2025-09-03 07:11:31
+131,2025-09-02,Data Leak,High,Resolved,Sample description 131,user29,2025-06-07 07:11:31
+132,2025-10-25,DDoS,Medium,Resolved,Sample description 132,user32,2025-10-24 07:11:31
+133,2024-12-26,Ransomware,Low,Open,Sample description 133,user45,2025-07-13 07:11:31
+134,2025-05-03,Ransomware,High,Closed,Sample description 134,user7,2025-10-18 07:11:31
+135,2025-06-12,Ransomware,Critical,Closed,Sample description 135,user6,2025-07-28 07:11:31
+136,2025-08-07,Data Leak,Medium,Closed,Sample description 136,user28,2025-11-13 07:11:31
+137,2025-03-27,Phishing,High,Closed,Sample description 137,user10,2025-05-14 07:11:31
+138,2025-08-29,Malware,Low,Open,Sample description 138,user29,2025-07-05 07:11:31
+139,2025-06-03,Malware,Low,Resolved,Sample description 139,user40,2025-01-31 07:11:31
+140,2025-10-24,DDoS,Low,Open,Sample description 140,user6,2025-06-09 07:11:31
+141,2025-07-11,Phishing,High,Closed,Sample description 141,user44,2025-05-08 07:11:31
+142,2025-10-12,Ransomware,Low,Resolved,Sample description 142,user37,2025-06-04 07:11:31
+143,2025-03-26,Phishing,High,Resolved,Sample description 143,user34,2025-11-01 07:11:31
+144,2025-06-09,Malware,Critical,Resolved,Sample description 144,user11,2025-03-27 07:11:31
+145,2025-09-25,Data Leak,Medium,Resolved,Sample description 145,user23,2025-07-18 07:11:31
+146,2025-06-28,Unauthorized Access,Medium,Open,Sample description 146,user36,2025-08-06 07:11:31
+147,2024-12-14,DDoS,Critical,Resolved,Sample description 147,user26,2025-02-26 07:11:31
+148,2025-08-19,Ransomware,High,Closed,Sample description 148,user1,2025-01-10 07:11:31
+149,2025-08-17,Unauthorized Access,Medium,Resolved,Sample description 149,user26,2025-07-09 07:11:31
+150,2025-06-06,Unauthorized Access,Critical,In Progress,Sample description 150,user48,2025-09-12 07:11:31
+151,2025-02-21,DDoS,High,Resolved,Sample description 151,user35,2025-09-23 07:11:31
+152,2024-12-18,DDoS,Critical,In Progress,Sample description 152,user45,2025-07-30 07:11:31
+153,2025-07-08,Data Leak,Critical,Closed,Sample description 153,user22,2025-10-05 07:11:31
+154,2025-01-01,Ransomware,High,Closed,Sample description 154,user37,2025-05-31 07:11:31
+155,2025-11-07,DDoS,Critical,In Progress,Sample description 155,user46,2025-05-22 07:11:31
+156,2025-10-12,Unauthorized Access,Critical,Closed,Sample description 156,user32,2025-12-07 07:11:31
+157,2025-05-07,Data Leak,Low,Closed,Sample description 157,user35,2025-02-11 07:11:31
+158,2025-11-22,Phishing,Critical,Resolved,Sample description 158,user26,2025-07-18 07:11:31
+159,2025-11-18,Unauthorized Access,Medium,Resolved,Sample description 159,user9,2025-10-31 07:11:31
+160,2025-04-12,Phishing,Low,Closed,Sample description 160,user6,2025-01-24 07:11:31
+161,2025-11-11,Unauthorized Access,Medium,Resolved,Sample description 161,user18,2025-08-28 07:11:31
+162,2025-10-15,DDoS,Critical,Open,Sample description 162,user25,2025-05-16 07:11:31
+163,2025-08-31,Phishing,Low,In Progress,Sample description 163,user11,2025-07-22 07:11:31
+164,2025-08-28,Unauthorized Access,Low,In Progress,Sample description 164,user40,2025-04-06 07:11:31
+165,2025-09-19,Malware,Medium,Closed,Sample description 165,user4,2025-04-23 07:11:31
+166,2025-04-30,DDoS,High,Closed,Sample description 166,user30,2025-09-06 07:11:31
+167,2025-05-23,Data Leak,High,Resolved,Sample description 167,user6,2025-03-07 07:11:31
+168,2025-08-28,DDoS,Critical,Closed,Sample description 168,user12,2025-11-03 07:11:31
+169,2025-06-06,Malware,Critical,Open,Sample description 169,user1,2024-12-09 07:11:31
+170,2025-10-19,Ransomware,High,Closed,Sample description 170,user22,2025-08-04 07:11:31
+171,2025-07-15,DDoS,Medium,Resolved,Sample description 171,user42,2025-05-21 07:11:31
+172,2025-07-07,Phishing,Low,In Progress,Sample description 172,user42,2025-06-16 07:11:31
+173,2025-08-25,Malware,High,Resolved,Sample description 173,user18,2025-09-12 07:11:31
+174,2025-08-06,Phishing,Critical,Open,Sample description 174,user38,2025-11-12 07:11:31
+175,2025-09-07,DDoS,Low,In Progress,Sample description 175,user21,2025-09-22 07:11:31
+176,2025-04-24,DDoS,Critical,Closed,Sample description 176,user15,2025-04-12 07:11:31
+177,2025-01-14,DDoS,Medium,Resolved,Sample description 177,user27,2025-04-29 07:11:31
+178,2024-12-07,Ransomware,High,In Progress,Sample description 178,user31,2025-08-10 07:11:31
+179,2025-10-12,Unauthorized Access,High,In Progress,Sample description 179,user30,2025-01-05 07:11:31
+180,2025-05-06,Data Leak,Medium,Resolved,Sample description 180,user32,2025-11-24 07:11:31
+181,2025-08-02,Phishing,Low,Resolved,Sample description 181,user46,2025-08-13 07:11:31
+182,2025-01-19,Ransomware,Medium,Closed,Sample description 182,user34,2025-10-31 07:11:31
+183,2025-06-10,Unauthorized Access,High,Closed,Sample description 183,user31,2024-12-18 07:11:31
+184,2025-03-21,DDoS,Medium,In Progress,Sample description 184,user11,2024-12-22 07:11:31
+185,2025-05-22,Malware,Medium,Open,Sample description 185,user1,2025-07-17 07:11:31
+186,2025-06-29,Unauthorized Access,High,Open,Sample description 186,user35,2025-02-04 07:11:31
+187,2025-03-28,Phishing,High,In Progress,Sample description 187,user11,2025-04-08 07:11:31
+188,2025-02-23,Phishing,Medium,In Progress,Sample description 188,user35,2025-08-30 07:11:31
+189,2025-02-13,Malware,Low,In Progress,Sample description 189,user17,2025-11-14 07:11:31
+190,2025-06-26,Ransomware,Low,Resolved,Sample description 190,user32,2025-01-13 07:11:31
+191,2025-11-16,Malware,Low,Closed,Sample description 191,user45,2024-12-21 07:11:31
+192,2025-05-22,Ransomware,Low,Open,Sample description 192,user43,2025-02-27 07:11:31
+193,2025-03-06,Data Leak,Medium,Resolved,Sample description 193,user40,2025-01-16 07:11:31
+194,2025-08-31,Malware,High,Open,Sample description 194,user37,2025-11-10 07:11:31
+195,2025-03-21,Phishing,Medium,Closed,Sample description 195,user10,2025-06-16 07:11:31
+196,2025-04-11,Unauthorized Access,Low,Open,Sample description 196,user50,2025-10-23 07:11:31
+197,2025-11-02,Malware,Critical,Open,Sample description 197,user47,2025-03-15 07:11:31
+198,2025-11-11,Ransomware,Low,Open,Sample description 198,user16,2025-04-21 07:11:31
+199,2025-01-30,Malware,High,Resolved,Sample description 199,user32,2025-04-18 07:11:31
+200,2025-02-16,DDoS,Low,Open,Sample description 200,user49,2025-07-09 07:11:31
+201,2025-02-09,Ransomware,Medium,Open,Sample description 201,user25,2025-09-09 07:11:31
+202,2025-05-06,Unauthorized Access,High,In Progress,Sample description 202,user20,2025-09-06 07:11:31
+203,2025-11-12,Ransomware,Medium,Open,Sample description 203,user25,2025-05-24 07:11:31
+204,2025-06-12,Phishing,Medium,Closed,Sample description 204,user33,2025-10-16 07:11:31
+205,2025-06-13,Unauthorized Access,High,Open,Sample description 205,user41,2025-03-14 07:11:31
+206,2025-01-31,Ransomware,Critical,In Progress,Sample description 206,user3,2025-05-06 07:11:31
+207,2024-12-19,DDoS,Critical,Closed,Sample description 207,user41,2025-07-30 07:11:31
+208,2025-05-13,Ransomware,High,In Progress,Sample description 208,user19,2025-04-01 07:11:31
+209,2024-12-23,Unauthorized Access,Medium,Resolved,Sample description 209,user11,2025-04-03 07:11:31
+210,2025-08-29,Data Leak,Critical,Closed,Sample description 210,user14,2025-10-29 07:11:31
+211,2025-04-12,Phishing,Medium,In Progress,Sample description 211,user40,2025-09-22 07:11:31
+212,2025-12-02,Ransomware,Low,Open,Sample description 212,user28,2024-12-17 07:11:31
+213,2025-10-29,DDoS,Medium,Resolved,Sample description 213,user12,2025-09-28 07:11:31
+214,2025-11-06,Ransomware,Critical,Closed,Sample description 214,user2,2025-10-07 07:11:31
+215,2025-12-02,DDoS,Medium,Open,Sample description 215,user42,2025-07-24 07:11:31
+216,2025-10-27,Data Leak,Critical,Closed,Sample description 216,user45,2025-02-24 07:11:31
+217,2025-05-11,Ransomware,Low,Resolved,Sample description 217,user9,2025-07-24 07:11:31
+218,2025-05-06,DDoS,Low,Closed,Sample description 218,user6,2024-12-12 07:11:31
+219,2025-05-21,Ransomware,Critical,Resolved,Sample description 219,user39,2025-01-14 07:11:31
+220,2025-03-17,Phishing,Medium,In Progress,Sample description 220,user39,2025-07-27 07:11:31
+221,2025-05-09,Data Leak,High,Resolved,Sample description 221,user20,2025-02-20 07:11:31
+222,2025-01-11,DDoS,Low,Open,Sample description 222,user6,2025-01-24 07:11:31
+223,2025-01-24,Unauthorized Access,Low,Closed,Sample description 223,user50,2025-05-30 07:11:31
+224,2025-01-23,Ransomware,Medium,In Progress,Sample description 224,user16,2025-02-14 07:11:31
+225,2025-06-30,Unauthorized Access,High,Closed,Sample description 225,user9,2025-04-01 07:11:31
+226,2025-05-21,Malware,Medium,In Progress,Sample description 226,user5,2025-10-08 07:11:31
+227,2025-07-20,Ransomware,Critical,Open,Sample description 227,user26,2025-08-30 07:11:31
+228,2025-09-06,Malware,Critical,Open,Sample description 228,user12,2025-06-18 07:11:31
+229,2025-03-31,DDoS,Medium,Open,Sample description 229,user19,2025-01-27 07:11:31
+230,2025-05-24,Ransomware,Low,Closed,Sample description 230,user49,2025-07-01 07:11:31
+231,2024-12-31,Ransomware,Medium,Open,Sample description 231,user39,2024-12-21 07:11:31
+232,2025-08-12,DDoS,Critical,Resolved,Sample description 232,user5,2025-03-13 07:11:31
+233,2025-11-01,Phishing,High,In Progress,Sample description 233,user17,2025-08-30 07:11:31
+234,2025-02-04,Unauthorized Access,Medium,Closed,Sample description 234,user27,2025-07-12 07:11:31
+235,2025-06-09,Data Leak,High,Open,Sample description 235,user1,2025-10-21 07:11:31
+236,2025-05-03,Data Leak,Medium,Resolved,Sample description 236,user15,2024-12-22 07:11:31
+237,2025-11-09,Ransomware,High,In Progress,Sample description 237,user13,2025-06-12 07:11:31
+238,2025-09-21,Data Leak,High,Closed,Sample description 238,user49,2025-01-29 07:11:31
+239,2025-01-26,Data Leak,Low,Resolved,Sample description 239,user9,2025-04-30 07:11:31
+240,2025-05-24,Ransomware,High,Resolved,Sample description 240,user33,2025-03-06 07:11:31
+241,2025-03-30,Ransomware,Critical,Resolved,Sample description 241,user9,2025-04-07 07:11:31
+242,2025-04-07,Unauthorized Access,High,In Progress,Sample description 242,user1,2025-04-22 07:11:31
+243,2025-01-08,DDoS,Low,Closed,Sample description 243,user38,2025-06-22 07:11:31
+244,2025-11-27,DDoS,Medium,In Progress,Sample description 244,user16,2025-02-13 07:11:31
+245,2025-02-19,Data Leak,Medium,Closed,Sample description 245,user23,2025-11-20 07:11:31
+246,2024-12-31,Unauthorized Access,High,Open,Sample description 246,user6,2025-07-16 07:11:31
+247,2025-04-08,Unauthorized Access,Low,In Progress,Sample description 247,user21,2025-04-26 07:11:31
+248,2025-05-02,Unauthorized Access,High,Closed,Sample description 248,user43,2025-10-31 07:11:31
+249,2025-10-08,Phishing,High,Closed,Sample description 249,user19,2025-05-01 07:11:31
+250,2025-11-23,Malware,Low,In Progress,Sample description 250,user18,2025-04-21 07:11:31
+251,2025-03-03,Phishing,Medium,In Progress,Sample description 251,user34,2025-03-09 07:11:31
+252,2025-02-24,Unauthorized Access,High,Open,Sample description 252,user10,2025-08-27 07:11:31
+253,2025-09-19,Data Leak,Critical,Open,Sample description 253,user11,2025-03-18 07:11:31
+254,2025-01-02,Phishing,Medium,In Progress,Sample description 254,user40,2025-02-26 07:11:31
+255,2025-09-09,Phishing,Low,Resolved,Sample description 255,user15,2025-07-24 07:11:31
+256,2025-01-21,Malware,Medium,Closed,Sample description 256,user31,2025-06-18 07:11:31
+257,2025-06-15,Unauthorized Access,High,Closed,Sample description 257,user48,2025-02-27 07:11:31
+258,2025-11-27,Ransomware,Low,Resolved,Sample description 258,user28,2025-06-13 07:11:31
+259,2024-12-07,Ransomware,High,Resolved,Sample description 259,user42,2025-09-03 07:11:31
+260,2025-05-10,Unauthorized Access,Medium,In Progress,Sample description 260,user34,2025-07-16 07:11:31
+261,2025-09-19,Data Leak,Low,Open,Sample description 261,user3,2025-08-12 07:11:31
+262,2025-09-09,Malware,High,Resolved,Sample description 262,user9,2025-03-31 07:11:31
+263,2025-10-23,Unauthorized Access,Medium,Resolved,Sample description 263,user14,2025-09-25 07:11:31
+264,2025-01-28,Unauthorized Access,Low,Open,Sample description 264,user47,2025-01-08 07:11:31
+265,2025-08-14,DDoS,Medium,Open,Sample description 265,user31,2025-01-10 07:11:31
+266,2025-07-22,Ransomware,Critical,Resolved,Sample description 266,user37,2025-01-20 07:11:31
+267,2025-11-04,Data Leak,High,Resolved,Sample description 267,user33,2025-03-08 07:11:31
+268,2025-10-23,Data Leak,Low,Resolved,Sample description 268,user30,2025-07-16 07:11:31
+269,2025-10-06,Phishing,Medium,Resolved,Sample description 269,user47,2025-02-12 07:11:31
+270,2025-04-26,Phishing,Critical,Open,Sample description 270,user44,2024-12-28 07:11:31
+271,2024-12-18,Unauthorized Access,Critical,In Progress,Sample description 271,user42,2025-07-17 07:11:31
+272,2025-09-17,Unauthorized Access,Low,Resolved,Sample description 272,user12,2025-09-17 07:11:31
+273,2025-08-13,Ransomware,Critical,Resolved,Sample description 273,user48,2025-02-28 07:11:31
+274,2025-08-20,Phishing,Medium,Open,Sample description 274,user1,2025-02-28 07:11:31
+275,2025-08-14,Unauthorized Access,Low,In Progress,Sample description 275,user9,2025-02-25 07:11:31
+276,2025-07-14,Ransomware,Low,Open,Sample description 276,user11,2025-11-07 07:11:31
+277,2025-07-20,DDoS,Critical,In Progress,Sample description 277,user41,2025-08-03 07:11:31
+278,2025-02-02,Phishing,High,In Progress,Sample description 278,user27,2025-05-25 07:11:31
+279,2024-12-13,Malware,Critical,Open,Sample description 279,user6,2025-09-01 07:11:31
+280,2025-07-16,Ransomware,Critical,Open,Sample description 280,user45,2025-05-06 07:11:31
+281,2025-08-27,Phishing,High,In Progress,Sample description 281,user26,2025-05-04 07:11:31
+282,2025-05-12,Malware,Low,Open,Sample description 282,user30,2025-02-05 07:11:31
+283,2025-11-05,Malware,Low,Open,Sample description 283,user39,2025-09-03 07:11:31
+284,2024-12-18,Data Leak,Critical,Closed,Sample description 284,user38,2025-01-01 07:11:31
+285,2025-11-27,Malware,Critical,Closed,Sample description 285,user26,2025-02-12 07:11:31
+286,2025-12-05,DDoS,Critical,Closed,Sample description 286,user13,2025-02-28 07:11:31
+287,2025-09-01,Phishing,Low,In Progress,Sample description 287,user13,2025-07-27 07:11:31
+288,2025-10-20,Data Leak,Critical,Resolved,Sample description 288,user32,2025-06-23 07:11:31
+289,2025-11-06,Data Leak,Low,In Progress,Sample description 289,user5,2025-06-08 07:11:31
+290,2025-11-06,Unauthorized Access,Critical,Resolved,Sample description 290,user43,2025-05-27 07:11:31
+291,2025-06-19,Unauthorized Access,High,Open,Sample description 291,user8,2025-10-21 07:11:31
+292,2025-05-10,Malware,Low,Resolved,Sample description 292,user22,2025-02-02 07:11:31
+293,2025-11-09,Ransomware,High,Closed,Sample description 293,user40,2025-01-21 07:11:31
+294,2025-01-08,Phishing,High,Resolved,Sample description 294,user17,2025-01-11 07:11:31
+295,2025-07-24,Data Leak,Medium,Resolved,Sample description 295,user5,2025-06-26 07:11:31
+296,2025-11-25,Ransomware,Medium,In Progress,Sample description 296,user33,2025-03-12 07:11:31
+297,2025-01-03,Malware,Critical,Closed,Sample description 297,user31,2025-10-04 07:11:31
+298,2025-12-04,Data Leak,Medium,Closed,Sample description 298,user40,2025-07-27 07:11:31
+299,2025-03-28,Phishing,Low,Resolved,Sample description 299,user28,2025-06-14 07:11:31
+300,2024-12-08,Phishing,Medium,Open,Sample description 300,user31,2025-04-05 07:11:31
+301,2025-07-06,Data Leak,Medium,Resolved,Sample description 301,user37,2025-02-23 07:11:31
+302,2025-01-20,Data Leak,Low,Resolved,Sample description 302,user47,2025-03-16 07:11:31
+303,2025-11-30,Phishing,High,Closed,Sample description 303,user14,2025-01-01 07:11:31
+304,2025-07-08,Malware,Critical,In Progress,Sample description 304,user30,2025-10-30 07:11:31
+305,2025-04-01,Malware,High,Closed,Sample description 305,user38,2025-08-30 07:11:31
+306,2025-07-24,Ransomware,High,Open,Sample description 306,user45,2025-03-21 07:11:31
+307,2024-12-30,Data Leak,Critical,Resolved,Sample description 307,user46,2025-03-05 07:11:31
+308,2025-09-23,Phishing,Low,In Progress,Sample description 308,user20,2025-07-21 07:11:31
+309,2025-09-16,Unauthorized Access,Low,Closed,Sample description 309,user3,2025-07-24 07:11:31
+310,2025-10-12,DDoS,Medium,Open,Sample description 310,user18,2025-05-02 07:11:31
+311,2025-10-17,Unauthorized Access,Low,Resolved,Sample description 311,user36,2024-12-22 07:11:31
+312,2025-07-30,Malware,High,Closed,Sample description 312,user11,2025-01-14 07:11:31
+313,2025-08-15,DDoS,High,In Progress,Sample description 313,user43,2024-12-28 07:11:31
+314,2025-04-07,Phishing,High,Resolved,Sample description 314,user6,2025-04-22 07:11:31
+315,2024-12-20,Phishing,Low,In Progress,Sample description 315,user48,2025-09-02 07:11:31
+316,2025-03-28,Data Leak,Medium,Closed,Sample description 316,user28,2025-10-22 07:11:31
+317,2025-09-03,DDoS,Critical,Open,Sample description 317,user40,2025-08-25 07:11:31
+318,2025-12-07,Data Leak,Medium,Closed,Sample description 318,user33,2025-05-15 07:11:31
+319,2025-11-01,Malware,Medium,Open,Sample description 319,user5,2025-11-09 07:11:31
+320,2025-02-13,Ransomware,Low,In Progress,Sample description 320,user26,2025-08-17 07:11:31
+321,2025-08-14,Unauthorized Access,Low,Resolved,Sample description 321,user4,2025-09-24 07:11:31
+322,2025-02-05,Malware,High,In Progress,Sample description 322,user21,2025-05-21 07:11:31
+323,2025-03-18,Phishing,Critical,In Progress,Sample description 323,user12,2025-06-08 07:11:31
+324,2025-03-01,Malware,Critical,Open,Sample description 324,user3,2025-08-02 07:11:31
+325,2024-12-22,Unauthorized Access,Medium,Resolved,Sample description 325,user38,2025-08-15 07:11:31
+326,2025-07-26,Malware,Medium,Open,Sample description 326,user23,2025-06-08 07:11:31
+327,2025-09-06,DDoS,High,Resolved,Sample description 327,user50,2025-04-13 07:11:31
+328,2025-03-24,Unauthorized Access,Low,Open,Sample description 328,user33,2025-09-02 07:11:31
+329,2025-01-25,Data Leak,Critical,In Progress,Sample description 329,user13,2025-01-10 07:11:31
+330,2025-02-27,Data Leak,High,Resolved,Sample description 330,user40,2025-09-20 07:11:31
+331,2025-01-15,Ransomware,High,In Progress,Sample description 331,user26,2025-03-15 07:11:31
+332,2025-11-02,Ransomware,High,Open,Sample description 332,user4,2025-03-07 07:11:31
+333,2024-12-22,Phishing,Critical,Resolved,Sample description 333,user5,2025-03-16 07:11:31
+334,2025-04-23,DDoS,Low,Open,Sample description 334,user35,2024-12-24 07:11:31
+335,2025-01-25,Phishing,High,Open,Sample description 335,user15,2025-11-20 07:11:31
+336,2025-07-31,DDoS,High,Closed,Sample description 336,user42,2025-01-01 07:11:31
+337,2025-05-06,Malware,Low,Open,Sample description 337,user28,2024-12-17 07:11:31
+338,2025-03-16,Data Leak,Critical,Closed,Sample description 338,user13,2025-06-28 07:11:31
+339,2025-03-16,Phishing,Critical,Closed,Sample description 339,user27,2025-07-30 07:11:31
+340,2025-11-09,Phishing,Medium,In Progress,Sample description 340,user13,2025-10-24 07:11:31
+341,2025-07-20,Phishing,High,Closed,Sample description 341,user5,2025-05-15 07:11:31
+342,2025-07-30,DDoS,High,In Progress,Sample description 342,user25,2025-05-19 07:11:31
+343,2025-01-13,Unauthorized Access,Medium,In Progress,Sample description 343,user15,2025-01-27 07:11:31
+344,2025-03-20,Phishing,Medium,In Progress,Sample description 344,user22,2025-10-17 07:11:31
+345,2025-07-22,DDoS,Medium,Open,Sample description 345,user35,2025-09-25 07:11:31
+346,2025-06-04,DDoS,Low,Open,Sample description 346,user15,2025-02-04 07:11:31
+347,2025-08-11,Unauthorized Access,Low,Open,Sample description 347,user23,2025-01-02 07:11:31
+348,2025-06-14,Data Leak,High,Open,Sample description 348,user13,2025-12-04 07:11:31
+349,2025-05-25,Data Leak,Critical,Resolved,Sample description 349,user7,2025-06-02 07:11:31
+350,2025-06-10,Unauthorized Access,Critical,In Progress,Sample description 350,user41,2025-02-25 07:11:31
+351,2025-11-04,DDoS,Medium,Closed,Sample description 351,user30,2025-07-24 07:11:31
+352,2024-12-08,Data Leak,Medium,In Progress,Sample description 352,user32,2025-07-17 07:11:31
+353,2025-04-27,DDoS,High,Resolved,Sample description 353,user28,2025-02-06 07:11:31
+354,2025-01-30,DDoS,Critical,Open,Sample description 354,user10,2025-10-09 07:11:31
+355,2025-08-17,DDoS,High,Closed,Sample description 355,user50,2025-02-21 07:11:31
+356,2025-05-05,Phishing,Critical,In Progress,Sample description 356,user26,2025-06-01 07:11:31
+357,2025-05-21,Data Leak,Medium,Resolved,Sample description 357,user22,2025-07-26 07:11:31
+358,2025-11-18,Data Leak,Critical,Closed,Sample description 358,user19,2024-12-22 07:11:31
+359,2025-06-17,Unauthorized Access,Critical,Closed,Sample description 359,user11,2025-01-12 07:11:31
+360,2024-12-11,Malware,Critical,In Progress,Sample description 360,user2,2025-05-20 07:11:31
+361,2025-10-28,Phishing,High,In Progress,Sample description 361,user20,2025-02-06 07:11:31
+362,2025-06-24,Malware,Medium,Closed,Sample description 362,user29,2025-07-25 07:11:31
+363,2025-06-07,DDoS,Critical,Closed,Sample description 363,user31,2025-04-02 07:11:31
+364,2025-09-08,Ransomware,High,In Progress,Sample description 364,user39,2025-09-15 07:11:31
+365,2025-12-02,Unauthorized Access,High,Closed,Sample description 365,user32,2025-10-30 07:11:31
+366,2025-03-04,Phishing,Critical,In Progress,Sample description 366,user40,2025-08-31 07:11:31
+367,2025-05-02,Phishing,High,Resolved,Sample description 367,user35,2025-05-17 07:11:31
+368,2025-01-19,Phishing,Medium,Resolved,Sample description 368,user38,2025-03-14 07:11:31
+369,2025-08-03,Unauthorized Access,Critical,Open,Sample description 369,user9,2025-08-29 07:11:31
+370,2025-05-05,Ransomware,High,Resolved,Sample description 370,user14,2025-05-21 07:11:31
+371,2025-03-11,Malware,Critical,Closed,Sample description 371,user26,2025-03-02 07:11:31
+372,2025-04-20,Unauthorized Access,Critical,In Progress,Sample description 372,user50,2024-12-09 07:11:31
+373,2025-08-08,Ransomware,Critical,Resolved,Sample description 373,user8,2025-10-24 07:11:31
+374,2025-12-03,Malware,Medium,Closed,Sample description 374,user25,2025-10-14 07:11:31
+375,2025-01-02,Malware,Medium,Closed,Sample description 375,user24,2024-12-26 07:11:31
+376,2024-12-18,Data Leak,Critical,Closed,Sample description 376,user45,2025-02-15 07:11:31
+377,2025-08-10,Malware,Medium,In Progress,Sample description 377,user13,2025-08-14 07:11:31
+378,2025-06-30,DDoS,High,Resolved,Sample description 378,user15,2025-08-05 07:11:31
+379,2025-09-15,Phishing,Low,Resolved,Sample description 379,user33,2025-11-28 07:11:31
+380,2025-08-14,Malware,Critical,Resolved,Sample description 380,user20,2025-06-01 07:11:31
+381,2025-08-06,Unauthorized Access,Critical,Open,Sample description 381,user29,2025-06-09 07:11:31
+382,2025-02-10,Malware,Low,Resolved,Sample description 382,user32,2024-12-24 07:11:31
+383,2025-06-16,DDoS,Critical,Open,Sample description 383,user38,2025-10-02 07:11:31
+384,2024-12-26,Phishing,High,Closed,Sample description 384,user32,2025-09-27 07:11:31
+385,2025-06-25,Data Leak,Medium,Closed,Sample description 385,user38,2025-11-27 07:11:31
+386,2025-09-01,Phishing,Medium,Resolved,Sample description 386,user32,2025-09-20 07:11:31
+387,2025-03-19,Phishing,Low,Resolved,Sample description 387,user49,2025-03-11 07:11:31
+388,2025-07-17,Unauthorized Access,Low,Open,Sample description 388,user9,2025-11-27 07:11:31
+389,2025-08-29,Malware,Critical,Resolved,Sample description 389,user16,2025-07-21 07:11:31
+390,2025-07-04,Unauthorized Access,High,Open,Sample description 390,user23,2025-07-03 07:11:31
+391,2025-06-19,Phishing,Medium,Open,Sample description 391,user39,2024-12-24 07:11:31
+392,2025-09-12,Ransomware,Low,In Progress,Sample description 392,user49,2025-01-18 07:11:31
+393,2025-09-16,Phishing,High,Open,Sample description 393,user41,2024-12-24 07:11:31
+394,2025-03-26,Data Leak,High,Open,Sample description 394,user50,2025-08-19 07:11:31
+395,2025-08-21,Ransomware,Low,Open,Sample description 395,user1,2025-02-02 07:11:31
+396,2025-07-29,Ransomware,Medium,In Progress,Sample description 396,user50,2025-04-17 07:11:31
+397,2025-10-20,DDoS,Critical,Resolved,Sample description 397,user10,2025-07-19 07:11:31
+398,2025-05-18,Unauthorized Access,Low,Resolved,Sample description 398,user6,2025-03-29 07:11:31
+399,2025-12-07,Data Leak,High,Open,Sample description 399,user2,2025-02-04 07:11:31
+400,2025-09-08,Data Leak,High,In Progress,Sample description 400,user15,2025-10-27 07:11:31
+401,2025-03-05,Data Leak,Medium,Resolved,Sample description 401,user50,2024-12-15 07:11:31
+402,2024-12-22,Data Leak,Low,Open,Sample description 402,user5,2025-05-28 07:11:31
+403,2025-12-04,Ransomware,Low,Open,Sample description 403,user38,2025-08-24 07:11:31
+404,2025-04-25,Phishing,Low,Resolved,Sample description 404,user12,2025-05-10 07:11:31
+405,2025-04-12,Malware,Low,In Progress,Sample description 405,user30,2025-06-12 07:11:31
+406,2025-09-07,Unauthorized Access,Critical,In Progress,Sample description 406,user29,2025-11-14 07:11:31
+407,2025-05-27,Data Leak,Low,Open,Sample description 407,user49,2025-04-26 07:11:31
+408,2025-02-23,Ransomware,Low,Closed,Sample description 408,user34,2025-08-20 07:11:31
+409,2025-02-15,DDoS,High,Resolved,Sample description 409,user4,2025-03-15 07:11:31
+410,2025-06-15,Ransomware,Medium,In Progress,Sample description 410,user48,2025-10-27 07:11:31
+411,2025-12-05,Data Leak,Critical,In Progress,Sample description 411,user34,2025-10-28 07:11:31
+412,2025-01-27,Unauthorized Access,Low,Closed,Sample description 412,user8,2025-01-08 07:11:31
+413,2025-07-29,Phishing,Critical,Open,Sample description 413,user14,2025-02-15 07:11:31
+414,2025-06-14,Data Leak,Critical,In Progress,Sample description 414,user17,2025-03-31 07:11:31
+415,2024-12-22,DDoS,Critical,Open,Sample description 415,user17,2025-09-15 07:11:31
+416,2025-09-14,Ransomware,Medium,Open,Sample description 416,user28,2024-12-25 07:11:31
+417,2025-05-13,Phishing,Critical,In Progress,Sample description 417,user10,2025-11-18 07:11:31
+418,2025-02-01,Phishing,Medium,In Progress,Sample description 418,user2,2025-02-16 07:11:31
+419,2025-10-18,Data Leak,High,Closed,Sample description 419,user27,2025-06-09 07:11:31
+420,2025-01-26,Data Leak,High,Resolved,Sample description 420,user24,2025-02-05 07:11:31
+421,2025-01-31,Phishing,Low,Open,Sample description 421,user24,2025-08-04 07:11:31
+422,2024-12-17,Malware,Medium,Closed,Sample description 422,user44,2025-09-02 07:11:31
+423,2025-01-08,Ransomware,Critical,Open,Sample description 423,user11,2025-04-30 07:11:31
+424,2025-11-23,Phishing,High,Open,Sample description 424,user12,2025-05-23 07:11:31
+425,2025-05-14,Malware,Low,Closed,Sample description 425,user41,2025-05-14 07:11:31
+426,2025-06-02,DDoS,Critical,Resolved,Sample description 426,user42,2025-02-22 07:11:31
+427,2025-10-16,Unauthorized Access,High,Open,Sample description 427,user32,2025-06-16 07:11:31
+428,2025-05-25,Ransomware,Medium,In Progress,Sample description 428,user36,2025-06-07 07:11:31
+429,2025-09-02,Unauthorized Access,Medium,Closed,Sample description 429,user10,2025-01-20 07:11:31
+430,2025-05-09,Ransomware,Critical,In Progress,Sample description 430,user7,2025-06-13 07:11:31
+431,2025-06-27,DDoS,High,Open,Sample description 431,user4,2025-02-19 07:11:31
+432,2025-10-09,Data Leak,High,Resolved,Sample description 432,user42,2025-06-01 07:11:31
+433,2025-07-22,Malware,Critical,Open,Sample description 433,user42,2025-09-16 07:11:31
+434,2025-08-21,DDoS,High,Resolved,Sample description 434,user12,2025-03-17 07:11:31
+435,2025-06-24,DDoS,Critical,Closed,Sample description 435,user8,2025-10-27 07:11:31
+436,2025-05-26,Phishing,Low,In Progress,Sample description 436,user30,2025-11-03 07:11:31
+437,2025-10-20,Malware,Critical,Resolved,Sample description 437,user28,2025-11-28 07:11:31
+438,2025-11-21,Phishing,Low,Closed,Sample description 438,user1,2025-01-24 07:11:31
+439,2025-03-22,Malware,High,In Progress,Sample description 439,user47,2025-02-28 07:11:31
+440,2025-04-07,Ransomware,Medium,Closed,Sample description 440,user45,2025-01-28 07:11:31
+441,2025-04-07,Data Leak,Low,Open,Sample description 441,user14,2025-12-02 07:11:31
+442,2025-10-18,Phishing,High,Closed,Sample description 442,user3,2025-05-10 07:11:31
+443,2025-04-04,DDoS,High,Resolved,Sample description 443,user17,2025-01-21 07:11:31
+444,2025-03-25,Ransomware,Critical,Closed,Sample description 444,user6,2025-01-26 07:11:31
+445,2025-02-07,Unauthorized Access,Medium,Resolved,Sample description 445,user48,2025-12-03 07:11:31
+446,2025-04-18,Unauthorized Access,Low,Closed,Sample description 446,user3,2025-08-07 07:11:31
+447,2025-11-28,Malware,Low,In Progress,Sample description 447,user41,2025-11-06 07:11:31
+448,2025-04-18,Ransomware,Medium,Open,Sample description 448,user45,2025-08-06 07:11:31
+449,2024-12-27,Malware,Low,Resolved,Sample description 449,user40,2025-04-11 07:11:31
+450,2025-06-19,Malware,Critical,Open,Sample description 450,user3,2025-05-25 07:11:31
+451,2025-01-31,Data Leak,Critical,Resolved,Sample description 451,user24,2025-04-07 07:11:31
+452,2025-05-14,Phishing,Low,Resolved,Sample description 452,user1,2025-10-04 07:11:31
+453,2025-09-26,Unauthorized Access,Critical,Open,Sample description 453,user42,2025-06-04 07:11:31
+454,2025-09-16,DDoS,Low,Resolved,Sample description 454,user11,2025-04-29 07:11:31
+455,2025-05-31,DDoS,Low,Closed,Sample description 455,user31,2025-07-10 07:11:31
+456,2025-10-17,Ransomware,Low,Open,Sample description 456,user43,2025-09-10 07:11:31
+457,2024-12-07,DDoS,Low,Closed,Sample description 457,user22,2025-07-15 07:11:31
+458,2025-01-25,DDoS,High,In Progress,Sample description 458,user24,2025-10-18 07:11:31
+459,2025-04-13,Ransomware,Medium,Open,Sample description 459,user41,2025-11-25 07:11:31
+460,2024-12-19,Unauthorized Access,Low,In Progress,Sample description 460,user5,2024-12-15 07:11:31
+461,2025-02-03,Phishing,Low,Open,Sample description 461,user41,2025-04-25 07:11:31
+462,2025-04-01,Ransomware,Low,Open,Sample description 462,user46,2025-09-02 07:11:31
+463,2025-08-17,Data Leak,Critical,Closed,Sample description 463,user9,2025-01-03 07:11:31
+464,2025-03-14,Unauthorized Access,High,In Progress,Sample description 464,user40,2025-11-21 07:11:31
+465,2025-05-26,Phishing,Critical,In Progress,Sample description 465,user50,2024-12-19 07:11:31
+466,2025-09-18,Phishing,Critical,Closed,Sample description 466,user3,2025-11-29 07:11:31
+467,2025-08-29,Unauthorized Access,High,Resolved,Sample description 467,user16,2025-06-18 07:11:31
+468,2025-03-21,DDoS,High,Resolved,Sample description 468,user50,2024-12-18 07:11:31
+469,2024-12-27,Ransomware,Critical,Open,Sample description 469,user27,2025-10-03 07:11:31
+470,2025-03-21,Malware,High,Closed,Sample description 470,user25,2025-03-29 07:11:31
+471,2025-11-08,Ransomware,Medium,Resolved,Sample description 471,user15,2025-09-09 07:11:31
+472,2025-12-05,DDoS,Low,Resolved,Sample description 472,user28,2025-04-12 07:11:31
+473,2025-07-28,Malware,Critical,In Progress,Sample description 473,user9,2024-12-17 07:11:31
+474,2025-09-21,Data Leak,Low,In Progress,Sample description 474,user34,2025-01-03 07:11:31
+475,2025-04-16,DDoS,Critical,Closed,Sample description 475,user8,2025-05-08 07:11:31
+476,2025-10-22,DDoS,Critical,In Progress,Sample description 476,user7,2025-10-29 07:11:31
+477,2025-02-12,Phishing,Medium,In Progress,Sample description 477,user42,2025-07-04 07:11:31
+478,2025-04-10,Ransomware,High,Closed,Sample description 478,user6,2025-05-11 07:11:31
+479,2025-07-26,Unauthorized Access,Critical,Resolved,Sample description 479,user47,2025-11-22 07:11:31
+480,2025-10-22,Phishing,High,Closed,Sample description 480,user4,2024-12-07 07:11:31
+481,2025-09-21,DDoS,High,In Progress,Sample description 481,user35,2025-01-31 07:11:31
+482,2025-06-02,Data Leak,High,Resolved,Sample description 482,user37,2025-09-06 07:11:31
+483,2025-05-26,Ransomware,High,In Progress,Sample description 483,user6,2025-06-08 07:11:31
+484,2025-08-06,Unauthorized Access,Medium,Open,Sample description 484,user28,2025-03-15 07:11:31
+485,2025-01-04,Ransomware,Critical,In Progress,Sample description 485,user17,2025-01-08 07:11:31
+486,2025-01-01,Malware,Low,In Progress,Sample description 486,user5,2025-01-10 07:11:31
+487,2025-07-22,Malware,Low,Closed,Sample description 487,user9,2025-08-02 07:11:31
+488,2025-10-12,Ransomware,High,Resolved,Sample description 488,user44,2025-09-17 07:11:31
+489,2024-12-29,Malware,Medium,Closed,Sample description 489,user46,2025-03-12 07:11:31
+490,2025-10-06,Data Leak,Low,Resolved,Sample description 490,user37,2025-06-25 07:11:31
+491,2025-05-31,Malware,Medium,Closed,Sample description 491,user18,2025-12-02 07:11:31
+492,2025-09-03,Phishing,Critical,In Progress,Sample description 492,user11,2025-11-24 07:11:31
+493,2025-10-04,Data Leak,Critical,In Progress,Sample description 493,user15,2025-08-02 07:11:31
+494,2025-03-17,Unauthorized Access,Critical,In Progress,Sample description 494,user44,2025-05-13 07:11:31
+495,2025-06-28,Phishing,Low,In Progress,Sample description 495,user20,2025-11-02 07:11:31
+496,2025-03-14,Data Leak,Critical,Open,Sample description 496,user9,2025-04-11 07:11:31
+497,2025-09-18,Malware,Low,In Progress,Sample description 497,user9,2024-12-08 07:11:31
+498,2025-12-02,Ransomware,High,Resolved,Sample description 498,user45,2025-03-20 07:11:31
+499,2025-11-20,Data Leak,Low,Resolved,Sample description 499,user6,2025-10-30 07:11:31
+500,2025-10-29,Phishing,Medium,In Progress,Sample description 500,user20,2025-02-18 07:11:31
+501,2025-10-09,Data Leak,High,Open,Sample description 501,user5,2025-06-14 07:11:31
+502,2025-09-18,Unauthorized Access,Low,Resolved,Sample description 502,user17,2025-01-22 07:11:31
+503,2025-07-20,Ransomware,Low,Closed,Sample description 503,user18,2024-12-12 07:11:31
+504,2025-04-02,Phishing,Low,Closed,Sample description 504,user29,2025-01-14 07:11:31
+505,2024-12-21,Unauthorized Access,Low,Open,Sample description 505,user42,2025-04-24 07:11:31
+506,2024-12-29,Phishing,Low,In Progress,Sample description 506,user10,2025-07-01 07:11:31
+507,2025-07-22,Phishing,Medium,In Progress,Sample description 507,user5,2025-02-17 07:11:31
+508,2025-06-28,Malware,Critical,Closed,Sample description 508,user29,2025-01-02 07:11:31
+509,2025-08-24,DDoS,Low,Closed,Sample description 509,user47,2024-12-19 07:11:31
+510,2025-04-19,DDoS,Critical,Closed,Sample description 510,user1,2025-05-11 07:11:31
+511,2025-11-30,Ransomware,Low,Closed,Sample description 511,user6,2025-07-09 07:11:31
+512,2025-02-25,Ransomware,Low,In Progress,Sample description 512,user46,2025-03-17 07:11:31
+513,2025-03-06,Malware,Medium,Closed,Sample description 513,user32,2025-12-02 07:11:31
+514,2025-09-16,Malware,Critical,Open,Sample description 514,user40,2025-02-19 07:11:31
+515,2025-11-14,Malware,High,Open,Sample description 515,user42,2025-04-20 07:11:31
+516,2025-03-05,Data Leak,Critical,Resolved,Sample description 516,user16,2025-08-04 07:11:31
+517,2025-07-08,Malware,Medium,Open,Sample description 517,user12,2025-04-22 07:11:31
+518,2025-08-07,Phishing,Low,Closed,Sample description 518,user1,2025-11-18 07:11:31
+519,2025-11-16,Phishing,High,Resolved,Sample description 519,user40,2025-04-07 07:11:31
+520,2025-08-29,Malware,Medium,Open,Sample description 520,user10,2025-02-24 07:11:31
+521,2025-06-26,Phishing,Critical,Open,Sample description 521,user36,2025-04-16 07:11:31
+522,2025-11-25,Data Leak,Medium,Closed,Sample description 522,user36,2025-05-13 07:11:31
+523,2025-10-21,Phishing,Medium,In Progress,Sample description 523,user4,2025-09-16 07:11:31
+524,2025-09-06,Ransomware,Low,Open,Sample description 524,user2,2025-05-30 07:11:31
+525,2025-06-08,Data Leak,Critical,In Progress,Sample description 525,user25,2025-11-02 07:11:31
+526,2024-12-16,Unauthorized Access,Low,Open,Sample description 526,user22,2025-05-23 07:11:31
+527,2025-06-12,Data Leak,High,Resolved,Sample description 527,user17,2024-12-15 07:11:31
+528,2025-08-25,Unauthorized Access,Low,Closed,Sample description 528,user40,2024-12-30 07:11:31
+529,2025-06-09,Phishing,Medium,Closed,Sample description 529,user49,2025-02-19 07:11:31
+530,2025-09-01,DDoS,Critical,Open,Sample description 530,user48,2025-03-16 07:11:31
+531,2025-05-23,Ransomware,Critical,Closed,Sample description 531,user41,2025-07-02 07:11:31
+532,2025-01-09,Phishing,Critical,Resolved,Sample description 532,user38,2025-09-05 07:11:31
+533,2025-08-26,DDoS,Low,Resolved,Sample description 533,user28,2025-02-17 07:11:31
+534,2025-01-11,Unauthorized Access,Critical,Resolved,Sample description 534,user29,2025-01-23 07:11:31
+535,2025-05-05,Ransomware,Low,In Progress,Sample description 535,user25,2025-05-08 07:11:31
+536,2025-01-26,Ransomware,High,In Progress,Sample description 536,user40,2024-12-18 07:11:31
+537,2025-03-06,Data Leak,Critical,Resolved,Sample description 537,user23,2025-07-05 07:11:31
+538,2025-08-25,DDoS,Medium,In Progress,Sample description 538,user42,2025-08-04 07:11:31
+539,2025-09-05,Phishing,Medium,Closed,Sample description 539,user28,2025-04-09 07:11:31
+540,2025-03-03,Data Leak,Low,Closed,Sample description 540,user29,2025-04-10 07:11:31
+541,2025-02-05,Ransomware,High,Resolved,Sample description 541,user46,2025-06-20 07:11:31
+542,2025-11-26,Malware,Medium,Open,Sample description 542,user41,2025-05-16 07:11:31
+543,2025-07-01,Ransomware,Low,Open,Sample description 543,user34,2025-10-16 07:11:31
+544,2025-04-21,DDoS,Low,Resolved,Sample description 544,user24,2025-04-10 07:11:31
+545,2025-07-14,Phishing,Medium,Closed,Sample description 545,user40,2025-08-27 07:11:31
+546,2025-10-26,Ransomware,Critical,In Progress,Sample description 546,user38,2025-01-03 07:11:31
+547,2025-05-26,Data Leak,Medium,In Progress,Sample description 547,user12,2025-03-26 07:11:31
+548,2025-05-19,Data Leak,High,Closed,Sample description 548,user1,2025-09-01 07:11:31
+549,2025-01-31,Unauthorized Access,High,In Progress,Sample description 549,user48,2025-09-25 07:11:31
+550,2025-07-19,Data Leak,High,Resolved,Sample description 550,user17,2024-12-27 07:11:31
+551,2025-11-19,Unauthorized Access,High,In Progress,Sample description 551,user30,2025-12-05 07:11:31
+552,2025-10-30,Phishing,Low,Closed,Sample description 552,user28,2025-01-22 07:11:31
+553,2025-09-15,Unauthorized Access,Critical,Resolved,Sample description 553,user45,2025-11-26 07:11:31
+554,2025-07-23,Phishing,Medium,Open,Sample description 554,user4,2025-04-21 07:11:31
+555,2025-06-04,Unauthorized Access,Medium,Resolved,Sample description 555,user12,2025-03-20 07:11:31
+556,2025-05-22,Ransomware,High,In Progress,Sample description 556,user11,2024-12-31 07:11:31
+557,2025-05-23,Malware,Low,Resolved,Sample description 557,user17,2025-01-03 07:11:31
+558,2025-03-28,Phishing,Low,Closed,Sample description 558,user2,2025-08-06 07:11:31
+559,2025-01-18,Phishing,Low,Resolved,Sample description 559,user15,2025-07-31 07:11:31
+560,2025-02-03,Unauthorized Access,High,Open,Sample description 560,user37,2025-01-29 07:11:31
+561,2025-03-13,Malware,Low,In Progress,Sample description 561,user1,2025-11-11 07:11:31
+562,2025-10-01,Ransomware,Critical,In Progress,Sample description 562,user4,2025-08-16 07:11:31
+563,2024-12-07,Unauthorized Access,Low,Open,Sample description 563,user26,2025-05-19 07:11:31
+564,2025-10-29,Unauthorized Access,Low,Closed,Sample description 564,user30,2025-02-02 07:11:31
+565,2025-11-22,Data Leak,Medium,Resolved,Sample description 565,user25,2025-06-28 07:11:31
+566,2025-05-01,Ransomware,Critical,Closed,Sample description 566,user8,2025-05-01 07:11:31
+567,2025-02-08,Ransomware,Low,Open,Sample description 567,user33,2025-11-30 07:11:31
+568,2025-03-31,Ransomware,High,Open,Sample description 568,user13,2025-11-21 07:11:31
+569,2025-09-03,Unauthorized Access,High,Closed,Sample description 569,user41,2025-07-07 07:11:31
+570,2025-05-28,Ransomware,Medium,Resolved,Sample description 570,user3,2025-08-24 07:11:31
+571,2025-08-29,Malware,Low,Resolved,Sample description 571,user49,2025-06-11 07:11:31
+572,2025-01-25,Unauthorized Access,Medium,In Progress,Sample description 572,user25,2025-05-24 07:11:31
+573,2025-07-24,DDoS,Medium,Resolved,Sample description 573,user41,2025-09-09 07:11:31
+574,2025-04-24,DDoS,Critical,In Progress,Sample description 574,user34,2025-09-11 07:11:31
+575,2025-06-21,Unauthorized Access,High,Open,Sample description 575,user29,2025-10-06 07:11:31
+576,2025-11-09,Ransomware,Critical,In Progress,Sample description 576,user16,2025-01-07 07:11:31
+577,2025-07-21,Ransomware,Critical,Open,Sample description 577,user27,2025-06-09 07:11:31
+578,2025-02-21,Ransomware,Low,In Progress,Sample description 578,user43,2025-05-13 07:11:31
+579,2025-04-14,Phishing,Low,Closed,Sample description 579,user19,2025-01-22 07:11:31
+580,2025-09-27,Phishing,Medium,In Progress,Sample description 580,user6,2025-04-29 07:11:31
+581,2025-03-27,Phishing,High,Resolved,Sample description 581,user43,2025-07-30 07:11:31
+582,2025-05-12,Malware,Medium,Open,Sample description 582,user37,2025-01-23 07:11:31
+583,2025-11-07,Phishing,Critical,Open,Sample description 583,user11,2025-03-17 07:11:31
+584,2025-06-20,Malware,Low,In Progress,Sample description 584,user21,2025-11-06 07:11:31
+585,2025-08-11,DDoS,Medium,In Progress,Sample description 585,user17,2025-10-02 07:11:31
+586,2025-02-20,Malware,Critical,In Progress,Sample description 586,user40,2024-12-23 07:11:31
+587,2025-07-24,Malware,Medium,Open,Sample description 587,user13,2025-09-16 07:11:31
+588,2025-07-01,Ransomware,High,In Progress,Sample description 588,user36,2025-06-09 07:11:31
+589,2025-01-22,Ransomware,Medium,Closed,Sample description 589,user27,2025-08-04 07:11:31
+590,2025-01-24,Phishing,High,Open,Sample description 590,user29,2025-04-18 07:11:31
+591,2025-10-13,Malware,Medium,Closed,Sample description 591,user24,2025-01-16 07:11:31
+592,2025-11-07,DDoS,Critical,Closed,Sample description 592,user43,2025-03-22 07:11:31
+593,2025-08-05,Malware,Low,Closed,Sample description 593,user42,2025-03-03 07:11:31
+594,2025-06-29,Ransomware,Critical,Open,Sample description 594,user16,2025-05-11 07:11:31
+595,2024-12-16,Malware,Low,Resolved,Sample description 595,user34,2025-03-22 07:11:31
+596,2024-12-16,DDoS,Critical,Open,Sample description 596,user43,2025-01-13 07:11:31
+597,2024-12-15,Unauthorized Access,Low,In Progress,Sample description 597,user44,2025-02-25 07:11:31
+598,2025-12-03,DDoS,Low,Open,Sample description 598,user18,2025-09-20 07:11:31
+599,2025-05-31,DDoS,Medium,Resolved,Sample description 599,user7,2025-05-15 07:11:31
+600,2025-09-19,Data Leak,Low,Closed,Sample description 600,user2,2025-04-30 07:11:31
+601,2024-12-14,Ransomware,Low,Open,Sample description 601,user46,2025-10-21 07:11:31
+602,2025-04-07,DDoS,Medium,In Progress,Sample description 602,user36,2025-04-05 07:11:31
+603,2025-01-16,Malware,Critical,In Progress,Sample description 603,user16,2025-10-05 07:11:31
+604,2025-05-12,DDoS,Medium,Open,Sample description 604,user29,2025-11-18 07:11:31
+605,2025-02-07,Data Leak,Medium,Open,Sample description 605,user36,2025-08-05 07:11:31
+606,2025-11-11,Phishing,Low,Resolved,Sample description 606,user16,2025-03-25 07:11:31
+607,2025-02-05,Data Leak,Critical,In Progress,Sample description 607,user10,2025-03-02 07:11:31
+608,2025-05-21,Malware,High,Open,Sample description 608,user25,2025-07-11 07:11:31
+609,2025-01-13,Data Leak,Medium,Resolved,Sample description 609,user14,2025-10-30 07:11:31
+610,2025-02-10,Unauthorized Access,Medium,Resolved,Sample description 610,user6,2025-05-12 07:11:31
+611,2025-01-01,Data Leak,Medium,Resolved,Sample description 611,user11,2025-01-30 07:11:31
+612,2024-12-18,DDoS,Critical,Open,Sample description 612,user16,2025-10-03 07:11:31
+613,2025-04-01,Ransomware,High,In Progress,Sample description 613,user33,2025-10-13 07:11:31
+614,2025-02-27,Data Leak,Low,Resolved,Sample description 614,user44,2025-03-24 07:11:31
+615,2025-04-09,Phishing,High,In Progress,Sample description 615,user45,2025-10-07 07:11:31
+616,2024-12-12,DDoS,High,Resolved,Sample description 616,user19,2025-08-07 07:11:31
+617,2025-02-19,Ransomware,Medium,Resolved,Sample description 617,user31,2025-08-30 07:11:31
+618,2025-01-15,Data Leak,Medium,Open,Sample description 618,user23,2025-10-19 07:11:31
+619,2025-09-23,Malware,Low,Closed,Sample description 619,user47,2024-12-28 07:11:31
+620,2025-05-24,Data Leak,Critical,Closed,Sample description 620,user12,2025-04-15 07:11:31
+621,2024-12-22,Phishing,High,Closed,Sample description 621,user28,2025-04-03 07:11:31
+622,2025-08-21,Ransomware,Critical,Resolved,Sample description 622,user38,2025-03-14 07:11:31
+623,2025-07-30,Phishing,Medium,Open,Sample description 623,user48,2025-11-01 07:11:31
+624,2025-01-22,DDoS,Medium,Closed,Sample description 624,user23,2024-12-26 07:11:31
+625,2025-11-24,Ransomware,Low,Resolved,Sample description 625,user7,2025-11-20 07:11:31
+626,2025-11-04,Ransomware,Critical,Open,Sample description 626,user21,2025-04-06 07:11:31
+627,2025-09-05,Phishing,Medium,In Progress,Sample description 627,user28,2025-05-07 07:11:31
+628,2025-08-18,Unauthorized Access,Medium,Closed,Sample description 628,user2,2025-04-04 07:11:31
+629,2025-05-05,Ransomware,Medium,In Progress,Sample description 629,user15,2025-05-27 07:11:31
+630,2025-02-23,Data Leak,Critical,Closed,Sample description 630,user33,2025-03-23 07:11:31
+631,2024-12-11,DDoS,High,Open,Sample description 631,user13,2025-09-22 07:11:31
+632,2025-08-01,Data Leak,Medium,Resolved,Sample description 632,user3,2025-08-21 07:11:31
+633,2025-06-16,DDoS,Critical,In Progress,Sample description 633,user3,2025-04-25 07:11:31
+634,2025-10-04,Ransomware,Low,Closed,Sample description 634,user16,2025-03-21 07:11:31
+635,2025-07-28,DDoS,High,Resolved,Sample description 635,user48,2025-07-06 07:11:31
+636,2025-05-20,Data Leak,Low,Open,Sample description 636,user17,2025-06-20 07:11:31
+637,2025-10-28,Ransomware,Medium,In Progress,Sample description 637,user16,2025-11-21 07:11:31
+638,2025-07-31,Ransomware,Low,Resolved,Sample description 638,user25,2025-02-19 07:11:31
+639,2025-10-11,Ransomware,Medium,Closed,Sample description 639,user7,2025-07-15 07:11:31
+640,2025-07-13,DDoS,Medium,Open,Sample description 640,user38,2024-12-14 07:11:31
+641,2025-09-27,DDoS,High,Open,Sample description 641,user39,2025-02-13 07:11:31
+642,2025-06-17,Unauthorized Access,Medium,In Progress,Sample description 642,user16,2025-06-09 07:11:31
+643,2025-02-07,Phishing,Medium,In Progress,Sample description 643,user44,2025-06-27 07:11:31
+644,2025-08-20,Unauthorized Access,High,Closed,Sample description 644,user22,2025-01-28 07:11:31
+645,2025-04-12,Malware,Low,Closed,Sample description 645,user3,2025-05-27 07:11:31
+646,2025-10-19,Malware,High,Closed,Sample description 646,user16,2025-01-08 07:11:31
+647,2024-12-27,Data Leak,Low,Resolved,Sample description 647,user44,2025-01-18 07:11:31
+648,2025-02-09,DDoS,Medium,Closed,Sample description 648,user29,2025-05-27 07:11:31
+649,2025-06-24,Data Leak,Medium,Open,Sample description 649,user41,2025-04-27 07:11:31
+650,2025-03-27,DDoS,Low,Open,Sample description 650,user41,2025-02-14 07:11:31
+651,2024-12-09,DDoS,Critical,Closed,Sample description 651,user4,2025-05-13 07:11:31
+652,2025-04-19,Unauthorized Access,Medium,Open,Sample description 652,user18,2025-10-03 07:11:31
+653,2025-07-08,Phishing,Medium,Resolved,Sample description 653,user30,2025-07-07 07:11:31
+654,2025-06-19,Ransomware,Low,Open,Sample description 654,user41,2025-08-29 07:11:31
+655,2025-02-24,Phishing,Medium,Resolved,Sample description 655,user31,2025-11-18 07:11:31
+656,2025-10-24,Unauthorized Access,Medium,Closed,Sample description 656,user24,2025-05-09 07:11:31
+657,2025-06-04,Malware,Critical,Resolved,Sample description 657,user48,2025-04-19 07:11:31
+658,2025-06-18,Data Leak,High,Closed,Sample description 658,user17,2025-06-22 07:11:31
+659,2025-03-14,Unauthorized Access,Critical,In Progress,Sample description 659,user11,2025-01-13 07:11:31
+660,2025-08-19,Malware,Medium,In Progress,Sample description 660,user13,2025-07-31 07:11:31
+661,2025-08-31,Ransomware,Low,Resolved,Sample description 661,user48,2024-12-20 07:11:31
+662,2025-02-20,Malware,Critical,Resolved,Sample description 662,user26,2025-04-07 07:11:31
+663,2025-01-13,Malware,Critical,In Progress,Sample description 663,user16,2025-12-04 07:11:31
+664,2025-02-03,Ransomware,Critical,In Progress,Sample description 664,user36,2025-10-01 07:11:31
+665,2025-10-19,Data Leak,Critical,Resolved,Sample description 665,user7,2025-05-12 07:11:31
+666,2025-08-17,Malware,High,Resolved,Sample description 666,user28,2025-05-04 07:11:31
+667,2025-03-03,DDoS,Low,Closed,Sample description 667,user20,2025-11-19 07:11:31
+668,2025-01-08,Ransomware,Medium,Closed,Sample description 668,user25,2025-04-12 07:11:31
+669,2025-04-20,Data Leak,High,Open,Sample description 669,user29,2025-09-28 07:11:31
+670,2025-05-12,Data Leak,Critical,In Progress,Sample description 670,user35,2025-09-11 07:11:31
+671,2025-08-17,Ransomware,Critical,Resolved,Sample description 671,user4,2024-12-11 07:11:31
+672,2025-01-26,Unauthorized Access,Critical,Open,Sample description 672,user13,2025-12-06 07:11:31
+673,2025-08-15,DDoS,Low,In Progress,Sample description 673,user39,2025-07-10 07:11:31
+674,2025-11-17,DDoS,Medium,In Progress,Sample description 674,user4,2025-10-31 07:11:31
+675,2025-07-19,DDoS,Critical,Closed,Sample description 675,user8,2025-10-07 07:11:31
+676,2025-01-29,DDoS,Medium,Open,Sample description 676,user45,2025-07-30 07:11:31
+677,2025-07-04,DDoS,Critical,Closed,Sample description 677,user15,2025-06-26 07:11:31
+678,2025-08-04,Malware,Medium,Resolved,Sample description 678,user44,2025-05-22 07:11:31
+679,2025-06-04,Phishing,Critical,Open,Sample description 679,user38,2025-04-13 07:11:31
+680,2025-04-25,Unauthorized Access,Critical,In Progress,Sample description 680,user13,2024-12-21 07:11:31
+681,2025-05-24,Phishing,Critical,Open,Sample description 681,user19,2025-04-30 07:11:31
+682,2025-01-15,Ransomware,Low,Closed,Sample description 682,user32,2025-05-30 07:11:31
+683,2025-09-30,Unauthorized Access,Low,Open,Sample description 683,user46,2025-05-19 07:11:31
+684,2025-11-06,Data Leak,High,Open,Sample description 684,user50,2025-02-12 07:11:31
+685,2025-05-29,DDoS,High,Open,Sample description 685,user20,2025-06-10 07:11:31
+686,2025-10-20,Ransomware,Critical,Open,Sample description 686,user9,2025-09-20 07:11:31
+687,2025-10-25,Data Leak,Low,Resolved,Sample description 687,user36,2025-02-07 07:11:31
+688,2025-05-15,Malware,Low,Resolved,Sample description 688,user9,2025-06-06 07:11:31
+689,2025-04-07,Unauthorized Access,Critical,In Progress,Sample description 689,user6,2025-06-29 07:11:31
+690,2025-10-06,Malware,Critical,In Progress,Sample description 690,user17,2025-10-24 07:11:31
+691,2025-08-22,Phishing,Low,In Progress,Sample description 691,user4,2025-05-24 07:11:31
+692,2025-05-07,Malware,Critical,Closed,Sample description 692,user50,2025-02-20 07:11:31
+693,2025-02-25,Unauthorized Access,Critical,Open,Sample description 693,user35,2025-02-27 07:11:31
+694,2025-03-07,DDoS,Medium,Open,Sample description 694,user49,2024-12-24 07:11:31
+695,2025-03-25,Malware,Critical,Resolved,Sample description 695,user1,2025-04-10 07:11:31
+696,2025-05-10,Data Leak,High,In Progress,Sample description 696,user19,2024-12-26 07:11:31
+697,2025-04-25,Malware,Critical,Resolved,Sample description 697,user33,2025-09-14 07:11:31
+698,2025-11-25,Unauthorized Access,Low,Open,Sample description 698,user21,2025-03-21 07:11:31
+699,2025-03-25,Phishing,High,In Progress,Sample description 699,user25,2025-01-08 07:11:31
+700,2025-09-30,DDoS,Low,Closed,Sample description 700,user48,2025-08-22 07:11:31
+701,2025-10-24,Phishing,Low,Closed,Sample description 701,user34,2025-09-12 07:11:31
+702,2024-12-13,Data Leak,Critical,Closed,Sample description 702,user14,2025-03-26 07:11:31
+703,2025-01-30,DDoS,Critical,Open,Sample description 703,user19,2025-12-04 07:11:31
+704,2025-07-27,Phishing,High,Closed,Sample description 704,user37,2025-07-26 07:11:31
+705,2025-11-13,Phishing,Low,Open,Sample description 705,user7,2025-07-31 07:11:31
+706,2025-05-29,Malware,Low,Open,Sample description 706,user26,2025-01-14 07:11:31
+707,2025-01-09,Malware,Low,Closed,Sample description 707,user48,2025-09-29 07:11:31
+708,2025-04-14,Malware,Medium,Open,Sample description 708,user36,2025-02-12 07:11:31
+709,2025-11-09,Unauthorized Access,High,Resolved,Sample description 709,user27,2025-08-12 07:11:31
+710,2025-07-05,Unauthorized Access,Medium,In Progress,Sample description 710,user2,2025-10-02 07:11:31
+711,2025-02-27,Ransomware,Medium,Resolved,Sample description 711,user4,2025-01-19 07:11:31
+712,2025-06-18,Ransomware,Low,Resolved,Sample description 712,user22,2025-03-11 07:11:31
+713,2025-10-04,DDoS,High,Resolved,Sample description 713,user2,2025-07-20 07:11:31
+714,2025-08-19,Malware,Low,Resolved,Sample description 714,user3,2025-06-23 07:11:31
+715,2025-01-25,Data Leak,Medium,Open,Sample description 715,user38,2025-03-02 07:11:31
+716,2025-07-28,Unauthorized Access,Medium,In Progress,Sample description 716,user32,2025-11-08 07:11:31
+717,2025-08-01,DDoS,Critical,In Progress,Sample description 717,user6,2025-07-01 07:11:31
+718,2025-03-02,Phishing,Medium,Closed,Sample description 718,user30,2025-05-17 07:11:31
+719,2024-12-15,DDoS,Critical,Open,Sample description 719,user34,2025-07-03 07:11:31
+720,2024-12-07,Malware,High,Closed,Sample description 720,user17,2025-10-21 07:11:31
+721,2025-04-03,Malware,Low,Closed,Sample description 721,user13,2024-12-14 07:11:31
+722,2025-08-09,Malware,Low,Closed,Sample description 722,user9,2025-10-07 07:11:31
+723,2025-06-03,Ransomware,Low,Resolved,Sample description 723,user18,2025-11-12 07:11:31
+724,2025-11-20,DDoS,Critical,In Progress,Sample description 724,user33,2025-09-06 07:11:31
+725,2025-06-30,DDoS,Critical,Closed,Sample description 725,user16,2025-11-05 07:11:31
+726,2024-12-17,Ransomware,Medium,Resolved,Sample description 726,user29,2025-08-13 07:11:31
+727,2025-03-27,DDoS,High,Open,Sample description 727,user8,2025-09-04 07:11:31
+728,2024-12-09,Data Leak,Low,Closed,Sample description 728,user33,2025-03-08 07:11:31
+729,2024-12-13,Unauthorized Access,Medium,Closed,Sample description 729,user49,2025-01-23 07:11:31
+730,2025-04-06,Phishing,Medium,Closed,Sample description 730,user33,2025-05-16 07:11:31
+731,2025-02-25,Malware,Critical,Resolved,Sample description 731,user14,2025-06-04 07:11:31
+732,2025-10-24,Ransomware,Low,Closed,Sample description 732,user19,2025-02-02 07:11:31
+733,2025-11-28,Malware,Medium,In Progress,Sample description 733,user34,2025-03-20 07:11:31
+734,2025-08-15,Phishing,Medium,Resolved,Sample description 734,user31,2025-10-12 07:11:31
+735,2025-03-15,Data Leak,Low,Closed,Sample description 735,user48,2025-09-24 07:11:31
+736,2025-09-07,Unauthorized Access,Low,Open,Sample description 736,user46,2025-07-07 07:11:31
+737,2025-11-17,Unauthorized Access,Critical,In Progress,Sample description 737,user42,2025-02-04 07:11:31
+738,2025-07-14,Malware,Medium,In Progress,Sample description 738,user6,2025-10-06 07:11:31
+739,2025-04-05,DDoS,Medium,In Progress,Sample description 739,user42,2025-09-20 07:11:31
+740,2025-05-17,Unauthorized Access,Medium,Resolved,Sample description 740,user34,2025-05-04 07:11:31
+741,2025-11-02,DDoS,High,Resolved,Sample description 741,user45,2025-11-10 07:11:31
+742,2025-07-22,Phishing,Medium,In Progress,Sample description 742,user5,2025-03-15 07:11:31
+743,2025-01-13,Unauthorized Access,High,In Progress,Sample description 743,user17,2025-07-07 07:11:31
+744,2025-03-09,Malware,Medium,Closed,Sample description 744,user37,2025-01-30 07:11:31
+745,2025-11-24,Data Leak,Medium,Resolved,Sample description 745,user34,2025-11-15 07:11:31
+746,2025-08-12,Unauthorized Access,Medium,Closed,Sample description 746,user33,2025-06-02 07:11:31
+747,2025-11-16,DDoS,Critical,Resolved,Sample description 747,user29,2025-05-28 07:11:31
+748,2025-08-10,Malware,High,In Progress,Sample description 748,user37,2025-08-07 07:11:31
+749,2025-08-05,Phishing,High,Open,Sample description 749,user25,2024-12-13 07:11:31
+750,2025-05-27,Phishing,Critical,Resolved,Sample description 750,user15,2024-12-14 07:11:31
+751,2025-06-26,Malware,High,Open,Sample description 751,user23,2025-01-11 07:11:31
+752,2025-11-27,DDoS,Medium,Open,Sample description 752,user18,2024-12-10 07:11:31
+753,2025-02-04,DDoS,High,Open,Sample description 753,user30,2025-05-03 07:11:31
+754,2025-04-27,DDoS,Low,Open,Sample description 754,user26,2025-01-31 07:11:31
+755,2025-03-27,Ransomware,Critical,Open,Sample description 755,user26,2025-03-08 07:11:31
+756,2025-10-17,Malware,Low,Open,Sample description 756,user12,2025-01-31 07:11:31
+757,2025-05-29,Malware,High,Resolved,Sample description 757,user36,2025-03-09 07:11:31
+758,2025-10-09,DDoS,High,Closed,Sample description 758,user28,2025-09-15 07:11:31
+759,2025-09-03,Data Leak,Critical,Closed,Sample description 759,user25,2025-11-15 07:11:31
+760,2025-03-13,Malware,Medium,Resolved,Sample description 760,user23,2024-12-29 07:11:31
+761,2025-01-09,Ransomware,Critical,Open,Sample description 761,user41,2024-12-16 07:11:31
+762,2025-06-14,Data Leak,Critical,Resolved,Sample description 762,user42,2025-06-16 07:11:31
+763,2025-09-13,Ransomware,Critical,Resolved,Sample description 763,user43,2025-07-07 07:11:31
+764,2025-06-19,DDoS,Low,Resolved,Sample description 764,user44,2025-07-17 07:11:31
+765,2025-02-20,Data Leak,Critical,In Progress,Sample description 765,user8,2025-08-30 07:11:31
+766,2025-11-19,Unauthorized Access,Medium,Resolved,Sample description 766,user17,2025-07-07 07:11:31
+767,2025-09-16,Ransomware,Low,In Progress,Sample description 767,user6,2025-01-11 07:11:31
+768,2025-06-19,Ransomware,Critical,Closed,Sample description 768,user18,2025-08-10 07:11:31
+769,2025-06-04,Phishing,High,In Progress,Sample description 769,user34,2025-05-12 07:11:31
+770,2025-03-23,Phishing,High,In Progress,Sample description 770,user17,2025-10-16 07:11:31
+771,2025-08-26,Data Leak,High,In Progress,Sample description 771,user43,2025-10-06 07:11:31
+772,2025-03-22,Malware,Medium,Open,Sample description 772,user43,2025-05-30 07:11:31
+773,2025-02-22,Ransomware,High,Resolved,Sample description 773,user16,2025-07-03 07:11:31
+774,2025-11-22,Phishing,Critical,Closed,Sample description 774,user7,2025-02-18 07:11:31
+775,2025-01-25,Malware,Critical,Open,Sample description 775,user8,2025-02-19 07:11:31
+776,2025-06-21,Malware,Critical,Open,Sample description 776,user19,2025-05-22 07:11:31
+777,2025-07-15,Phishing,High,Resolved,Sample description 777,user44,2025-05-10 07:11:31
+778,2024-12-15,Data Leak,Low,In Progress,Sample description 778,user10,2025-06-08 07:11:31
+779,2025-05-06,Ransomware,Low,In Progress,Sample description 779,user39,2025-02-17 07:11:31
+780,2025-09-23,DDoS,High,In Progress,Sample description 780,user8,2024-12-18 07:11:31
+781,2025-10-07,DDoS,High,Closed,Sample description 781,user43,2025-02-19 07:11:31
+782,2025-08-07,Ransomware,High,Closed,Sample description 782,user1,2025-11-20 07:11:31
+783,2025-06-27,Ransomware,High,Open,Sample description 783,user26,2025-07-16 07:11:31
+784,2024-12-19,Unauthorized Access,Medium,In Progress,Sample description 784,user39,2025-04-03 07:11:31
+785,2025-01-29,Malware,Medium,Resolved,Sample description 785,user39,2025-11-01 07:11:31
+786,2025-10-23,Malware,Medium,Closed,Sample description 786,user13,2025-01-11 07:11:31
+787,2025-04-12,Malware,Critical,Resolved,Sample description 787,user5,2025-05-18 07:11:31
+788,2025-01-21,Phishing,Critical,Resolved,Sample description 788,user20,2025-06-09 07:11:31
+789,2025-10-02,Data Leak,Medium,In Progress,Sample description 789,user29,2025-08-14 07:11:31
+790,2025-11-20,Data Leak,Medium,Open,Sample description 790,user1,2025-07-09 07:11:31
+791,2025-09-25,Malware,Medium,In Progress,Sample description 791,user44,2025-09-26 07:11:31
+792,2025-01-03,Phishing,Low,Open,Sample description 792,user49,2025-03-09 07:11:31
+793,2025-09-01,Data Leak,Medium,Resolved,Sample description 793,user15,2025-01-16 07:11:31
+794,2025-08-25,Phishing,Medium,In Progress,Sample description 794,user44,2025-11-25 07:11:31
+795,2025-05-26,Data Leak,Low,In Progress,Sample description 795,user33,2025-11-28 07:11:31
+796,2025-11-23,Ransomware,High,Resolved,Sample description 796,user6,2025-01-05 07:11:31
+797,2025-03-08,Phishing,High,Resolved,Sample description 797,user38,2024-12-19 07:11:31
+798,2025-02-09,Ransomware,Critical,Closed,Sample description 798,user50,2025-09-25 07:11:31
+799,2025-11-06,Unauthorized Access,Medium,Open,Sample description 799,user34,2025-12-06 07:11:31
+800,2025-11-01,Unauthorized Access,Low,Resolved,Sample description 800,user47,2025-06-19 07:11:31
+801,2025-01-27,Malware,Critical,Open,Sample description 801,user15,2025-11-02 07:11:31
+802,2025-01-17,Data Leak,Medium,In Progress,Sample description 802,user47,2025-02-20 07:11:31
+803,2025-02-03,DDoS,Critical,In Progress,Sample description 803,user42,2025-01-16 07:11:31
+804,2025-09-04,Phishing,Critical,Open,Sample description 804,user32,2025-06-21 07:11:31
+805,2025-05-03,DDoS,Medium,Resolved,Sample description 805,user27,2025-11-23 07:11:31
+806,2025-08-13,Data Leak,Low,In Progress,Sample description 806,user37,2025-04-23 07:11:31
+807,2024-12-27,Ransomware,Low,Resolved,Sample description 807,user16,2025-05-16 07:11:31
+808,2025-09-18,Ransomware,High,Open,Sample description 808,user16,2025-10-06 07:11:31
+809,2025-07-28,Unauthorized Access,Critical,Closed,Sample description 809,user32,2025-04-03 07:11:31
+810,2025-01-23,Malware,High,Closed,Sample description 810,user21,2025-03-08 07:11:31
+811,2025-09-07,Unauthorized Access,Low,In Progress,Sample description 811,user12,2025-04-20 07:11:31
+812,2025-07-22,Data Leak,Low,In Progress,Sample description 812,user41,2025-04-13 07:11:31
+813,2025-11-09,Malware,Critical,Closed,Sample description 813,user37,2025-06-26 07:11:31
+814,2025-03-19,Unauthorized Access,Low,Resolved,Sample description 814,user36,2025-07-28 07:11:31
+815,2025-09-27,DDoS,Medium,Open,Sample description 815,user41,2025-11-16 07:11:31
+816,2025-03-18,Malware,High,Resolved,Sample description 816,user22,2025-01-25 07:11:31
+817,2025-08-21,Malware,Critical,Closed,Sample description 817,user13,2025-09-17 07:11:31
+818,2025-05-23,Malware,High,Closed,Sample description 818,user26,2025-09-08 07:11:31
+819,2025-10-04,Ransomware,High,Open,Sample description 819,user42,2025-04-29 07:11:31
+820,2025-08-31,Unauthorized Access,High,Closed,Sample description 820,user9,2025-11-30 07:11:31
+821,2025-06-13,Unauthorized Access,Medium,Closed,Sample description 821,user21,2025-07-10 07:11:31
+822,2025-05-24,Phishing,Medium,Closed,Sample description 822,user8,2025-02-23 07:11:31
+823,2025-07-28,Unauthorized Access,High,Closed,Sample description 823,user6,2024-12-13 07:11:31
+824,2025-11-18,Malware,High,Resolved,Sample description 824,user11,2025-01-16 07:11:31
+825,2025-07-20,Ransomware,High,In Progress,Sample description 825,user13,2025-03-15 07:11:31
+826,2025-01-02,Ransomware,Low,In Progress,Sample description 826,user35,2025-07-19 07:11:31
+827,2025-02-02,DDoS,High,In Progress,Sample description 827,user21,2025-07-30 07:11:31
+828,2025-10-09,Ransomware,Low,Resolved,Sample description 828,user17,2024-12-28 07:11:31
+829,2025-04-24,Data Leak,Medium,Resolved,Sample description 829,user46,2025-10-31 07:11:31
+830,2024-12-22,Ransomware,Low,Closed,Sample description 830,user34,2025-07-30 07:11:31
+831,2025-11-09,Unauthorized Access,Low,Open,Sample description 831,user40,2025-07-12 07:11:31
+832,2025-11-07,Unauthorized Access,Low,Resolved,Sample description 832,user21,2025-04-29 07:11:31
+833,2025-03-18,DDoS,High,Closed,Sample description 833,user49,2025-11-17 07:11:31
+834,2025-11-02,Ransomware,High,In Progress,Sample description 834,user4,2025-06-13 07:11:31
+835,2025-03-26,DDoS,High,Open,Sample description 835,user7,2025-01-26 07:11:31
+836,2025-02-01,Unauthorized Access,Low,Open,Sample description 836,user21,2025-10-10 07:11:31
+837,2025-11-26,Unauthorized Access,Medium,Open,Sample description 837,user34,2024-12-25 07:11:31
+838,2025-08-21,Malware,Low,Closed,Sample description 838,user29,2025-07-19 07:11:31
+839,2025-01-19,DDoS,Medium,In Progress,Sample description 839,user17,2025-07-16 07:11:31
+840,2025-04-18,Ransomware,Medium,Closed,Sample description 840,user42,2025-05-01 07:11:31
+841,2025-07-18,Data Leak,High,Open,Sample description 841,user21,2025-10-19 07:11:31
+842,2025-05-24,Malware,Medium,In Progress,Sample description 842,user42,2025-08-19 07:11:31
+843,2025-02-26,Data Leak,High,In Progress,Sample description 843,user28,2025-11-14 07:11:31
+844,2025-11-30,Data Leak,Medium,In Progress,Sample description 844,user7,2025-06-25 07:11:31
+845,2025-07-10,DDoS,Critical,In Progress,Sample description 845,user38,2025-03-21 07:11:31
+846,2025-07-26,DDoS,Critical,In Progress,Sample description 846,user36,2025-05-26 07:11:31
+847,2025-11-09,Phishing,Low,Resolved,Sample description 847,user18,2025-03-01 07:11:31
+848,2025-02-13,Phishing,Critical,Open,Sample description 848,user44,2025-01-20 07:11:31
+849,2025-11-14,Data Leak,High,Resolved,Sample description 849,user2,2025-02-06 07:11:31
+850,2024-12-16,Ransomware,High,Closed,Sample description 850,user42,2025-10-19 07:11:31
+851,2025-09-19,Ransomware,High,Open,Sample description 851,user43,2025-05-04 07:11:31
+852,2024-12-27,Phishing,Medium,Resolved,Sample description 852,user33,2025-01-11 07:11:31
+853,2025-03-04,Malware,Critical,In Progress,Sample description 853,user19,2025-05-04 07:11:31
+854,2025-01-07,Data Leak,Low,Open,Sample description 854,user2,2025-07-14 07:11:31
+855,2025-08-04,DDoS,Medium,Resolved,Sample description 855,user12,2025-10-28 07:11:31
+856,2025-10-04,DDoS,Critical,In Progress,Sample description 856,user2,2025-01-18 07:11:31
+857,2025-06-01,Ransomware,Medium,Closed,Sample description 857,user25,2025-06-28 07:11:31
+858,2025-10-18,Unauthorized Access,High,Closed,Sample description 858,user48,2025-09-08 07:11:31
+859,2025-01-13,Data Leak,Critical,Open,Sample description 859,user48,2024-12-20 07:11:31
+860,2025-08-12,Data Leak,Low,In Progress,Sample description 860,user14,2025-05-22 07:11:31
+861,2025-03-06,DDoS,High,Closed,Sample description 861,user3,2025-09-01 07:11:31
+862,2025-01-09,Phishing,High,Resolved,Sample description 862,user2,2025-12-05 07:11:31
+863,2025-07-27,Unauthorized Access,Low,In Progress,Sample description 863,user21,2025-06-03 07:11:31
+864,2025-11-07,DDoS,Low,Open,Sample description 864,user49,2025-10-09 07:11:31
+865,2025-11-26,Data Leak,Critical,Closed,Sample description 865,user50,2025-05-20 07:11:31
+866,2025-08-24,Phishing,Low,In Progress,Sample description 866,user12,2025-11-26 07:11:31
+867,2025-04-14,Phishing,Medium,In Progress,Sample description 867,user4,2025-03-28 07:11:31
+868,2024-12-27,Data Leak,High,Closed,Sample description 868,user37,2025-07-30 07:11:31
+869,2025-03-15,Ransomware,Critical,In Progress,Sample description 869,user3,2025-05-03 07:11:31
+870,2025-10-28,Unauthorized Access,Medium,In Progress,Sample description 870,user20,2025-08-27 07:11:31
+871,2025-05-01,Data Leak,High,Closed,Sample description 871,user3,2025-05-04 07:11:31
+872,2025-11-28,Unauthorized Access,High,Open,Sample description 872,user47,2025-03-10 07:11:31
+873,2025-07-21,Unauthorized Access,Low,Closed,Sample description 873,user26,2024-12-21 07:11:31
+874,2025-04-09,DDoS,High,Open,Sample description 874,user16,2025-10-16 07:11:31
+875,2025-10-13,Malware,High,Open,Sample description 875,user40,2024-12-17 07:11:31
+876,2025-10-07,Data Leak,Critical,Resolved,Sample description 876,user30,2025-08-12 07:11:31
+877,2025-12-01,Phishing,Medium,Open,Sample description 877,user6,2025-06-05 07:11:31
+878,2025-01-29,Ransomware,High,Resolved,Sample description 878,user3,2025-06-20 07:11:31
+879,2025-04-30,Malware,High,Resolved,Sample description 879,user19,2025-11-17 07:11:31
+880,2025-08-28,Phishing,High,Resolved,Sample description 880,user19,2025-01-05 07:11:31
+881,2025-06-28,Data Leak,High,Closed,Sample description 881,user22,2025-02-10 07:11:31
+882,2025-02-28,Malware,Medium,In Progress,Sample description 882,user38,2025-11-13 07:11:31
+883,2025-05-19,Ransomware,Low,Resolved,Sample description 883,user46,2025-10-13 07:11:31
+884,2025-05-13,Phishing,Low,Resolved,Sample description 884,user5,2025-01-11 07:11:31
+885,2025-05-01,Ransomware,Low,Open,Sample description 885,user14,2025-05-17 07:11:31
+886,2025-02-20,Data Leak,High,Resolved,Sample description 886,user47,2025-01-21 07:11:31
+887,2025-02-20,Ransomware,High,In Progress,Sample description 887,user50,2024-12-16 07:11:31
+888,2025-07-24,Phishing,Low,Open,Sample description 888,user31,2025-04-13 07:11:31
+889,2025-11-30,Malware,Low,In Progress,Sample description 889,user43,2025-10-23 07:11:31
+890,2025-02-21,Malware,Medium,Resolved,Sample description 890,user23,2025-09-25 07:11:31
+891,2025-11-17,DDoS,Low,Resolved,Sample description 891,user4,2025-05-01 07:11:31
+892,2025-03-06,Data Leak,Medium,Open,Sample description 892,user16,2025-09-17 07:11:31
+893,2025-05-26,Malware,High,In Progress,Sample description 893,user19,2025-06-16 07:11:31
+894,2025-03-24,DDoS,Low,In Progress,Sample description 894,user5,2025-04-22 07:11:31
+895,2025-05-19,Unauthorized Access,Medium,In Progress,Sample description 895,user18,2025-07-10 07:11:31
+896,2025-07-10,Unauthorized Access,Low,Resolved,Sample description 896,user25,2025-09-29 07:11:31
+897,2025-03-16,Phishing,Medium,In Progress,Sample description 897,user18,2025-09-24 07:11:31
+898,2024-12-14,DDoS,Critical,In Progress,Sample description 898,user10,2025-02-27 07:11:31
+899,2025-04-27,Malware,Low,In Progress,Sample description 899,user29,2025-03-31 07:11:31
+900,2025-03-05,Phishing,High,Resolved,Sample description 900,user17,2025-05-11 07:11:31
+901,2025-10-13,Ransomware,Low,Closed,Sample description 901,user41,2024-12-29 07:11:31
+902,2025-10-02,Unauthorized Access,Critical,Resolved,Sample description 902,user27,2025-06-21 07:11:31
+903,2025-07-18,Malware,Low,Open,Sample description 903,user44,2025-06-26 07:11:31
+904,2025-08-10,Ransomware,High,Closed,Sample description 904,user31,2025-05-08 07:11:31
+905,2025-05-11,Ransomware,High,Resolved,Sample description 905,user7,2025-11-04 07:11:31
+906,2025-09-25,Malware,High,In Progress,Sample description 906,user14,2025-10-20 07:11:31
+907,2025-09-15,DDoS,High,Open,Sample description 907,user31,2025-11-06 07:11:31
+908,2025-10-20,Phishing,High,In Progress,Sample description 908,user13,2025-12-02 07:11:31
+909,2025-09-14,Phishing,Low,Open,Sample description 909,user45,2025-11-09 07:11:31
+910,2025-02-23,Phishing,Medium,Resolved,Sample description 910,user18,2025-10-17 07:11:31
+911,2025-08-04,DDoS,Low,Closed,Sample description 911,user14,2025-06-21 07:11:31
+912,2025-11-28,Data Leak,Low,Closed,Sample description 912,user35,2025-09-13 07:11:31
+913,2025-06-09,Data Leak,Critical,Open,Sample description 913,user33,2025-05-28 07:11:31
+914,2025-05-15,Data Leak,Low,Open,Sample description 914,user40,2025-01-02 07:11:31
+915,2025-11-17,DDoS,High,In Progress,Sample description 915,user2,2025-10-24 07:11:31
+916,2025-03-14,Malware,Critical,Resolved,Sample description 916,user14,2025-04-19 07:11:31
+917,2025-07-06,Ransomware,Low,Closed,Sample description 917,user8,2025-01-02 07:11:31
+918,2025-07-10,Data Leak,High,Open,Sample description 918,user44,2025-08-07 07:11:31
+919,2025-03-10,Phishing,Medium,Open,Sample description 919,user4,2024-12-25 07:11:31
+920,2025-09-09,Data Leak,Low,In Progress,Sample description 920,user41,2025-07-09 07:11:31
+921,2025-09-25,Malware,Critical,Open,Sample description 921,user5,2025-01-19 07:11:31
+922,2025-10-10,Data Leak,High,Resolved,Sample description 922,user33,2025-09-18 07:11:31
+923,2025-09-09,Ransomware,High,In Progress,Sample description 923,user24,2025-07-25 07:11:31
+924,2025-10-20,Ransomware,Critical,In Progress,Sample description 924,user4,2025-05-06 07:11:31
+925,2025-07-21,Malware,Critical,Open,Sample description 925,user13,2025-01-10 07:11:31
+926,2025-06-04,Phishing,Medium,Closed,Sample description 926,user35,2025-12-03 07:11:31
+927,2025-07-11,DDoS,High,Resolved,Sample description 927,user2,2025-09-01 07:11:31
+928,2025-08-21,Ransomware,High,Resolved,Sample description 928,user11,2025-06-24 07:11:31
+929,2025-01-28,Phishing,Medium,Closed,Sample description 929,user8,2025-04-18 07:11:31
+930,2025-06-09,Unauthorized Access,High,Closed,Sample description 930,user20,2025-03-17 07:11:31
+931,2024-12-09,DDoS,Critical,Resolved,Sample description 931,user36,2025-04-11 07:11:31
+932,2025-04-08,Ransomware,Critical,Open,Sample description 932,user19,2025-10-25 07:11:31
+933,2025-01-20,Unauthorized Access,Low,In Progress,Sample description 933,user41,2025-04-29 07:11:31
+934,2025-06-02,Phishing,Low,Resolved,Sample description 934,user20,2025-03-15 07:11:31
+935,2025-10-21,Unauthorized Access,High,Closed,Sample description 935,user45,2025-01-14 07:11:31
+936,2025-11-07,Unauthorized Access,High,Resolved,Sample description 936,user18,2025-05-03 07:11:31
+937,2025-07-17,Ransomware,Medium,Open,Sample description 937,user15,2025-01-11 07:11:31
+938,2025-07-12,Unauthorized Access,High,Closed,Sample description 938,user34,2025-05-16 07:11:31
+939,2025-04-22,Ransomware,Medium,Closed,Sample description 939,user9,2025-03-28 07:11:31
+940,2025-05-24,Unauthorized Access,Low,Closed,Sample description 940,user48,2025-07-15 07:11:31
+941,2025-03-10,Malware,Medium,Resolved,Sample description 941,user23,2025-11-21 07:11:31
+942,2025-03-03,Ransomware,High,Open,Sample description 942,user2,2025-08-28 07:11:31
+943,2025-06-30,Phishing,Low,Resolved,Sample description 943,user27,2025-04-11 07:11:31
+944,2025-01-31,Phishing,Critical,Resolved,Sample description 944,user33,2025-03-18 07:11:31
+945,2025-05-03,Ransomware,Critical,Open,Sample description 945,user37,2025-02-10 07:11:31
+946,2025-11-03,Unauthorized Access,High,In Progress,Sample description 946,user47,2025-11-07 07:11:31
+947,2025-10-23,Phishing,High,In Progress,Sample description 947,user32,2025-05-14 07:11:31
+948,2025-03-11,Unauthorized Access,Low,Closed,Sample description 948,user24,2025-09-25 07:11:31
+949,2025-09-02,Data Leak,Low,Closed,Sample description 949,user34,2025-07-10 07:11:31
+950,2025-09-11,DDoS,Critical,Closed,Sample description 950,user49,2025-07-23 07:11:31
+951,2025-01-18,DDoS,Critical,In Progress,Sample description 951,user18,2025-11-24 07:11:31
+952,2025-04-06,Ransomware,High,In Progress,Sample description 952,user39,2025-07-28 07:11:31
+953,2025-11-25,Malware,High,Open,Sample description 953,user6,2025-02-18 07:11:31
+954,2025-12-03,Unauthorized Access,Medium,Open,Sample description 954,user29,2025-04-07 07:11:31
+955,2025-08-13,DDoS,Low,Resolved,Sample description 955,user46,2025-08-30 07:11:31
+956,2025-01-05,Data Leak,High,Open,Sample description 956,user37,2025-03-18 07:11:31
+957,2025-03-19,Data Leak,High,In Progress,Sample description 957,user7,2025-02-13 07:11:31
+958,2025-05-19,Data Leak,Low,Resolved,Sample description 958,user6,2025-11-23 07:11:31
+959,2025-11-29,Malware,Medium,In Progress,Sample description 959,user3,2025-09-07 07:11:31
+960,2025-11-04,DDoS,Medium,Resolved,Sample description 960,user18,2025-10-29 07:11:31
+961,2025-08-02,Phishing,High,Open,Sample description 961,user32,2025-06-11 07:11:31
+962,2025-03-05,Data Leak,High,Resolved,Sample description 962,user39,2025-01-06 07:11:31
+963,2025-04-21,DDoS,Critical,Resolved,Sample description 963,user19,2025-06-09 07:11:31
+964,2025-09-17,Data Leak,Low,In Progress,Sample description 964,user50,2025-08-24 07:11:31
+965,2025-11-26,Phishing,Medium,Open,Sample description 965,user9,2025-01-03 07:11:31
+966,2025-05-27,Malware,Medium,Closed,Sample description 966,user47,2025-04-10 07:11:31
+967,2025-11-13,DDoS,Low,In Progress,Sample description 967,user48,2025-10-18 07:11:31
+968,2025-08-11,Phishing,Critical,Resolved,Sample description 968,user50,2025-12-05 07:11:31
+969,2025-08-14,Data Leak,Medium,Open,Sample description 969,user28,2024-12-18 07:11:31
+970,2025-10-01,Phishing,High,Closed,Sample description 970,user33,2025-03-19 07:11:31
+971,2025-12-07,Malware,Critical,In Progress,Sample description 971,user39,2025-07-09 07:11:31
+972,2025-04-19,Data Leak,Low,Closed,Sample description 972,user35,2025-04-02 07:11:31
+973,2025-01-16,Data Leak,Medium,In Progress,Sample description 973,user1,2025-05-04 07:11:31
+974,2025-01-31,Malware,Low,Resolved,Sample description 974,user30,2025-10-13 07:11:31
+975,2024-12-17,Phishing,Low,Closed,Sample description 975,user1,2025-11-23 07:11:31
+976,2025-09-04,Data Leak,Low,In Progress,Sample description 976,user7,2025-01-14 07:11:31
+977,2024-12-20,Phishing,Critical,In Progress,Sample description 977,user12,2025-06-24 07:11:31
+978,2025-10-06,Ransomware,Critical,Resolved,Sample description 978,user14,2025-06-02 07:11:31
+979,2025-05-02,DDoS,Low,In Progress,Sample description 979,user31,2025-06-12 07:11:31
+980,2025-04-23,Phishing,High,In Progress,Sample description 980,user45,2025-03-06 07:11:31
+981,2025-05-04,DDoS,Low,Resolved,Sample description 981,user21,2025-11-17 07:11:31
+982,2025-10-15,Malware,High,Resolved,Sample description 982,user5,2025-05-20 07:11:31
+983,2024-12-30,Data Leak,High,Open,Sample description 983,user27,2025-10-22 07:11:31
+984,2025-02-20,Unauthorized Access,Low,In Progress,Sample description 984,user45,2025-01-13 07:11:31
+985,2025-01-17,Phishing,Medium,Closed,Sample description 985,user32,2025-11-07 07:11:31
+986,2025-06-27,Ransomware,Medium,In Progress,Sample description 986,user5,2025-01-19 07:11:31
+987,2025-02-05,Data Leak,Low,In Progress,Sample description 987,user47,2024-12-07 07:11:31
+988,2025-10-08,Ransomware,High,Closed,Sample description 988,user40,2025-09-13 07:11:31
+989,2025-08-20,Ransomware,Medium,Resolved,Sample description 989,user31,2025-04-17 07:11:31
+990,2024-12-30,Unauthorized Access,High,Closed,Sample description 990,user4,2024-12-22 07:11:31
+991,2025-05-05,Phishing,Low,Closed,Sample description 991,user39,2025-04-07 07:11:31
+992,2024-12-23,DDoS,Medium,Resolved,Sample description 992,user3,2025-05-24 07:11:31
+993,2024-12-21,Ransomware,Critical,Resolved,Sample description 993,user15,2025-07-20 07:11:31
+994,2025-08-19,Data Leak,Medium,Resolved,Sample description 994,user48,2025-11-21 07:11:31
+995,2025-11-06,Malware,Low,Closed,Sample description 995,user39,2025-04-28 07:11:31
+996,2025-06-24,Phishing,Critical,Closed,Sample description 996,user41,2025-05-12 07:11:31
+997,2025-11-11,DDoS,Critical,In Progress,Sample description 997,user47,2025-08-17 07:11:31
+998,2025-05-28,Data Leak,Medium,In Progress,Sample description 998,user34,2025-06-27 07:11:31
+999,2025-09-13,Malware,Medium,In Progress,Sample description 999,user21,2025-02-19 07:11:31
+1000,2025-03-29,Data Leak,Low,Open,Sample description 1000,user4,2025-01-25 07:11:31

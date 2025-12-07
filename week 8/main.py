@@ -1,7 +1,7 @@
 from app.data.db import connect_database
 from app.data.schema import create_all_tables
 from app.services.user_service import register_user, login_user, migrate_users_from_file
-from app.data.incidents import insert_incident, get_all_incidents
+from app.data.cyber_incidents import insert_incident, get_all_incidents
 
 def main():
     print("=" * 60)
@@ -17,10 +17,10 @@ def main():
     migrate_users_from_file()
     
     # 3. Test authentication
-    success, msg = register_user("alice", "SecurePass123!", "analyst")
+    success, msg = register_user("alice2", "SecurePass123!", "analyst")
     print(msg)
     
-    success, msg = login_user("alice", "SecurePass123!")
+    success, msg = login_user("alice2", "SecurePass123!")
     print(msg)
     
     # 4. Test CRUD
@@ -30,7 +30,7 @@ def main():
         "High",
         "Open",
         "Suspicious email detected",
-        "alice"
+        "alice2"
     )
     print(f"Created incident #{incident_id}")
     
