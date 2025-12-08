@@ -6,6 +6,11 @@ from app.data.schema import create_users_table
 
 def register_user(username, password, role='user'):
     """Register new user with password hashing."""
+
+    existing = get_user_by_username(username)
+    if existing:
+        return False, f"Username '{username}' is already taken."
+    
     # Hash password
     password_hash = bcrypt.hashpw(
         password.encode('utf-8'),
@@ -28,6 +33,6 @@ def login_user(username, password):
         return True, f"Login successful!"
     return False, "Incorrect password."
 
-def migrate_users_from_file(filepath='DATA/users.txt'):
+def migrate_users_from_file(filepath='week7/users.txt'):
     """Migrate users from text file to database."""
     # ... migration logic ...

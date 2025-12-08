@@ -40,4 +40,4 @@ def migrate_users_from_file(conn, filepath=DATA_DIR / "users.txt"):
                     print(f"Error migrating user {username}: {e}")
     
     conn.commit()
-    print(f"✅ Migrated {migrated_count} users from {filepath.name}")
+    print(f" Migrated {migrated_count} users from {filepath.name}")
