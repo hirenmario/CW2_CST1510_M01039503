@@ -47,7 +47,7 @@ def create_datasets_metadata_table(conn):
         )
     """)
     conn.commit()
-    print("✅ Datasets metadata table created successfully!")
+    print(" Datasets metadata table created successfully!")
 
 def Create_IT_Tickets_Table(conn):
     """

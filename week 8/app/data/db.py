@@ -11,5 +11,7 @@ def connect_database():
     # Ensure the DATA directory exists
     (WEEK_8_ROOT / "DATA").mkdir(parents=True, exist_ok=True)
     
+    print(f"Database path: {DB_PATH}")
+    
     # Connect — SQLite will create file if missing
     return sqlite3.connect(str(DB_PATH))
