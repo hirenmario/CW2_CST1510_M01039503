@@ -1,31 +1,51 @@
 import streamlit as st
 import pandas as pd
 import datetime
-import time 
+import time
+from pathlib import Path
 
-# --- MOCK DB FUNCTIONS (Uses st.session_state for persistence) ---
+
+@st.cache_data
+def get_all_tickets():
+    BASE_PATH = Path("../Week 9/DATA")
+    DATA_PATH = BASE_PATH / "it_tickets.csv"
+    
+    try:
+        df_tickets = pd.read_csv(DATA_PATH)
+        return df_tickets
+    except FileNotFoundError:
+        st.error(f"Error: The file {DATA_PATH} was not found. Please check the path and file name.")
+        return pd.DataFrame()
+    
 
 def mock_get_all_tickets():
+    """Combines CSV data (initial state) with any dynamic changes in session state (CRUD)."""
+    
+    # df is already sorted by 'id' here
+    df = get_all_tickets()
+ 
+    
+    # ... initialization logic ...
     if 'tickets_db' not in st.session_state:
         st.session_state.tickets_db = {}
-        today = str(datetime.date.today())
-        last_week = str(datetime.date.today() - datetime.timedelta(days=7))
-        mock_insert_ticket("T-101", "High", "Open", "Network", "Slow internet in R&D", "Severe latency reported.", today, None, None)
-        mock_insert_ticket("T-102", "Medium", "In Progress", "Software", "Excel crashing", "Affects three users.", today, None, None)
-        mock_insert_ticket("T-103", "Low", "Resolved", "Hardware", "Monitor flickering", "Monitor needs replacing.", last_week, today, "Replaced monitor.")
+    if 'next_id' not in st.session_state:
+        st.session_state.next_id = 1000 + 1 
+    
+    if st.session_state.tickets_db:
+        session_data = pd.DataFrame(list(st.session_state.tickets_db.values()))
         
-    data_list = list(st.session_state.tickets_db.values())
-    if not data_list:
-        return pd.DataFrame()
-        
-    df = pd.DataFrame(data_list)
+        if not session_data.empty:
+            df = pd.concat([df, session_data], ignore_index=True).drop_duplicates(subset='id', keep='last')
+            
+    # The final combined DataFrame should be sorted by 'id'
+    # This is the line where the error was originally pointing, it is needed here 
+    # if the concatenation has messed up the order.
     return df.sort_values(by='id')
 
+
 def mock_insert_ticket(ticket_id, priority, status, category, subject, description, created_date, resolved_date, resolution_notes):
-    if 'next_id' not in st.session_state:
-        st.session_state.next_id = 1
     
-    if any(ticket['ticket_id'] == ticket_id for ticket in st.session_state.tickets_db.values()):
+    if any(ticket.get('ticket_id') == ticket_id for ticket in st.session_state.tickets_db.values()):
         st.error(f"Ticket ID {ticket_id} already exists.")
         return
 
@@ -43,14 +63,22 @@ def mock_update_ticket_status(ticket_pk_id, new_status):
         st.session_state.tickets_db[ticket_pk_id]['status'] = new_status
         is_resolved = new_status in ("Resolved", "Closed")
         st.session_state.tickets_db[ticket_pk_id]['resolved_date'] = str(datetime.date.today()) if is_resolved else None
+    else:
+        df_temp = get_all_tickets().set_index('id')
+        if ticket_pk_id in df_temp.index:
+            updated_ticket = df_temp.loc[ticket_pk_id].to_dict()
+            updated_ticket['status'] = new_status
+            updated_ticket['resolved_date'] = str(datetime.date.today()) if new_status in ("Resolved", "Closed") else None
+            st.session_state.tickets_db[ticket_pk_id] = updated_ticket
+
 
 def mock_delete_ticket(ticket_pk_id):
     if ticket_pk_id in st.session_state.tickets_db:
         del st.session_state.tickets_db[ticket_pk_id]
 
-# --- STREAMLIT PAGE SETUP ---
+# --- STREAMLIT PAGE CONTENT ---
 
-st.set_page_config(page_title="IT Operations", layout="wide")
+st.set_page_config(page_title="IT Operations", page_icon="💻", layout="wide")
 
 if "logged_in" not in st.session_state or not st.session_state.logged_in:
     st.error("Please login first to access the dashboard.")
@@ -58,22 +86,21 @@ if "logged_in" not in st.session_state or not st.session_state.logged_in:
         st.switch_page("Home.py")
     st.stop()
 
-st.title("IT Operations Dashboard 💻")
+st.title("IT Operations Dashboard")
 
 df_tickets = mock_get_all_tickets()
-
-# --- METRICS & CHARTS ---
 
 if not df_tickets.empty:
     st.subheader("Ticket Metrics")
     
     total = len(df_tickets)
-    high = (df_tickets['priority'] == 'High').sum()
+    # The 'priority' column contains values like 'Low', 'Medium', 'High', 'Urgent'
+    high = (df_tickets['priority'].isin(['High', 'Urgent'])).sum()
     open_t = (df_tickets['status'] == 'Open').sum()
 
     col1, col2, col3 = st.columns(3)
     col1.metric("Total Tickets", total)
-    col2.metric("High Priority", high)
+    col2.metric("High/Urgent Priority", high)
     col3.metric("Open Tickets", open_t)
     
     st.markdown("---")
@@ -85,7 +112,6 @@ if not df_tickets.empty:
 else:
     st.info("No tickets found. Use the 'Create Ticket' tab to add a new entry.")
 
-# CRUD OPERATIONS 
 st.divider()
 st.header("Ticket Management")
 
@@ -97,10 +123,10 @@ with tab_view:
 with tab_add:
     with st.form("add_tick"):
         st.markdown("**Enter New Ticket Details**")
-        tid = st.text_input("Ticket ID (e.g. T-100)", key="tid_add")
+        tid = st.text_input("Ticket ID (e.g. T-11001)", key="tid_add")
         subj = st.text_input("Subject")
-        prio = st.selectbox("Priority", ["Low", "Medium", "High"])
-        cat = st.selectbox("Category", ["Hardware", "Software", "Network", "Access"])
+        prio = st.selectbox("Priority", ["Low", "Medium", "High", "Urgent"])
+        cat = st.selectbox("Category", ["Hardware", "Software", "Network", "Access", "Security"])
         desc = st.text_area("Description")
         
         if st.form_submit_button("Submit New Ticket", type="primary"):
@@ -119,9 +145,9 @@ with tab_update:
             st.info("No active tickets to update.")
         else:
             opts = {f"{row['ticket_id']} - {row['subject']}": row['id'] for i, row in open_tickets.iterrows()}
-            sel_lbl = st.selectbox("Select Ticket to Update", list(opts.keys()))
+            sel_lbl = st.selectbox("Select Ticket to Update", list(opts.keys()) if list(opts.keys()) else ["-- None --"])
             
-            if sel_lbl:
+            if sel_lbl and sel_lbl != "-- None --":
                 sel_id = opts[sel_lbl]
                 current_status = open_tickets[open_tickets['id'] == sel_id]['status'].iloc[0]
                 status_options = ["Open", "In Progress", "Resolved", "Closed"]

@@ -4,14 +4,12 @@ import sqlite3
 import datetime
 
 def connect_database():
-    DB_FILE_PATH = Path(__file__).resolve()
-    # Path changed from .parents[1] to .parents[2] as requested
-    DB_PATH = DB_FILE_PATH.parents[2] / "DATA" / "intelligence_platform.db"
-    
-    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
-    
-    return sqlite3.connect(str(DB_PATH))
 
+    DB_PATH =Path("DATA") / "intelligence_platform.db"
+    return sqlite3.connect(str(DB_PATH)) 
+
+
+"""
 def load_csv_to_table(conn, csv_path, table_name):
     csv_file = Path(csv_path)
     
@@ -42,3 +40,4 @@ def load_csv_to_table(conn, csv_path, table_name):
     
     print(f"SUCCESS: Loaded {rows_loaded} rows from '{csv_file.name}' into table '{table_name}'.")
     return rows_loaded
+"""

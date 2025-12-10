@@ -1,0 +1,1001 @@
+id,ticket_id,priority,status,category,subject,description,created_date,resolved_date,assigned_to,created_at
+1,TCKT-10001,Low,In Progress,Network,VPN issue,Issue details for ticket 1,2025-11-15,2025-11-19,tech38,2025-11-15 07:17:11
+2,TCKT-10002,Medium,Resolved,Hardware,Account locked,Issue details for ticket 2,2024-12-27,2025-01-16,tech23,2024-12-27 07:17:11
+3,TCKT-10003,Low,Resolved,Hardware,System slow,Issue details for ticket 3,2025-03-07,2025-03-21,tech34,2025-03-07 07:17:11
+4,TCKT-10004,Medium,Closed,Network,Password reset,Issue details for ticket 4,2025-03-11,2025-03-15,tech18,2025-03-11 07:17:11
+5,TCKT-10005,Medium,Closed,Software,Application crash,Issue details for ticket 5,2025-01-27,,tech19,2025-01-27 07:17:11
+6,TCKT-10006,Medium,Closed,Security,Account locked,Issue details for ticket 6,2025-03-27,2025-04-13,tech23,2025-03-27 07:17:11
+7,TCKT-10007,Low,In Progress,Access,System slow,Issue details for ticket 7,2025-06-12,2025-07-01,tech23,2025-06-12 07:17:11
+8,TCKT-10008,High,Resolved,Hardware,VPN issue,Issue details for ticket 8,2025-11-15,2025-11-24,tech7,2025-11-15 07:17:11
+9,TCKT-10009,Low,Open,Access,Application crash,Issue details for ticket 9,2024-12-23,,tech18,2024-12-23 07:17:11
+10,TCKT-10010,Low,In Progress,Security,Laptop not starting,Issue details for ticket 10,2025-11-23,2025-12-11,tech40,2025-11-23 07:17:11
+11,TCKT-10011,High,Open,Software,Account locked,Issue details for ticket 11,2025-06-17,2025-06-29,tech17,2025-06-17 07:17:11
+12,TCKT-10012,Urgent,Open,Security,Account locked,Issue details for ticket 12,2025-05-29,2025-06-05,tech30,2025-05-29 07:17:11
+13,TCKT-10013,Urgent,Resolved,Hardware,WiFi down,Issue details for ticket 13,2024-12-08,2024-12-28,tech11,2024-12-08 07:17:11
+14,TCKT-10014,High,Open,Security,Email not syncing,Issue details for ticket 14,2025-08-23,,tech12,2025-08-23 07:17:11
+15,TCKT-10015,Low,In Progress,Access,System slow,Issue details for ticket 15,2025-03-11,2025-03-27,tech30,2025-03-11 07:17:11
+16,TCKT-10016,Low,Open,Software,WiFi down,Issue details for ticket 16,2025-06-30,,tech21,2025-06-30 07:17:11
+17,TCKT-10017,Low,In Progress,Network,Email not syncing,Issue details for ticket 17,2025-04-22,2025-05-07,tech26,2025-04-22 07:17:11
+18,TCKT-10018,Urgent,Resolved,Network,WiFi down,Issue details for ticket 18,2025-05-22,2025-06-08,tech2,2025-05-22 07:17:11
+19,TCKT-10019,Medium,Closed,Network,Application crash,Issue details for ticket 19,2025-06-12,2025-06-26,tech33,2025-06-12 07:17:11
+20,TCKT-10020,High,Resolved,Security,VPN issue,Issue details for ticket 20,2025-11-15,2025-12-05,tech12,2025-11-15 07:17:11
+21,TCKT-10021,High,Resolved,Network,Password reset,Issue details for ticket 21,2025-12-01,2025-12-21,tech12,2025-12-01 07:17:11
+22,TCKT-10022,Medium,In Progress,Security,Application crash,Issue details for ticket 22,2025-04-17,2025-04-22,tech19,2025-04-17 07:17:11
+23,TCKT-10023,Urgent,In Progress,Access,WiFi down,Issue details for ticket 23,2025-08-20,2025-08-27,tech13,2025-08-20 07:17:11
+24,TCKT-10024,Low,Closed,Hardware,VPN issue,Issue details for ticket 24,2025-11-22,2025-12-01,tech24,2025-11-22 07:17:11
+25,TCKT-10025,Low,Open,Hardware,Laptop not starting,Issue details for ticket 25,2025-06-25,2025-07-07,tech22,2025-06-25 07:17:11
+26,TCKT-10026,Medium,Resolved,Hardware,Password reset,Issue details for ticket 26,2025-07-02,2025-07-07,tech33,2025-07-02 07:17:11
+27,TCKT-10027,Low,Resolved,Software,Laptop not starting,Issue details for ticket 27,2025-09-01,2025-09-07,tech36,2025-09-01 07:17:11
+28,TCKT-10028,Low,Resolved,Access,Application crash,Issue details for ticket 28,2025-02-17,,tech13,2025-02-17 07:17:11
+29,TCKT-10029,High,In Progress,Software,WiFi down,Issue details for ticket 29,2024-12-13,,tech8,2024-12-13 07:17:11
+30,TCKT-10030,Urgent,Open,Hardware,System slow,Issue details for ticket 30,2024-12-14,2024-12-16,tech11,2024-12-14 07:17:11
+31,TCKT-10031,Urgent,In Progress,Security,WiFi down,Issue details for ticket 31,2025-03-05,2025-03-20,tech8,2025-03-05 07:17:11
+32,TCKT-10032,Medium,Closed,Network,Account locked,Issue details for ticket 32,2025-09-12,2025-09-13,tech22,2025-09-12 07:17:11
+33,TCKT-10033,Medium,Open,Access,Laptop not starting,Issue details for ticket 33,2025-10-15,2025-10-21,tech23,2025-10-15 07:17:11
+34,TCKT-10034,Urgent,Resolved,Security,Laptop not starting,Issue details for ticket 34,2025-02-14,2025-02-28,tech28,2025-02-14 07:17:11
+35,TCKT-10035,High,In Progress,Access,Email not syncing,Issue details for ticket 35,2025-04-27,2025-05-13,tech7,2025-04-27 07:17:11
+36,TCKT-10036,High,Closed,Access,WiFi down,Issue details for ticket 36,2025-01-31,2025-02-10,tech22,2025-01-31 07:17:11
+37,TCKT-10037,Low,Resolved,Network,Password reset,Issue details for ticket 37,2025-08-18,,tech12,2025-08-18 07:17:11
+38,TCKT-10038,High,In Progress,Security,Email not syncing,Issue details for ticket 38,2025-06-12,2025-06-27,tech21,2025-06-12 07:17:11
+39,TCKT-10039,Urgent,Resolved,Hardware,Application crash,Issue details for ticket 39,2025-11-12,2025-11-30,tech5,2025-11-12 07:17:11
+40,TCKT-10040,Medium,Closed,Access,System slow,Issue details for ticket 40,2025-07-07,2025-07-23,tech13,2025-07-07 07:17:11
+41,TCKT-10041,Medium,Resolved,Security,System slow,Issue details for ticket 41,2025-07-26,2025-07-28,tech2,2025-07-26 07:17:11
+42,TCKT-10042,Medium,Resolved,Access,Account locked,Issue details for ticket 42,2025-08-19,2025-08-30,tech6,2025-08-19 07:17:11
+43,TCKT-10043,High,Closed,Software,Laptop not starting,Issue details for ticket 43,2025-02-14,2025-02-25,tech12,2025-02-14 07:17:11
+44,TCKT-10044,Urgent,In Progress,Hardware,WiFi down,Issue details for ticket 44,2025-01-08,2025-01-21,tech1,2025-01-08 07:17:11
+45,TCKT-10045,Medium,Open,Software,Laptop not starting,Issue details for ticket 45,2025-09-21,2025-10-07,tech29,2025-09-21 07:17:11
+46,TCKT-10046,Low,Closed,Security,Laptop not starting,Issue details for ticket 46,2025-02-27,2025-03-04,tech16,2025-02-27 07:17:11
+47,TCKT-10047,High,Closed,Security,Email not syncing,Issue details for ticket 47,2025-05-25,2025-06-10,tech15,2025-05-25 07:17:11
+48,TCKT-10048,Medium,In Progress,Access,System slow,Issue details for ticket 48,2025-04-19,2025-04-22,tech8,2025-04-19 07:17:11
+49,TCKT-10049,High,In Progress,Network,Email not syncing,Issue details for ticket 49,2025-01-27,,tech3,2025-01-27 07:17:11
+50,TCKT-10050,Urgent,In Progress,Access,System slow,Issue details for ticket 50,2025-07-06,2025-07-21,tech7,2025-07-06 07:17:11
+51,TCKT-10051,Urgent,Open,Access,Email not syncing,Issue details for ticket 51,2025-03-31,2025-04-03,tech10,2025-03-31 07:17:11
+52,TCKT-10052,High,Closed,Software,Email not syncing,Issue details for ticket 52,2025-05-10,2025-05-11,tech21,2025-05-10 07:17:11
+53,TCKT-10053,Urgent,Closed,Security,Password reset,Issue details for ticket 53,2024-12-15,2024-12-18,tech25,2024-12-15 07:17:11
+54,TCKT-10054,Medium,Open,Network,WiFi down,Issue details for ticket 54,2025-06-22,2025-06-30,tech15,2025-06-22 07:17:11
+55,TCKT-10055,Low,Open,Access,Account locked,Issue details for ticket 55,2025-11-01,2025-11-06,tech1,2025-11-01 07:17:11
+56,TCKT-10056,Low,Open,Software,WiFi down,Issue details for ticket 56,2025-06-14,,tech23,2025-06-14 07:17:11
+57,TCKT-10057,High,Open,Security,WiFi down,Issue details for ticket 57,2025-08-13,2025-08-21,tech36,2025-08-13 07:17:11
+58,TCKT-10058,Low,Closed,Security,Application crash,Issue details for ticket 58,2025-01-13,2025-01-14,tech24,2025-01-13 07:17:11
+59,TCKT-10059,Low,In Progress,Hardware,System slow,Issue details for ticket 59,2025-04-30,2025-05-16,tech8,2025-04-30 07:17:11
+60,TCKT-10060,Low,Closed,Security,Email not syncing,Issue details for ticket 60,2025-05-03,,tech2,2025-05-03 07:17:11
+61,TCKT-10061,Low,Resolved,Software,WiFi down,Issue details for ticket 61,2025-06-14,2025-06-16,tech21,2025-06-14 07:17:11
+62,TCKT-10062,Urgent,Closed,Network,Account locked,Issue details for ticket 62,2025-10-14,2025-10-17,tech27,2025-10-14 07:17:11
+63,TCKT-10063,High,In Progress,Software,Laptop not starting,Issue details for ticket 63,2025-03-30,2025-04-16,tech34,2025-03-30 07:17:11
+64,TCKT-10064,High,In Progress,Security,Application crash,Issue details for ticket 64,2025-10-11,2025-10-17,tech25,2025-10-11 07:17:11
+65,TCKT-10065,Medium,Open,Access,VPN issue,Issue details for ticket 65,2025-07-04,2025-07-22,tech1,2025-07-04 07:17:11
+66,TCKT-10066,High,Open,Access,VPN issue,Issue details for ticket 66,2025-02-03,,tech17,2025-02-03 07:17:11
+67,TCKT-10067,High,In Progress,Security,VPN issue,Issue details for ticket 67,2025-10-15,2025-10-26,tech22,2025-10-15 07:17:11
+68,TCKT-10068,Low,Resolved,Network,Email not syncing,Issue details for ticket 68,2025-06-05,2025-06-07,tech15,2025-06-05 07:17:11
+69,TCKT-10069,Medium,In Progress,Hardware,WiFi down,Issue details for ticket 69,2025-08-16,2025-08-18,tech18,2025-08-16 07:17:11
+70,TCKT-10070,Medium,Resolved,Security,Application crash,Issue details for ticket 70,2025-10-04,2025-10-16,tech28,2025-10-04 07:17:11
+71,TCKT-10071,Urgent,In Progress,Software,VPN issue,Issue details for ticket 71,2025-01-30,,tech25,2025-01-30 07:17:11
+72,TCKT-10072,High,Open,Software,System slow,Issue details for ticket 72,2025-07-23,,tech21,2025-07-23 07:17:11
+73,TCKT-10073,High,Closed,Hardware,Account locked,Issue details for ticket 73,2025-10-31,,tech28,2025-10-31 07:17:11
+74,TCKT-10074,Medium,In Progress,Security,System slow,Issue details for ticket 74,2025-04-23,,tech35,2025-04-23 07:17:11
+75,TCKT-10075,Medium,Resolved,Network,Account locked,Issue details for ticket 75,2025-11-19,2025-11-30,tech37,2025-11-19 07:17:11
+76,TCKT-10076,Medium,Open,Network,WiFi down,Issue details for ticket 76,2024-12-12,2024-12-19,tech12,2024-12-12 07:17:11
+77,TCKT-10077,High,Open,Network,Password reset,Issue details for ticket 77,2025-02-18,,tech6,2025-02-18 07:17:11
+78,TCKT-10078,Medium,Open,Software,Password reset,Issue details for ticket 78,2025-10-20,2025-10-31,tech37,2025-10-20 07:17:11
+79,TCKT-10079,High,Open,Security,Password reset,Issue details for ticket 79,2025-01-07,2025-01-13,tech35,2025-01-07 07:17:11
+80,TCKT-10080,High,Resolved,Software,Account locked,Issue details for ticket 80,2025-03-25,2025-03-28,tech24,2025-03-25 07:17:11
+81,TCKT-10081,Urgent,Resolved,Security,Email not syncing,Issue details for ticket 81,2025-06-19,2025-06-30,tech13,2025-06-19 07:17:11
+82,TCKT-10082,Medium,In Progress,Software,System slow,Issue details for ticket 82,2025-03-31,2025-04-03,tech40,2025-03-31 07:17:11
+83,TCKT-10083,Low,Resolved,Hardware,Account locked,Issue details for ticket 83,2024-12-10,2024-12-17,tech32,2024-12-10 07:17:11
+84,TCKT-10084,High,Closed,Access,System slow,Issue details for ticket 84,2025-07-30,2025-08-02,tech27,2025-07-30 07:17:11
+85,TCKT-10085,Medium,In Progress,Network,System slow,Issue details for ticket 85,2025-08-08,2025-08-28,tech7,2025-08-08 07:17:11
+86,TCKT-10086,High,In Progress,Security,Password reset,Issue details for ticket 86,2025-09-21,2025-10-09,tech36,2025-09-21 07:17:11
+87,TCKT-10087,Urgent,Resolved,Software,WiFi down,Issue details for ticket 87,2025-09-04,2025-09-18,tech12,2025-09-04 07:17:11
+88,TCKT-10088,Urgent,Closed,Hardware,Email not syncing,Issue details for ticket 88,2025-10-05,2025-10-07,tech2,2025-10-05 07:17:11
+89,TCKT-10089,Low,Resolved,Access,Password reset,Issue details for ticket 89,2025-03-09,2025-03-18,tech26,2025-03-09 07:17:11
+90,TCKT-10090,Urgent,In Progress,Software,VPN issue,Issue details for ticket 90,2025-07-10,2025-07-26,tech32,2025-07-10 07:17:11
+91,TCKT-10091,High,In Progress,Security,System slow,Issue details for ticket 91,2025-11-11,2025-11-23,tech7,2025-11-11 07:17:11
+92,TCKT-10092,Low,Open,Network,WiFi down,Issue details for ticket 92,2025-05-05,,tech14,2025-05-05 07:17:11
+93,TCKT-10093,High,In Progress,Access,Email not syncing,Issue details for ticket 93,2025-05-13,,tech5,2025-05-13 07:17:11
+94,TCKT-10094,Urgent,Closed,Security,System slow,Issue details for ticket 94,2025-06-05,2025-06-13,tech27,2025-06-05 07:17:11
+95,TCKT-10095,High,Resolved,Hardware,System slow,Issue details for ticket 95,2025-06-03,2025-06-10,tech25,2025-06-03 07:17:11
+96,TCKT-10096,High,In Progress,Hardware,WiFi down,Issue details for ticket 96,2025-11-24,,tech36,2025-11-24 07:17:11
+97,TCKT-10097,Medium,Resolved,Security,Application crash,Issue details for ticket 97,2025-05-22,2025-05-28,tech9,2025-05-22 07:17:11
+98,TCKT-10098,Urgent,In Progress,Hardware,WiFi down,Issue details for ticket 98,2025-06-03,2025-06-08,tech24,2025-06-03 07:17:11
+99,TCKT-10099,Urgent,Open,Network,Laptop not starting,Issue details for ticket 99,2025-10-15,2025-10-20,tech16,2025-10-15 07:17:11
+100,TCKT-10100,Medium,Closed,Hardware,Laptop not starting,Issue details for ticket 100,2025-05-15,2025-06-02,tech24,2025-05-15 07:17:11
+101,TCKT-10101,Low,Resolved,Security,Email not syncing,Issue details for ticket 101,2025-03-31,2025-04-02,tech11,2025-03-31 07:17:11
+102,TCKT-10102,Medium,Resolved,Hardware,Account locked,Issue details for ticket 102,2025-03-11,2025-03-24,tech19,2025-03-11 07:17:11
+103,TCKT-10103,Low,Open,Software,Application crash,Issue details for ticket 103,2025-01-24,2025-02-13,tech18,2025-01-24 07:17:11
+104,TCKT-10104,Low,Open,Software,Password reset,Issue details for ticket 104,2025-10-13,2025-10-28,tech2,2025-10-13 07:17:11
+105,TCKT-10105,Low,Closed,Security,Email not syncing,Issue details for ticket 105,2025-04-19,2025-05-02,tech23,2025-04-19 07:17:11
+106,TCKT-10106,Low,Open,Software,VPN issue,Issue details for ticket 106,2025-08-22,2025-09-02,tech12,2025-08-22 07:17:11
+107,TCKT-10107,Medium,Open,Software,System slow,Issue details for ticket 107,2025-05-21,2025-05-24,tech18,2025-05-21 07:17:11
+108,TCKT-10108,Urgent,Closed,Network,Password reset,Issue details for ticket 108,2025-05-24,2025-05-30,tech12,2025-05-24 07:17:11
+109,TCKT-10109,Medium,In Progress,Software,WiFi down,Issue details for ticket 109,2025-08-29,2025-09-15,tech28,2025-08-29 07:17:11
+110,TCKT-10110,Medium,In Progress,Security,Email not syncing,Issue details for ticket 110,2025-08-07,,tech1,2025-08-07 07:17:11
+111,TCKT-10111,Low,Open,Security,Laptop not starting,Issue details for ticket 111,2025-08-13,,tech13,2025-08-13 07:17:11
+112,TCKT-10112,High,Open,Access,System slow,Issue details for ticket 112,2025-07-19,2025-07-21,tech11,2025-07-19 07:17:11
+113,TCKT-10113,Urgent,Closed,Software,Application crash,Issue details for ticket 113,2025-03-27,,tech7,2025-03-27 07:17:11
+114,TCKT-10114,Medium,Resolved,Security,Email not syncing,Issue details for ticket 114,2025-09-20,2025-09-22,tech13,2025-09-20 07:17:11
+115,TCKT-10115,Medium,Open,Hardware,Application crash,Issue details for ticket 115,2025-01-08,,tech31,2025-01-08 07:17:11
+116,TCKT-10116,Medium,Resolved,Network,Email not syncing,Issue details for ticket 116,2025-04-05,,tech32,2025-04-05 07:17:11
+117,TCKT-10117,Low,In Progress,Software,WiFi down,Issue details for ticket 117,2025-04-10,2025-04-18,tech39,2025-04-10 07:17:11
+118,TCKT-10118,Medium,Resolved,Access,WiFi down,Issue details for ticket 118,2025-05-10,2025-05-16,tech15,2025-05-10 07:17:11
+119,TCKT-10119,High,Closed,Network,Email not syncing,Issue details for ticket 119,2025-08-06,2025-08-26,tech29,2025-08-06 07:17:11
+120,TCKT-10120,Medium,Open,Network,System slow,Issue details for ticket 120,2024-12-26,2025-01-02,tech27,2024-12-26 07:17:11
+121,TCKT-10121,Urgent,Resolved,Security,Laptop not starting,Issue details for ticket 121,2025-01-12,,tech34,2025-01-12 07:17:11
+122,TCKT-10122,Urgent,Open,Network,Laptop not starting,Issue details for ticket 122,2025-06-03,2025-06-15,tech6,2025-06-03 07:17:11
+123,TCKT-10123,Urgent,Resolved,Security,Email not syncing,Issue details for ticket 123,2025-11-28,2025-12-18,tech13,2025-11-28 07:17:11
+124,TCKT-10124,High,Closed,Access,Laptop not starting,Issue details for ticket 124,2025-09-23,2025-10-05,tech22,2025-09-23 07:17:11
+125,TCKT-10125,Urgent,Closed,Network,Email not syncing,Issue details for ticket 125,2025-10-15,2025-10-29,tech21,2025-10-15 07:17:11
+126,TCKT-10126,Urgent,Open,Access,Account locked,Issue details for ticket 126,2025-10-07,2025-10-20,tech14,2025-10-07 07:17:11
+127,TCKT-10127,Medium,Open,Security,System slow,Issue details for ticket 127,2025-08-22,,tech33,2025-08-22 07:17:11
+128,TCKT-10128,Urgent,In Progress,Security,VPN issue,Issue details for ticket 128,2025-06-28,2025-07-15,tech26,2025-06-28 07:17:11
+129,TCKT-10129,Medium,Resolved,Software,VPN issue,Issue details for ticket 129,2025-04-22,2025-04-27,tech36,2025-04-22 07:17:11
+130,TCKT-10130,Medium,Resolved,Security,WiFi down,Issue details for ticket 130,2024-12-16,2025-01-02,tech40,2024-12-16 07:17:11
+131,TCKT-10131,Low,Open,Network,VPN issue,Issue details for ticket 131,2025-04-27,2025-05-05,tech38,2025-04-27 07:17:11
+132,TCKT-10132,Medium,Open,Security,VPN issue,Issue details for ticket 132,2025-11-27,2025-12-05,tech2,2025-11-27 07:17:11
+133,TCKT-10133,Medium,Open,Access,Account locked,Issue details for ticket 133,2025-08-30,2025-09-15,tech4,2025-08-30 07:17:11
+134,TCKT-10134,High,Closed,Network,WiFi down,Issue details for ticket 134,2025-06-29,,tech32,2025-06-29 07:17:11
+135,TCKT-10135,Medium,Resolved,Access,Password reset,Issue details for ticket 135,2025-03-13,2025-03-18,tech10,2025-03-13 07:17:11
+136,TCKT-10136,Medium,Open,Software,Account locked,Issue details for ticket 136,2025-07-05,,tech22,2025-07-05 07:17:11
+137,TCKT-10137,High,In Progress,Hardware,Application crash,Issue details for ticket 137,2024-12-11,2024-12-22,tech17,2024-12-11 07:17:11
+138,TCKT-10138,Urgent,In Progress,Software,Password reset,Issue details for ticket 138,2025-05-30,2025-06-08,tech29,2025-05-30 07:17:11
+139,TCKT-10139,Urgent,In Progress,Hardware,WiFi down,Issue details for ticket 139,2025-10-08,,tech8,2025-10-08 07:17:11
+140,TCKT-10140,Medium,Closed,Network,Account locked,Issue details for ticket 140,2024-12-10,2024-12-29,tech11,2024-12-10 07:17:11
+141,TCKT-10141,Urgent,Closed,Hardware,Password reset,Issue details for ticket 141,2025-03-07,2025-03-09,tech8,2025-03-07 07:17:11
+142,TCKT-10142,Medium,In Progress,Security,Laptop not starting,Issue details for ticket 142,2025-06-23,2025-06-30,tech39,2025-06-23 07:17:11
+143,TCKT-10143,Low,Closed,Software,Email not syncing,Issue details for ticket 143,2025-09-24,2025-09-25,tech4,2025-09-24 07:17:11
+144,TCKT-10144,Medium,Closed,Security,Email not syncing,Issue details for ticket 144,2025-04-20,2025-05-03,tech23,2025-04-20 07:17:11
+145,TCKT-10145,High,Open,Software,Laptop not starting,Issue details for ticket 145,2025-05-20,2025-06-01,tech8,2025-05-20 07:17:11
+146,TCKT-10146,High,In Progress,Security,Email not syncing,Issue details for ticket 146,2025-01-03,2025-01-04,tech40,2025-01-03 07:17:11
+147,TCKT-10147,Urgent,In Progress,Network,Email not syncing,Issue details for ticket 147,2025-10-25,2025-11-11,tech32,2025-10-25 07:17:11
+148,TCKT-10148,Urgent,Open,Network,Application crash,Issue details for ticket 148,2025-12-01,2025-12-07,tech21,2025-12-01 07:17:11
+149,TCKT-10149,High,Closed,Software,Application crash,Issue details for ticket 149,2025-04-10,2025-04-24,tech40,2025-04-10 07:17:11
+150,TCKT-10150,Low,Resolved,Hardware,System slow,Issue details for ticket 150,2025-06-24,,tech25,2025-06-24 07:17:11
+151,TCKT-10151,Urgent,Open,Hardware,System slow,Issue details for ticket 151,2025-05-24,2025-06-03,tech14,2025-05-24 07:17:11
+152,TCKT-10152,High,Resolved,Security,System slow,Issue details for ticket 152,2025-01-17,2025-01-24,tech21,2025-01-17 07:17:11
+153,TCKT-10153,High,In Progress,Security,Account locked,Issue details for ticket 153,2025-08-01,2025-08-10,tech22,2025-08-01 07:17:11
+154,TCKT-10154,Medium,Closed,Hardware,Application crash,Issue details for ticket 154,2025-07-30,,tech32,2025-07-30 07:17:11
+155,TCKT-10155,Low,In Progress,Software,Account locked,Issue details for ticket 155,2025-07-12,2025-07-25,tech22,2025-07-12 07:17:11
+156,TCKT-10156,Low,Resolved,Access,WiFi down,Issue details for ticket 156,2025-03-23,2025-04-03,tech25,2025-03-23 07:17:11
+157,TCKT-10157,Urgent,In Progress,Software,System slow,Issue details for ticket 157,2025-04-05,2025-04-18,tech34,2025-04-05 07:17:11
+158,TCKT-10158,Medium,Closed,Hardware,Email not syncing,Issue details for ticket 158,2025-08-09,2025-08-21,tech25,2025-08-09 07:17:11
+159,TCKT-10159,Medium,Closed,Hardware,WiFi down,Issue details for ticket 159,2024-12-09,2024-12-17,tech30,2024-12-09 07:17:11
+160,TCKT-10160,High,In Progress,Security,Password reset,Issue details for ticket 160,2025-08-21,2025-09-09,tech33,2025-08-21 07:17:11
+161,TCKT-10161,High,Closed,Hardware,Application crash,Issue details for ticket 161,2025-07-28,2025-08-08,tech15,2025-07-28 07:17:11
+162,TCKT-10162,Urgent,Open,Access,VPN issue,Issue details for ticket 162,2025-02-17,2025-02-27,tech19,2025-02-17 07:17:11
+163,TCKT-10163,Urgent,Resolved,Software,System slow,Issue details for ticket 163,2025-07-13,2025-08-02,tech14,2025-07-13 07:17:11
+164,TCKT-10164,High,Resolved,Network,Laptop not starting,Issue details for ticket 164,2025-06-05,2025-06-16,tech30,2025-06-05 07:17:11
+165,TCKT-10165,Low,Closed,Network,Application crash,Issue details for ticket 165,2025-10-19,2025-10-29,tech4,2025-10-19 07:17:11
+166,TCKT-10166,Urgent,In Progress,Security,WiFi down,Issue details for ticket 166,2025-09-15,2025-09-18,tech12,2025-09-15 07:17:11
+167,TCKT-10167,Urgent,In Progress,Security,Password reset,Issue details for ticket 167,2025-09-20,2025-09-21,tech25,2025-09-20 07:17:11
+168,TCKT-10168,Low,Closed,Security,Password reset,Issue details for ticket 168,2025-08-07,2025-08-09,tech32,2025-08-07 07:17:11
+169,TCKT-10169,Urgent,Resolved,Network,Application crash,Issue details for ticket 169,2025-08-14,2025-08-31,tech23,2025-08-14 07:17:11
+170,TCKT-10170,Low,In Progress,Security,Password reset,Issue details for ticket 170,2025-09-13,2025-09-15,tech38,2025-09-13 07:17:11
+171,TCKT-10171,Medium,Open,Access,Laptop not starting,Issue details for ticket 171,2025-09-01,2025-09-12,tech21,2025-09-01 07:17:11
+172,TCKT-10172,Urgent,Resolved,Access,VPN issue,Issue details for ticket 172,2025-11-20,2025-11-28,tech31,2025-11-20 07:17:11
+173,TCKT-10173,Urgent,Closed,Hardware,System slow,Issue details for ticket 173,2025-11-01,2025-11-14,tech11,2025-11-01 07:17:11
+174,TCKT-10174,Medium,Open,Security,Account locked,Issue details for ticket 174,2025-12-02,2025-12-07,tech9,2025-12-02 07:17:11
+175,TCKT-10175,Urgent,Open,Network,Email not syncing,Issue details for ticket 175,2025-09-27,2025-09-28,tech27,2025-09-27 07:17:11
+176,TCKT-10176,Medium,In Progress,Access,Account locked,Issue details for ticket 176,2025-07-20,2025-08-02,tech36,2025-07-20 07:17:11
+177,TCKT-10177,Medium,In Progress,Access,WiFi down,Issue details for ticket 177,2025-07-29,2025-08-03,tech34,2025-07-29 07:17:11
+178,TCKT-10178,High,Closed,Access,Password reset,Issue details for ticket 178,2025-11-15,2025-11-17,tech39,2025-11-15 07:17:11
+179,TCKT-10179,Medium,Resolved,Hardware,VPN issue,Issue details for ticket 179,2025-01-26,2025-02-12,tech26,2025-01-26 07:17:11
+180,TCKT-10180,Medium,Closed,Access,WiFi down,Issue details for ticket 180,2025-01-15,2025-01-26,tech3,2025-01-15 07:17:11
+181,TCKT-10181,High,Open,Hardware,Account locked,Issue details for ticket 181,2025-06-20,2025-07-06,tech16,2025-06-20 07:17:11
+182,TCKT-10182,Low,Open,Network,Email not syncing,Issue details for ticket 182,2025-08-18,2025-08-28,tech5,2025-08-18 07:17:11
+183,TCKT-10183,Medium,In Progress,Security,System slow,Issue details for ticket 183,2025-09-20,,tech5,2025-09-20 07:17:11
+184,TCKT-10184,Low,In Progress,Software,VPN issue,Issue details for ticket 184,2025-06-05,,tech16,2025-06-05 07:17:11
+185,TCKT-10185,Medium,Resolved,Security,Laptop not starting,Issue details for ticket 185,2025-03-08,2025-03-15,tech6,2025-03-08 07:17:11
+186,TCKT-10186,Low,Open,Security,WiFi down,Issue details for ticket 186,2025-09-09,2025-09-27,tech16,2025-09-09 07:17:11
+187,TCKT-10187,Urgent,In Progress,Access,Email not syncing,Issue details for ticket 187,2025-02-12,2025-02-20,tech36,2025-02-12 07:17:11
+188,TCKT-10188,Medium,Closed,Hardware,Laptop not starting,Issue details for ticket 188,2025-01-12,2025-01-17,tech28,2025-01-12 07:17:11
+189,TCKT-10189,High,Open,Software,Laptop not starting,Issue details for ticket 189,2025-02-21,,tech33,2025-02-21 07:17:11
+190,TCKT-10190,Low,Closed,Network,WiFi down,Issue details for ticket 190,2025-02-19,2025-03-03,tech7,2025-02-19 07:17:11
+191,TCKT-10191,Low,Resolved,Access,Password reset,Issue details for ticket 191,2025-01-10,2025-01-25,tech40,2025-01-10 07:17:11
+192,TCKT-10192,Medium,Resolved,Hardware,VPN issue,Issue details for ticket 192,2025-10-13,2025-10-16,tech32,2025-10-13 07:17:11
+193,TCKT-10193,High,Open,Access,VPN issue,Issue details for ticket 193,2024-12-12,,tech4,2024-12-12 07:17:11
+194,TCKT-10194,High,Open,Access,System slow,Issue details for ticket 194,2025-10-01,2025-10-05,tech24,2025-10-01 07:17:11
+195,TCKT-10195,Medium,Closed,Access,Password reset,Issue details for ticket 195,2025-07-20,,tech13,2025-07-20 07:17:11
+196,TCKT-10196,Low,Resolved,Hardware,Email not syncing,Issue details for ticket 196,2025-01-03,2025-01-14,tech31,2025-01-03 07:17:11
+197,TCKT-10197,Medium,Resolved,Hardware,WiFi down,Issue details for ticket 197,2025-01-07,2025-01-27,tech12,2025-01-07 07:17:11
+198,TCKT-10198,High,In Progress,Network,Account locked,Issue details for ticket 198,2025-06-03,2025-06-13,tech26,2025-06-03 07:17:11
+199,TCKT-10199,Urgent,Closed,Security,Laptop not starting,Issue details for ticket 199,2025-01-10,2025-01-29,tech26,2025-01-10 07:17:11
+200,TCKT-10200,Urgent,Open,Hardware,Application crash,Issue details for ticket 200,2025-10-06,2025-10-12,tech13,2025-10-06 07:17:11
+201,TCKT-10201,Urgent,In Progress,Network,Email not syncing,Issue details for ticket 201,2025-01-04,2025-01-15,tech5,2025-01-04 07:17:11
+202,TCKT-10202,Urgent,Closed,Network,Password reset,Issue details for ticket 202,2025-12-05,2025-12-15,tech12,2025-12-05 07:17:11
+203,TCKT-10203,Medium,In Progress,Security,Email not syncing,Issue details for ticket 203,2025-09-29,2025-10-08,tech6,2025-09-29 07:17:11
+204,TCKT-10204,High,Open,Hardware,VPN issue,Issue details for ticket 204,2025-06-07,,tech23,2025-06-07 07:17:11
+205,TCKT-10205,Medium,In Progress,Access,WiFi down,Issue details for ticket 205,2024-12-29,2025-01-13,tech21,2024-12-29 07:17:11
+206,TCKT-10206,High,Open,Security,Laptop not starting,Issue details for ticket 206,2025-03-14,2025-03-23,tech14,2025-03-14 07:17:11
+207,TCKT-10207,High,Open,Hardware,Password reset,Issue details for ticket 207,2025-03-20,2025-04-09,tech18,2025-03-20 07:17:11
+208,TCKT-10208,Low,In Progress,Hardware,Account locked,Issue details for ticket 208,2025-08-03,2025-08-16,tech31,2025-08-03 07:17:11
+209,TCKT-10209,Low,In Progress,Hardware,System slow,Issue details for ticket 209,2024-12-25,,tech1,2024-12-25 07:17:11
+210,TCKT-10210,Medium,In Progress,Network,System slow,Issue details for ticket 210,2025-10-04,2025-10-05,tech35,2025-10-04 07:17:11
+211,TCKT-10211,Urgent,Closed,Software,Application crash,Issue details for ticket 211,2025-08-18,,tech20,2025-08-18 07:17:11
+212,TCKT-10212,Medium,Open,Hardware,Password reset,Issue details for ticket 212,2025-07-29,2025-08-01,tech5,2025-07-29 07:17:11
+213,TCKT-10213,Urgent,Closed,Hardware,Laptop not starting,Issue details for ticket 213,2025-06-21,,tech21,2025-06-21 07:17:11
+214,TCKT-10214,High,Resolved,Network,VPN issue,Issue details for ticket 214,2025-03-23,2025-04-03,tech34,2025-03-23 07:17:11
+215,TCKT-10215,Medium,Closed,Network,WiFi down,Issue details for ticket 215,2025-09-15,,tech40,2025-09-15 07:17:11
+216,TCKT-10216,Medium,Resolved,Software,Email not syncing,Issue details for ticket 216,2025-06-14,2025-06-15,tech25,2025-06-14 07:17:11
+217,TCKT-10217,Low,Open,Access,WiFi down,Issue details for ticket 217,2025-01-04,2025-01-05,tech16,2025-01-04 07:17:11
+218,TCKT-10218,Medium,Closed,Software,Laptop not starting,Issue details for ticket 218,2025-02-18,,tech8,2025-02-18 07:17:11
+219,TCKT-10219,Low,Closed,Hardware,System slow,Issue details for ticket 219,2025-07-29,2025-08-07,tech34,2025-07-29 07:17:11
+220,TCKT-10220,Low,Closed,Security,Email not syncing,Issue details for ticket 220,2025-05-07,2025-05-19,tech22,2025-05-07 07:17:11
+221,TCKT-10221,Low,Open,Software,Email not syncing,Issue details for ticket 221,2025-03-28,,tech4,2025-03-28 07:17:11
+222,TCKT-10222,Medium,Resolved,Software,Account locked,Issue details for ticket 222,2025-11-21,2025-12-03,tech14,2025-11-21 07:17:11
+223,TCKT-10223,Low,Resolved,Software,VPN issue,Issue details for ticket 223,2025-09-10,2025-09-26,tech30,2025-09-10 07:17:11
+224,TCKT-10224,Urgent,In Progress,Access,Password reset,Issue details for ticket 224,2025-04-23,2025-05-10,tech20,2025-04-23 07:17:11
+225,TCKT-10225,Medium,Resolved,Software,Account locked,Issue details for ticket 225,2024-12-29,2025-01-04,tech10,2024-12-29 07:17:11
+226,TCKT-10226,Low,Closed,Hardware,Laptop not starting,Issue details for ticket 226,2025-05-01,,tech2,2025-05-01 07:17:11
+227,TCKT-10227,Low,Open,Access,System slow,Issue details for ticket 227,2025-03-10,2025-03-19,tech6,2025-03-10 07:17:11
+228,TCKT-10228,Medium,In Progress,Hardware,WiFi down,Issue details for ticket 228,2025-05-11,,tech4,2025-05-11 07:17:11
+229,TCKT-10229,Urgent,Resolved,Software,Password reset,Issue details for ticket 229,2025-06-30,2025-07-03,tech22,2025-06-30 07:17:11
+230,TCKT-10230,Urgent,Closed,Network,VPN issue,Issue details for ticket 230,2025-07-25,2025-08-13,tech16,2025-07-25 07:17:11
+231,TCKT-10231,Medium,In Progress,Software,Application crash,Issue details for ticket 231,2025-06-20,2025-06-23,tech36,2025-06-20 07:17:11
+232,TCKT-10232,Medium,Open,Software,Application crash,Issue details for ticket 232,2025-10-17,2025-10-29,tech12,2025-10-17 07:17:11
+233,TCKT-10233,High,In Progress,Network,System slow,Issue details for ticket 233,2025-07-31,2025-08-16,tech3,2025-07-31 07:17:11
+234,TCKT-10234,Urgent,Open,Access,Password reset,Issue details for ticket 234,2025-01-08,2025-01-25,tech27,2025-01-08 07:17:11
+235,TCKT-10235,Medium,Resolved,Software,System slow,Issue details for ticket 235,2025-01-28,,tech11,2025-01-28 07:17:11
+236,TCKT-10236,High,Closed,Hardware,WiFi down,Issue details for ticket 236,2024-12-12,2024-12-29,tech31,2024-12-12 07:17:11
+237,TCKT-10237,Low,Open,Software,Account locked,Issue details for ticket 237,2025-06-01,2025-06-16,tech23,2025-06-01 07:17:11
+238,TCKT-10238,Low,In Progress,Access,VPN issue,Issue details for ticket 238,2025-08-05,2025-08-16,tech2,2025-08-05 07:17:11
+239,TCKT-10239,Low,In Progress,Network,VPN issue,Issue details for ticket 239,2025-07-31,2025-08-16,tech16,2025-07-31 07:17:11
+240,TCKT-10240,High,Closed,Security,VPN issue,Issue details for ticket 240,2025-06-05,2025-06-09,tech33,2025-06-05 07:17:11
+241,TCKT-10241,Medium,In Progress,Software,Laptop not starting,Issue details for ticket 241,2025-07-10,2025-07-27,tech22,2025-07-10 07:17:11
+242,TCKT-10242,Urgent,Closed,Access,Password reset,Issue details for ticket 242,2024-12-22,2024-12-26,tech1,2024-12-22 07:17:11
+243,TCKT-10243,High,Open,Hardware,System slow,Issue details for ticket 243,2025-02-10,2025-02-16,tech19,2025-02-10 07:17:11
+244,TCKT-10244,High,Open,Security,Email not syncing,Issue details for ticket 244,2025-04-07,2025-04-09,tech3,2025-04-07 07:17:11
+245,TCKT-10245,Low,In Progress,Security,WiFi down,Issue details for ticket 245,2025-08-31,2025-09-07,tech9,2025-08-31 07:17:11
+246,TCKT-10246,Urgent,Resolved,Security,Email not syncing,Issue details for ticket 246,2025-04-20,2025-05-07,tech35,2025-04-20 07:17:11
+247,TCKT-10247,Low,In Progress,Security,System slow,Issue details for ticket 247,2025-09-23,2025-09-27,tech4,2025-09-23 07:17:11
+248,TCKT-10248,Urgent,Closed,Hardware,Account locked,Issue details for ticket 248,2025-03-03,2025-03-15,tech25,2025-03-03 07:17:11
+249,TCKT-10249,High,Open,Security,Password reset,Issue details for ticket 249,2025-07-27,,tech32,2025-07-27 07:17:11
+250,TCKT-10250,Urgent,In Progress,Security,Application crash,Issue details for ticket 250,2025-11-17,,tech6,2025-11-17 07:17:11
+251,TCKT-10251,High,Closed,Hardware,System slow,Issue details for ticket 251,2025-01-19,,tech10,2025-01-19 07:17:11
+252,TCKT-10252,Low,Open,Security,System slow,Issue details for ticket 252,2025-05-28,2025-06-05,tech8,2025-05-28 07:17:11
+253,TCKT-10253,Low,Open,Network,System slow,Issue details for ticket 253,2025-03-30,,tech22,2025-03-30 07:17:11
+254,TCKT-10254,Medium,Open,Hardware,Password reset,Issue details for ticket 254,2025-06-30,2025-07-20,tech18,2025-06-30 07:17:11
+255,TCKT-10255,Medium,In Progress,Hardware,WiFi down,Issue details for ticket 255,2025-10-25,2025-11-02,tech21,2025-10-25 07:17:11
+256,TCKT-10256,Medium,In Progress,Security,Account locked,Issue details for ticket 256,2025-06-20,2025-07-10,tech13,2025-06-20 07:17:11
+257,TCKT-10257,Urgent,Closed,Security,Laptop not starting,Issue details for ticket 257,2025-04-11,2025-04-14,tech23,2025-04-11 07:17:11
+258,TCKT-10258,High,Resolved,Hardware,WiFi down,Issue details for ticket 258,2025-02-17,2025-03-07,tech6,2025-02-17 07:17:11
+259,TCKT-10259,Urgent,Closed,Hardware,Laptop not starting,Issue details for ticket 259,2024-12-09,,tech25,2024-12-09 07:17:11
+260,TCKT-10260,Urgent,Closed,Access,Password reset,Issue details for ticket 260,2024-12-10,2024-12-23,tech13,2024-12-10 07:17:11
+261,TCKT-10261,High,Open,Hardware,Laptop not starting,Issue details for ticket 261,2025-01-05,2025-01-07,tech38,2025-01-05 07:17:11
+262,TCKT-10262,Urgent,Open,Network,WiFi down,Issue details for ticket 262,2025-06-03,,tech39,2025-06-03 07:17:11
+263,TCKT-10263,Medium,Resolved,Hardware,System slow,Issue details for ticket 263,2025-08-17,2025-08-30,tech24,2025-08-17 07:17:11
+264,TCKT-10264,High,Open,Security,Password reset,Issue details for ticket 264,2025-05-31,2025-06-08,tech4,2025-05-31 07:17:11
+265,TCKT-10265,Low,Resolved,Network,Application crash,Issue details for ticket 265,2025-10-10,2025-10-29,tech2,2025-10-10 07:17:11
+266,TCKT-10266,Low,In Progress,Network,Account locked,Issue details for ticket 266,2025-11-01,2025-11-21,tech36,2025-11-01 07:17:11
+267,TCKT-10267,Low,In Progress,Security,Laptop not starting,Issue details for ticket 267,2025-06-10,2025-06-24,tech21,2025-06-10 07:17:11
+268,TCKT-10268,Medium,Closed,Software,WiFi down,Issue details for ticket 268,2025-03-29,2025-04-11,tech18,2025-03-29 07:17:11
+269,TCKT-10269,Medium,Resolved,Access,Account locked,Issue details for ticket 269,2025-02-23,2025-03-15,tech39,2025-02-23 07:17:11
+270,TCKT-10270,Urgent,Open,Security,Application crash,Issue details for ticket 270,2025-08-11,2025-08-27,tech34,2025-08-11 07:17:11
+271,TCKT-10271,Urgent,Open,Software,WiFi down,Issue details for ticket 271,2025-01-21,2025-01-30,tech35,2025-01-21 07:17:11
+272,TCKT-10272,Medium,In Progress,Hardware,Application crash,Issue details for ticket 272,2025-08-02,,tech4,2025-08-02 07:17:11
+273,TCKT-10273,Low,Open,Network,Laptop not starting,Issue details for ticket 273,2025-04-27,2025-05-13,tech3,2025-04-27 07:17:11
+274,TCKT-10274,Urgent,Open,Network,Account locked,Issue details for ticket 274,2025-01-15,2025-01-16,tech21,2025-01-15 07:17:11
+275,TCKT-10275,Low,Open,Security,System slow,Issue details for ticket 275,2025-06-01,2025-06-21,tech2,2025-06-01 07:17:11
+276,TCKT-10276,Urgent,Open,Network,Email not syncing,Issue details for ticket 276,2025-01-30,,tech26,2025-01-30 07:17:11
+277,TCKT-10277,High,In Progress,Software,Account locked,Issue details for ticket 277,2025-07-08,2025-07-18,tech23,2025-07-08 07:17:11
+278,TCKT-10278,High,Resolved,Security,Account locked,Issue details for ticket 278,2025-02-25,,tech16,2025-02-25 07:17:11
+279,TCKT-10279,Medium,Closed,Network,Email not syncing,Issue details for ticket 279,2025-03-05,2025-03-17,tech28,2025-03-05 07:17:11
+280,TCKT-10280,Urgent,Open,Hardware,Laptop not starting,Issue details for ticket 280,2025-05-25,2025-05-30,tech35,2025-05-25 07:17:11
+281,TCKT-10281,High,Resolved,Security,Email not syncing,Issue details for ticket 281,2025-04-27,2025-05-04,tech2,2025-04-27 07:17:11
+282,TCKT-10282,Urgent,Resolved,Software,Application crash,Issue details for ticket 282,2025-05-20,,tech9,2025-05-20 07:17:11
+283,TCKT-10283,High,Resolved,Software,Password reset,Issue details for ticket 283,2024-12-21,2025-01-06,tech25,2024-12-21 07:17:11
+284,TCKT-10284,Low,Resolved,Security,Account locked,Issue details for ticket 284,2025-01-02,2025-01-18,tech21,2025-01-02 07:17:11
+285,TCKT-10285,Low,In Progress,Access,Laptop not starting,Issue details for ticket 285,2025-05-11,2025-05-23,tech28,2025-05-11 07:17:11
+286,TCKT-10286,Urgent,Resolved,Software,Email not syncing,Issue details for ticket 286,2025-03-22,,tech34,2025-03-22 07:17:11
+287,TCKT-10287,Medium,In Progress,Software,System slow,Issue details for ticket 287,2025-08-24,2025-09-01,tech1,2025-08-24 07:17:11
+288,TCKT-10288,Low,Resolved,Security,Password reset,Issue details for ticket 288,2025-07-31,2025-08-07,tech7,2025-07-31 07:17:11
+289,TCKT-10289,Medium,Open,Security,Password reset,Issue details for ticket 289,2024-12-28,2025-01-02,tech3,2024-12-28 07:17:11
+290,TCKT-10290,Urgent,Open,Access,Account locked,Issue details for ticket 290,2025-02-01,2025-02-10,tech40,2025-02-01 07:17:11
+291,TCKT-10291,Medium,In Progress,Software,System slow,Issue details for ticket 291,2025-05-19,2025-05-25,tech30,2025-05-19 07:17:11
+292,TCKT-10292,High,Resolved,Access,Account locked,Issue details for ticket 292,2025-01-01,2025-01-05,tech17,2025-01-01 07:17:11
+293,TCKT-10293,High,Closed,Access,WiFi down,Issue details for ticket 293,2025-01-20,2025-01-25,tech11,2025-01-20 07:17:11
+294,TCKT-10294,Low,Closed,Network,Password reset,Issue details for ticket 294,2025-07-08,2025-07-14,tech24,2025-07-08 07:17:11
+295,TCKT-10295,Medium,Resolved,Security,Laptop not starting,Issue details for ticket 295,2025-11-18,,tech24,2025-11-18 07:17:11
+296,TCKT-10296,Low,Resolved,Security,WiFi down,Issue details for ticket 296,2025-11-25,2025-11-29,tech11,2025-11-25 07:17:11
+297,TCKT-10297,Urgent,Resolved,Software,Email not syncing,Issue details for ticket 297,2025-04-25,2025-05-05,tech26,2025-04-25 07:17:11
+298,TCKT-10298,Low,Open,Software,WiFi down,Issue details for ticket 298,2025-11-30,2025-12-11,tech9,2025-11-30 07:17:11
+299,TCKT-10299,Urgent,In Progress,Access,Password reset,Issue details for ticket 299,2025-11-14,2025-11-26,tech8,2025-11-14 07:17:11
+300,TCKT-10300,Urgent,Resolved,Hardware,VPN issue,Issue details for ticket 300,2025-02-18,,tech11,2025-02-18 07:17:11
+301,TCKT-10301,Low,Open,Hardware,Laptop not starting,Issue details for ticket 301,2025-10-18,2025-11-02,tech31,2025-10-18 07:17:11
+302,TCKT-10302,High,Closed,Hardware,Email not syncing,Issue details for ticket 302,2025-07-12,2025-07-21,tech28,2025-07-12 07:17:11
+303,TCKT-10303,Low,Closed,Software,VPN issue,Issue details for ticket 303,2025-05-10,2025-05-20,tech32,2025-05-10 07:17:11
+304,TCKT-10304,High,Closed,Software,Account locked,Issue details for ticket 304,2025-04-26,2025-05-16,tech24,2025-04-26 07:17:11
+305,TCKT-10305,Urgent,Resolved,Software,Password reset,Issue details for ticket 305,2025-04-01,2025-04-18,tech32,2025-04-01 07:17:11
+306,TCKT-10306,High,Closed,Hardware,Password reset,Issue details for ticket 306,2025-01-13,2025-01-26,tech2,2025-01-13 07:17:11
+307,TCKT-10307,Urgent,Open,Software,Application crash,Issue details for ticket 307,2025-11-03,2025-11-10,tech38,2025-11-03 07:17:11
+308,TCKT-10308,High,Closed,Network,Application crash,Issue details for ticket 308,2025-01-13,2025-01-14,tech33,2025-01-13 07:17:11
+309,TCKT-10309,Medium,Closed,Security,Email not syncing,Issue details for ticket 309,2025-08-21,2025-09-07,tech31,2025-08-21 07:17:11
+310,TCKT-10310,High,In Progress,Access,Password reset,Issue details for ticket 310,2025-08-29,2025-09-18,tech8,2025-08-29 07:17:11
+311,TCKT-10311,Urgent,Open,Hardware,Laptop not starting,Issue details for ticket 311,2025-10-23,2025-11-10,tech30,2025-10-23 07:17:11
+312,TCKT-10312,High,Closed,Hardware,Application crash,Issue details for ticket 312,2025-02-28,,tech13,2025-02-28 07:17:11
+313,TCKT-10313,Urgent,Resolved,Software,VPN issue,Issue details for ticket 313,2025-06-06,2025-06-10,tech19,2025-06-06 07:17:11
+314,TCKT-10314,Urgent,Resolved,Network,WiFi down,Issue details for ticket 314,2025-11-09,2025-11-16,tech8,2025-11-09 07:17:11
+315,TCKT-10315,Medium,Open,Hardware,WiFi down,Issue details for ticket 315,2025-07-19,2025-07-29,tech24,2025-07-19 07:17:11
+316,TCKT-10316,High,Closed,Network,Laptop not starting,Issue details for ticket 316,2025-07-09,2025-07-27,tech14,2025-07-09 07:17:11
+317,TCKT-10317,Medium,Open,Software,System slow,Issue details for ticket 317,2025-09-16,,tech33,2025-09-16 07:17:11
+318,TCKT-10318,Urgent,Resolved,Hardware,WiFi down,Issue details for ticket 318,2025-10-01,,tech12,2025-10-01 07:17:11
+319,TCKT-10319,Low,In Progress,Network,Email not syncing,Issue details for ticket 319,2025-05-21,2025-05-26,tech3,2025-05-21 07:17:11
+320,TCKT-10320,High,Resolved,Security,Password reset,Issue details for ticket 320,2025-08-20,,tech21,2025-08-20 07:17:11
+321,TCKT-10321,Low,In Progress,Access,Laptop not starting,Issue details for ticket 321,2025-11-10,2025-11-24,tech6,2025-11-10 07:17:11
+322,TCKT-10322,Medium,Resolved,Access,WiFi down,Issue details for ticket 322,2025-03-30,2025-04-07,tech36,2025-03-30 07:17:11
+323,TCKT-10323,Low,In Progress,Software,Application crash,Issue details for ticket 323,2025-02-07,,tech23,2025-02-07 07:17:11
+324,TCKT-10324,Low,Open,Security,WiFi down,Issue details for ticket 324,2025-08-15,2025-08-20,tech17,2025-08-15 07:17:11
+325,TCKT-10325,Medium,Closed,Network,System slow,Issue details for ticket 325,2024-12-14,,tech3,2024-12-14 07:17:11
+326,TCKT-10326,Medium,In Progress,Software,WiFi down,Issue details for ticket 326,2025-03-27,2025-04-03,tech11,2025-03-27 07:17:11
+327,TCKT-10327,High,In Progress,Network,WiFi down,Issue details for ticket 327,2025-07-30,2025-08-14,tech16,2025-07-30 07:17:11
+328,TCKT-10328,Medium,In Progress,Hardware,Application crash,Issue details for ticket 328,2025-12-07,2025-12-17,tech26,2025-12-07 07:17:11
+329,TCKT-10329,High,Resolved,Access,VPN issue,Issue details for ticket 329,2025-02-18,2025-02-25,tech21,2025-02-18 07:17:11
+330,TCKT-10330,Medium,Open,Security,Application crash,Issue details for ticket 330,2024-12-23,2025-01-06,tech19,2024-12-23 07:17:11
+331,TCKT-10331,High,Closed,Hardware,Password reset,Issue details for ticket 331,2025-04-12,2025-04-19,tech16,2025-04-12 07:17:11
+332,TCKT-10332,Low,In Progress,Security,Application crash,Issue details for ticket 332,2025-05-08,2025-05-15,tech29,2025-05-08 07:17:11
+333,TCKT-10333,Medium,In Progress,Network,WiFi down,Issue details for ticket 333,2025-11-17,2025-12-05,tech34,2025-11-17 07:17:11
+334,TCKT-10334,Medium,In Progress,Access,Application crash,Issue details for ticket 334,2025-09-09,,tech15,2025-09-09 07:17:11
+335,TCKT-10335,High,Resolved,Security,Account locked,Issue details for ticket 335,2025-05-14,2025-05-31,tech40,2025-05-14 07:17:11
+336,TCKT-10336,High,Closed,Access,System slow,Issue details for ticket 336,2025-03-10,2025-03-21,tech3,2025-03-10 07:17:11
+337,TCKT-10337,Low,Closed,Security,WiFi down,Issue details for ticket 337,2025-10-10,2025-10-27,tech2,2025-10-10 07:17:11
+338,TCKT-10338,Low,In Progress,Access,VPN issue,Issue details for ticket 338,2025-05-16,2025-05-30,tech31,2025-05-16 07:17:11
+339,TCKT-10339,High,Closed,Access,Account locked,Issue details for ticket 339,2025-08-16,2025-08-28,tech9,2025-08-16 07:17:11
+340,TCKT-10340,Low,Closed,Network,Password reset,Issue details for ticket 340,2025-01-22,2025-02-02,tech37,2025-01-22 07:17:11
+341,TCKT-10341,Medium,Closed,Access,Password reset,Issue details for ticket 341,2025-04-22,2025-04-29,tech2,2025-04-22 07:17:11
+342,TCKT-10342,Medium,Resolved,Access,Laptop not starting,Issue details for ticket 342,2025-04-25,2025-05-07,tech34,2025-04-25 07:17:11
+343,TCKT-10343,Medium,In Progress,Hardware,VPN issue,Issue details for ticket 343,2025-10-09,2025-10-14,tech29,2025-10-09 07:17:11
+344,TCKT-10344,Low,In Progress,Security,Password reset,Issue details for ticket 344,2025-06-19,2025-06-23,tech14,2025-06-19 07:17:11
+345,TCKT-10345,High,In Progress,Hardware,VPN issue,Issue details for ticket 345,2025-08-29,2025-09-18,tech18,2025-08-29 07:17:11
+346,TCKT-10346,Urgent,In Progress,Security,Application crash,Issue details for ticket 346,2025-07-20,,tech22,2025-07-20 07:17:11
+347,TCKT-10347,High,Resolved,Software,VPN issue,Issue details for ticket 347,2025-09-04,2025-09-13,tech25,2025-09-04 07:17:11
+348,TCKT-10348,Medium,In Progress,Software,WiFi down,Issue details for ticket 348,2025-04-25,2025-04-27,tech22,2025-04-25 07:17:11
+349,TCKT-10349,Low,Resolved,Hardware,System slow,Issue details for ticket 349,2025-06-21,2025-06-25,tech30,2025-06-21 07:17:11
+350,TCKT-10350,High,In Progress,Hardware,Password reset,Issue details for ticket 350,2025-11-06,,tech12,2025-11-06 07:17:11
+351,TCKT-10351,Urgent,Open,Access,System slow,Issue details for ticket 351,2025-07-28,2025-07-30,tech21,2025-07-28 07:17:11
+352,TCKT-10352,High,Closed,Software,Password reset,Issue details for ticket 352,2025-11-23,2025-11-29,tech22,2025-11-23 07:17:11
+353,TCKT-10353,Medium,Resolved,Security,Laptop not starting,Issue details for ticket 353,2025-09-11,2025-09-12,tech5,2025-09-11 07:17:11
+354,TCKT-10354,Medium,In Progress,Security,System slow,Issue details for ticket 354,2025-04-29,2025-05-05,tech18,2025-04-29 07:17:11
+355,TCKT-10355,Low,Closed,Network,Account locked,Issue details for ticket 355,2025-01-06,,tech23,2025-01-06 07:17:11
+356,TCKT-10356,Low,Open,Network,Account locked,Issue details for ticket 356,2025-08-02,2025-08-22,tech17,2025-08-02 07:17:11
+357,TCKT-10357,High,Closed,Access,Password reset,Issue details for ticket 357,2025-02-26,2025-03-12,tech35,2025-02-26 07:17:11
+358,TCKT-10358,Low,In Progress,Security,Email not syncing,Issue details for ticket 358,2024-12-20,2025-01-07,tech7,2024-12-20 07:17:11
+359,TCKT-10359,High,Closed,Security,VPN issue,Issue details for ticket 359,2025-02-14,2025-02-15,tech1,2025-02-14 07:17:11
+360,TCKT-10360,Urgent,Closed,Software,Email not syncing,Issue details for ticket 360,2025-10-21,,tech14,2025-10-21 07:17:11
+361,TCKT-10361,High,Open,Hardware,Account locked,Issue details for ticket 361,2025-05-21,2025-06-01,tech33,2025-05-21 07:17:11
+362,TCKT-10362,Medium,Closed,Access,Password reset,Issue details for ticket 362,2024-12-08,2024-12-28,tech24,2024-12-08 07:17:11
+363,TCKT-10363,Medium,Resolved,Access,Laptop not starting,Issue details for ticket 363,2025-03-24,2025-04-12,tech40,2025-03-24 07:17:11
+364,TCKT-10364,Medium,Resolved,Software,Account locked,Issue details for ticket 364,2025-09-14,,tech24,2025-09-14 07:17:11
+365,TCKT-10365,Medium,Resolved,Access,WiFi down,Issue details for ticket 365,2025-10-07,2025-10-15,tech35,2025-10-07 07:17:11
+366,TCKT-10366,Urgent,Resolved,Network,Password reset,Issue details for ticket 366,2025-03-20,2025-03-31,tech29,2025-03-20 07:17:11
+367,TCKT-10367,Low,Open,Access,Password reset,Issue details for ticket 367,2025-02-28,2025-03-05,tech31,2025-02-28 07:17:11
+368,TCKT-10368,Urgent,In Progress,Security,Password reset,Issue details for ticket 368,2025-07-08,2025-07-18,tech27,2025-07-08 07:17:11
+369,TCKT-10369,Medium,In Progress,Hardware,Application crash,Issue details for ticket 369,2025-01-24,2025-02-07,tech32,2025-01-24 07:17:11
+370,TCKT-10370,Medium,In Progress,Security,System slow,Issue details for ticket 370,2025-07-07,2025-07-19,tech33,2025-07-07 07:17:11
+371,TCKT-10371,Urgent,Open,Software,VPN issue,Issue details for ticket 371,2025-07-08,2025-07-12,tech18,2025-07-08 07:17:11
+372,TCKT-10372,High,In Progress,Hardware,WiFi down,Issue details for ticket 372,2025-01-04,2025-01-09,tech34,2025-01-04 07:17:11
+373,TCKT-10373,Low,Closed,Hardware,Application crash,Issue details for ticket 373,2025-07-22,,tech18,2025-07-22 07:17:11
+374,TCKT-10374,High,Resolved,Software,Application crash,Issue details for ticket 374,2025-08-25,2025-08-28,tech7,2025-08-25 07:17:11
+375,TCKT-10375,Medium,In Progress,Network,Email not syncing,Issue details for ticket 375,2024-12-30,2025-01-16,tech20,2024-12-30 07:17:11
+376,TCKT-10376,Medium,Closed,Security,System slow,Issue details for ticket 376,2025-04-15,2025-04-17,tech38,2025-04-15 07:17:11
+377,TCKT-10377,Medium,Closed,Network,Application crash,Issue details for ticket 377,2025-09-15,2025-09-18,tech37,2025-09-15 07:17:11
+378,TCKT-10378,Medium,Closed,Network,Password reset,Issue details for ticket 378,2025-08-03,,tech36,2025-08-03 07:17:11
+379,TCKT-10379,Urgent,Closed,Security,Laptop not starting,Issue details for ticket 379,2025-09-30,2025-10-18,tech17,2025-09-30 07:17:11
+380,TCKT-10380,High,Resolved,Hardware,Password reset,Issue details for ticket 380,2025-05-23,2025-06-04,tech22,2025-05-23 07:17:11
+381,TCKT-10381,Low,Closed,Security,Password reset,Issue details for ticket 381,2025-08-20,,tech37,2025-08-20 07:17:11
+382,TCKT-10382,High,Closed,Network,System slow,Issue details for ticket 382,2025-03-30,2025-04-16,tech10,2025-03-30 07:17:11
+383,TCKT-10383,Low,In Progress,Access,Account locked,Issue details for ticket 383,2025-05-27,2025-06-08,tech25,2025-05-27 07:17:11
+384,TCKT-10384,High,In Progress,Security,Application crash,Issue details for ticket 384,2025-08-07,2025-08-22,tech15,2025-08-07 07:17:11
+385,TCKT-10385,Low,Resolved,Network,VPN issue,Issue details for ticket 385,2025-08-06,2025-08-22,tech31,2025-08-06 07:17:11
+386,TCKT-10386,Urgent,Open,Security,Email not syncing,Issue details for ticket 386,2025-02-20,2025-02-28,tech28,2025-02-20 07:17:11
+387,TCKT-10387,Low,Closed,Security,Laptop not starting,Issue details for ticket 387,2025-08-27,,tech13,2025-08-27 07:17:11
+388,TCKT-10388,Urgent,Resolved,Network,WiFi down,Issue details for ticket 388,2025-02-16,2025-02-17,tech7,2025-02-16 07:17:11
+389,TCKT-10389,Urgent,Closed,Hardware,Account locked,Issue details for ticket 389,2025-08-20,2025-09-05,tech19,2025-08-20 07:17:11
+390,TCKT-10390,Medium,Open,Access,Password reset,Issue details for ticket 390,2025-01-16,2025-01-19,tech21,2025-01-16 07:17:11
+391,TCKT-10391,Urgent,Open,Software,Email not syncing,Issue details for ticket 391,2025-07-26,2025-08-13,tech1,2025-07-26 07:17:11
+392,TCKT-10392,Medium,In Progress,Access,VPN issue,Issue details for ticket 392,2025-09-05,,tech10,2025-09-05 07:17:11
+393,TCKT-10393,Medium,Resolved,Hardware,Email not syncing,Issue details for ticket 393,2025-02-13,2025-02-21,tech26,2025-02-13 07:17:11
+394,TCKT-10394,High,Resolved,Network,VPN issue,Issue details for ticket 394,2025-06-04,2025-06-22,tech27,2025-06-04 07:17:11
+395,TCKT-10395,Urgent,In Progress,Software,VPN issue,Issue details for ticket 395,2025-08-25,2025-08-29,tech14,2025-08-25 07:17:11
+396,TCKT-10396,Urgent,Resolved,Network,Account locked,Issue details for ticket 396,2025-05-11,2025-05-30,tech2,2025-05-11 07:17:11
+397,TCKT-10397,Urgent,Open,Software,Application crash,Issue details for ticket 397,2024-12-15,2025-01-02,tech8,2024-12-15 07:17:11
+398,TCKT-10398,Medium,Open,Hardware,Email not syncing,Issue details for ticket 398,2025-11-10,2025-11-25,tech32,2025-11-10 07:17:11
+399,TCKT-10399,Urgent,Resolved,Software,Password reset,Issue details for ticket 399,2025-01-06,2025-01-11,tech35,2025-01-06 07:17:11
+400,TCKT-10400,High,In Progress,Network,Password reset,Issue details for ticket 400,2025-02-11,2025-02-22,tech24,2025-02-11 07:17:11
+401,TCKT-10401,Low,Closed,Security,System slow,Issue details for ticket 401,2025-06-24,2025-07-03,tech10,2025-06-24 07:17:11
+402,TCKT-10402,Low,Closed,Hardware,Password reset,Issue details for ticket 402,2025-10-09,2025-10-23,tech20,2025-10-09 07:17:11
+403,TCKT-10403,Low,Closed,Access,Laptop not starting,Issue details for ticket 403,2025-09-27,2025-10-02,tech3,2025-09-27 07:17:11
+404,TCKT-10404,Medium,Open,Access,System slow,Issue details for ticket 404,2025-11-28,2025-12-04,tech35,2025-11-28 07:17:11
+405,TCKT-10405,Urgent,In Progress,Network,Email not syncing,Issue details for ticket 405,2025-07-25,2025-08-06,tech28,2025-07-25 07:17:11
+406,TCKT-10406,Low,Open,Security,WiFi down,Issue details for ticket 406,2025-10-03,2025-10-14,tech33,2025-10-03 07:17:11
+407,TCKT-10407,Medium,Open,Security,WiFi down,Issue details for ticket 407,2025-04-24,2025-04-28,tech7,2025-04-24 07:17:11
+408,TCKT-10408,Medium,Closed,Access,Email not syncing,Issue details for ticket 408,2025-07-09,,tech15,2025-07-09 07:17:11
+409,TCKT-10409,High,Open,Access,Laptop not starting,Issue details for ticket 409,2025-03-04,2025-03-23,tech19,2025-03-04 07:17:11
+410,TCKT-10410,High,Closed,Security,Account locked,Issue details for ticket 410,2025-02-18,2025-02-20,tech12,2025-02-18 07:17:11
+411,TCKT-10411,Urgent,Open,Security,System slow,Issue details for ticket 411,2025-11-27,2025-12-06,tech4,2025-11-27 07:17:11
+412,TCKT-10412,Low,Resolved,Security,Email not syncing,Issue details for ticket 412,2025-09-23,2025-10-10,tech27,2025-09-23 07:17:11
+413,TCKT-10413,Medium,Closed,Software,System slow,Issue details for ticket 413,2025-01-04,2025-01-20,tech28,2025-01-04 07:17:11
+414,TCKT-10414,High,Closed,Security,Email not syncing,Issue details for ticket 414,2025-06-18,2025-06-23,tech27,2025-06-18 07:17:11
+415,TCKT-10415,Low,In Progress,Security,VPN issue,Issue details for ticket 415,2025-01-26,2025-02-09,tech3,2025-01-26 07:17:11
+416,TCKT-10416,Low,Resolved,Access,Laptop not starting,Issue details for ticket 416,2025-04-11,2025-04-23,tech23,2025-04-11 07:17:11
+417,TCKT-10417,Low,Open,Hardware,VPN issue,Issue details for ticket 417,2025-01-16,2025-01-21,tech34,2025-01-16 07:17:11
+418,TCKT-10418,Medium,In Progress,Access,System slow,Issue details for ticket 418,2025-09-18,2025-09-20,tech23,2025-09-18 07:17:11
+419,TCKT-10419,Urgent,Closed,Software,Laptop not starting,Issue details for ticket 419,2025-09-05,2025-09-25,tech6,2025-09-05 07:17:11
+420,TCKT-10420,Medium,Open,Software,Email not syncing,Issue details for ticket 420,2025-03-28,2025-04-12,tech5,2025-03-28 07:17:11
+421,TCKT-10421,Low,Resolved,Hardware,Email not syncing,Issue details for ticket 421,2025-10-06,2025-10-15,tech11,2025-10-06 07:17:11
+422,TCKT-10422,Urgent,Resolved,Hardware,Application crash,Issue details for ticket 422,2025-05-21,2025-06-08,tech27,2025-05-21 07:17:11
+423,TCKT-10423,Low,Resolved,Access,Email not syncing,Issue details for ticket 423,2024-12-18,2025-01-06,tech5,2024-12-18 07:17:11
+424,TCKT-10424,High,In Progress,Security,Application crash,Issue details for ticket 424,2025-10-07,2025-10-21,tech12,2025-10-07 07:17:11
+425,TCKT-10425,High,In Progress,Hardware,Password reset,Issue details for ticket 425,2025-09-12,2025-09-18,tech3,2025-09-12 07:17:11
+426,TCKT-10426,High,Resolved,Network,System slow,Issue details for ticket 426,2025-09-15,2025-09-16,tech30,2025-09-15 07:17:11
+427,TCKT-10427,Medium,In Progress,Network,WiFi down,Issue details for ticket 427,2025-11-03,2025-11-10,tech28,2025-11-03 07:17:11
+428,TCKT-10428,Medium,Resolved,Security,Email not syncing,Issue details for ticket 428,2025-10-15,2025-10-29,tech16,2025-10-15 07:17:11
+429,TCKT-10429,High,In Progress,Hardware,Laptop not starting,Issue details for ticket 429,2025-07-21,2025-07-24,tech11,2025-07-21 07:17:11
+430,TCKT-10430,Low,Open,Network,Laptop not starting,Issue details for ticket 430,2025-07-03,2025-07-08,tech37,2025-07-03 07:17:11
+431,TCKT-10431,Urgent,Open,Network,WiFi down,Issue details for ticket 431,2025-08-31,,tech11,2025-08-31 07:17:11
+432,TCKT-10432,Low,Resolved,Software,Application crash,Issue details for ticket 432,2025-04-10,2025-04-26,tech35,2025-04-10 07:17:11
+433,TCKT-10433,Medium,In Progress,Hardware,Account locked,Issue details for ticket 433,2025-06-07,2025-06-22,tech16,2025-06-07 07:17:11
+434,TCKT-10434,Low,Open,Hardware,System slow,Issue details for ticket 434,2025-04-07,2025-04-18,tech7,2025-04-07 07:17:11
+435,TCKT-10435,Urgent,Closed,Software,VPN issue,Issue details for ticket 435,2025-04-02,,tech32,2025-04-02 07:17:11
+436,TCKT-10436,Urgent,In Progress,Security,WiFi down,Issue details for ticket 436,2025-02-13,2025-02-14,tech36,2025-02-13 07:17:11
+437,TCKT-10437,Medium,Open,Access,Password reset,Issue details for ticket 437,2024-12-07,,tech31,2024-12-07 07:17:11
+438,TCKT-10438,Medium,Resolved,Software,WiFi down,Issue details for ticket 438,2025-06-10,2025-06-20,tech15,2025-06-10 07:17:11
+439,TCKT-10439,Medium,Open,Hardware,Password reset,Issue details for ticket 439,2024-12-14,2024-12-24,tech22,2024-12-14 07:17:11
+440,TCKT-10440,High,In Progress,Hardware,Application crash,Issue details for ticket 440,2025-09-07,,tech11,2025-09-07 07:17:11
+441,TCKT-10441,Urgent,Open,Access,Email not syncing,Issue details for ticket 441,2025-05-31,2025-06-07,tech32,2025-05-31 07:17:11
+442,TCKT-10442,Medium,Closed,Hardware,Password reset,Issue details for ticket 442,2025-05-24,2025-05-29,tech39,2025-05-24 07:17:11
+443,TCKT-10443,Medium,Open,Network,Account locked,Issue details for ticket 443,2025-02-07,2025-02-23,tech15,2025-02-07 07:17:11
+444,TCKT-10444,Urgent,Open,Network,Laptop not starting,Issue details for ticket 444,2025-06-03,2025-06-18,tech13,2025-06-03 07:17:11
+445,TCKT-10445,Medium,In Progress,Access,System slow,Issue details for ticket 445,2025-02-20,2025-02-22,tech31,2025-02-20 07:17:11
+446,TCKT-10446,Urgent,Open,Software,Application crash,Issue details for ticket 446,2025-02-21,2025-03-11,tech20,2025-02-21 07:17:11
+447,TCKT-10447,Medium,Resolved,Access,WiFi down,Issue details for ticket 447,2025-05-06,2025-05-23,tech21,2025-05-06 07:17:11
+448,TCKT-10448,Urgent,Resolved,Access,Account locked,Issue details for ticket 448,2025-10-08,2025-10-26,tech10,2025-10-08 07:17:11
+449,TCKT-10449,Low,In Progress,Hardware,Email not syncing,Issue details for ticket 449,2025-01-18,2025-02-01,tech39,2025-01-18 07:17:11
+450,TCKT-10450,Urgent,In Progress,Security,VPN issue,Issue details for ticket 450,2025-10-07,2025-10-18,tech23,2025-10-07 07:17:11
+451,TCKT-10451,Urgent,Open,Security,VPN issue,Issue details for ticket 451,2025-06-03,2025-06-21,tech38,2025-06-03 07:17:11
+452,TCKT-10452,Medium,In Progress,Hardware,Account locked,Issue details for ticket 452,2025-05-10,,tech3,2025-05-10 07:17:11
+453,TCKT-10453,High,Open,Network,Laptop not starting,Issue details for ticket 453,2025-11-13,2025-11-25,tech19,2025-11-13 07:17:11
+454,TCKT-10454,Low,Closed,Access,System slow,Issue details for ticket 454,2025-10-11,2025-10-14,tech8,2025-10-11 07:17:11
+455,TCKT-10455,Urgent,Open,Hardware,WiFi down,Issue details for ticket 455,2025-03-11,2025-03-20,tech36,2025-03-11 07:17:11
+456,TCKT-10456,Low,Resolved,Security,Application crash,Issue details for ticket 456,2025-01-28,2025-02-07,tech37,2025-01-28 07:17:11
+457,TCKT-10457,Medium,Closed,Software,Account locked,Issue details for ticket 457,2025-04-14,2025-04-16,tech25,2025-04-14 07:17:11
+458,TCKT-10458,Medium,Resolved,Network,Account locked,Issue details for ticket 458,2025-12-07,2025-12-11,tech2,2025-12-07 07:17:11
+459,TCKT-10459,High,Closed,Network,VPN issue,Issue details for ticket 459,2025-08-13,2025-08-17,tech6,2025-08-13 07:17:11
+460,TCKT-10460,Medium,Resolved,Hardware,Application crash,Issue details for ticket 460,2025-03-14,2025-03-24,tech13,2025-03-14 07:17:11
+461,TCKT-10461,Low,Open,Access,Laptop not starting,Issue details for ticket 461,2025-06-20,,tech13,2025-06-20 07:17:11
+462,TCKT-10462,Medium,Closed,Access,WiFi down,Issue details for ticket 462,2025-02-10,,tech12,2025-02-10 07:17:11
+463,TCKT-10463,Medium,Resolved,Hardware,System slow,Issue details for ticket 463,2025-12-06,2025-12-09,tech10,2025-12-06 07:17:11
+464,TCKT-10464,Urgent,In Progress,Software,Email not syncing,Issue details for ticket 464,2025-10-31,2025-11-14,tech25,2025-10-31 07:17:11
+465,TCKT-10465,Medium,In Progress,Security,Password reset,Issue details for ticket 465,2025-07-08,2025-07-15,tech36,2025-07-08 07:17:11
+466,TCKT-10466,Urgent,Open,Hardware,Password reset,Issue details for ticket 466,2024-12-18,2024-12-31,tech21,2024-12-18 07:17:11
+467,TCKT-10467,Medium,Closed,Software,Email not syncing,Issue details for ticket 467,2025-09-06,,tech27,2025-09-06 07:17:11
+468,TCKT-10468,High,Resolved,Software,Laptop not starting,Issue details for ticket 468,2025-02-22,,tech35,2025-02-22 07:17:11
+469,TCKT-10469,Medium,In Progress,Security,Password reset,Issue details for ticket 469,2025-04-29,,tech30,2025-04-29 07:17:11
+470,TCKT-10470,Medium,In Progress,Network,Account locked,Issue details for ticket 470,2025-03-05,2025-03-07,tech25,2025-03-05 07:17:11
+471,TCKT-10471,Low,Closed,Security,WiFi down,Issue details for ticket 471,2025-10-01,2025-10-07,tech26,2025-10-01 07:17:11
+472,TCKT-10472,Urgent,Resolved,Network,Email not syncing,Issue details for ticket 472,2025-02-02,2025-02-10,tech21,2025-02-02 07:17:11
+473,TCKT-10473,High,Closed,Hardware,WiFi down,Issue details for ticket 473,2025-02-18,2025-02-25,tech17,2025-02-18 07:17:11
+474,TCKT-10474,Medium,Open,Network,System slow,Issue details for ticket 474,2025-04-26,2025-05-16,tech27,2025-04-26 07:17:11
+475,TCKT-10475,Medium,Open,Access,Password reset,Issue details for ticket 475,2025-03-01,2025-03-04,tech20,2025-03-01 07:17:11
+476,TCKT-10476,Urgent,Open,Security,Application crash,Issue details for ticket 476,2025-04-12,2025-04-28,tech28,2025-04-12 07:17:11
+477,TCKT-10477,Medium,Resolved,Hardware,Email not syncing,Issue details for ticket 477,2024-12-10,2024-12-24,tech24,2024-12-10 07:17:11
+478,TCKT-10478,Medium,Open,Network,VPN issue,Issue details for ticket 478,2025-02-16,,tech16,2025-02-16 07:17:11
+479,TCKT-10479,High,Open,Network,System slow,Issue details for ticket 479,2024-12-16,2024-12-31,tech9,2024-12-16 07:17:11
+480,TCKT-10480,Low,In Progress,Hardware,Application crash,Issue details for ticket 480,2025-08-19,,tech9,2025-08-19 07:17:11
+481,TCKT-10481,Medium,Resolved,Access,Application crash,Issue details for ticket 481,2025-10-07,,tech11,2025-10-07 07:17:11
+482,TCKT-10482,Low,Open,Security,WiFi down,Issue details for ticket 482,2025-01-08,2025-01-11,tech3,2025-01-08 07:17:11
+483,TCKT-10483,Urgent,Resolved,Network,Application crash,Issue details for ticket 483,2025-05-09,2025-05-11,tech15,2025-05-09 07:17:11
+484,TCKT-10484,Urgent,Resolved,Hardware,WiFi down,Issue details for ticket 484,2025-01-17,2025-01-19,tech21,2025-01-17 07:17:11
+485,TCKT-10485,Low,Open,Security,Password reset,Issue details for ticket 485,2025-09-20,2025-09-27,tech24,2025-09-20 07:17:11
+486,TCKT-10486,High,Resolved,Network,Laptop not starting,Issue details for ticket 486,2025-08-18,2025-09-06,tech40,2025-08-18 07:17:11
+487,TCKT-10487,Urgent,In Progress,Hardware,Account locked,Issue details for ticket 487,2025-10-11,2025-10-20,tech14,2025-10-11 07:17:11
+488,TCKT-10488,High,Open,Hardware,Application crash,Issue details for ticket 488,2025-11-23,2025-11-24,tech17,2025-11-23 07:17:11
+489,TCKT-10489,Urgent,Open,Software,WiFi down,Issue details for ticket 489,2025-07-21,2025-08-01,tech37,2025-07-21 07:17:11
+490,TCKT-10490,Low,In Progress,Software,Laptop not starting,Issue details for ticket 490,2025-02-18,2025-03-02,tech27,2025-02-18 07:17:11
+491,TCKT-10491,Medium,Open,Hardware,WiFi down,Issue details for ticket 491,2025-04-17,,tech17,2025-04-17 07:17:11
+492,TCKT-10492,Urgent,In Progress,Software,VPN issue,Issue details for ticket 492,2025-04-03,2025-04-15,tech4,2025-04-03 07:17:11
+493,TCKT-10493,High,Open,Network,System slow,Issue details for ticket 493,2025-02-26,2025-03-09,tech21,2025-02-26 07:17:11
+494,TCKT-10494,Medium,Closed,Hardware,Laptop not starting,Issue details for ticket 494,2025-04-16,2025-05-02,tech31,2025-04-16 07:17:11
+495,TCKT-10495,Medium,Resolved,Hardware,Password reset,Issue details for ticket 495,2025-04-11,,tech20,2025-04-11 07:17:11
+496,TCKT-10496,Urgent,Closed,Network,System slow,Issue details for ticket 496,2025-04-14,2025-04-19,tech21,2025-04-14 07:17:11
+497,TCKT-10497,Medium,Open,Access,WiFi down,Issue details for ticket 497,2025-10-03,2025-10-11,tech26,2025-10-03 07:17:11
+498,TCKT-10498,Medium,Open,Hardware,Application crash,Issue details for ticket 498,2025-04-14,2025-04-17,tech5,2025-04-14 07:17:11
+499,TCKT-10499,Urgent,Open,Access,System slow,Issue details for ticket 499,2025-04-05,2025-04-17,tech24,2025-04-05 07:17:11
+500,TCKT-10500,High,Closed,Hardware,Password reset,Issue details for ticket 500,2025-07-14,2025-07-18,tech31,2025-07-14 07:17:11
+501,TCKT-10501,Urgent,Open,Access,System slow,Issue details for ticket 501,2025-01-16,,tech21,2025-01-16 07:17:11
+502,TCKT-10502,High,In Progress,Hardware,System slow,Issue details for ticket 502,2025-09-21,2025-10-10,tech38,2025-09-21 07:17:11
+503,TCKT-10503,High,In Progress,Access,Email not syncing,Issue details for ticket 503,2025-04-02,2025-04-11,tech3,2025-04-02 07:17:11
+504,TCKT-10504,High,Resolved,Network,Account locked,Issue details for ticket 504,2025-04-14,,tech12,2025-04-14 07:17:11
+505,TCKT-10505,Low,Resolved,Network,Account locked,Issue details for ticket 505,2025-07-04,2025-07-06,tech7,2025-07-04 07:17:11
+506,TCKT-10506,Low,Resolved,Security,Application crash,Issue details for ticket 506,2025-01-30,2025-02-12,tech40,2025-01-30 07:17:11
+507,TCKT-10507,Urgent,Closed,Software,WiFi down,Issue details for ticket 507,2025-12-03,2025-12-10,tech33,2025-12-03 07:17:11
+508,TCKT-10508,Low,In Progress,Network,System slow,Issue details for ticket 508,2025-10-13,2025-10-29,tech3,2025-10-13 07:17:11
+509,TCKT-10509,Low,Open,Access,Email not syncing,Issue details for ticket 509,2025-01-24,2025-02-05,tech17,2025-01-24 07:17:11
+510,TCKT-10510,Medium,Open,Hardware,WiFi down,Issue details for ticket 510,2025-01-01,2025-01-21,tech39,2025-01-01 07:17:11
+511,TCKT-10511,High,In Progress,Hardware,VPN issue,Issue details for ticket 511,2025-03-23,,tech34,2025-03-23 07:17:11
+512,TCKT-10512,Medium,Open,Hardware,Application crash,Issue details for ticket 512,2025-01-15,2025-01-25,tech8,2025-01-15 07:17:11
+513,TCKT-10513,Low,Open,Security,Account locked,Issue details for ticket 513,2025-07-16,2025-07-28,tech26,2025-07-16 07:17:11
+514,TCKT-10514,Medium,Closed,Network,Application crash,Issue details for ticket 514,2025-07-29,2025-08-08,tech13,2025-07-29 07:17:11
+515,TCKT-10515,Low,Open,Access,Application crash,Issue details for ticket 515,2024-12-24,2025-01-08,tech14,2024-12-24 07:17:11
+516,TCKT-10516,Low,Resolved,Security,Laptop not starting,Issue details for ticket 516,2025-10-20,2025-10-22,tech33,2025-10-20 07:17:11
+517,TCKT-10517,Medium,Resolved,Network,Application crash,Issue details for ticket 517,2025-03-24,,tech24,2025-03-24 07:17:11
+518,TCKT-10518,High,Closed,Network,Password reset,Issue details for ticket 518,2025-02-17,2025-02-19,tech26,2025-02-17 07:17:11
+519,TCKT-10519,Medium,Open,Software,System slow,Issue details for ticket 519,2025-01-10,2025-01-22,tech39,2025-01-10 07:17:11
+520,TCKT-10520,Medium,Resolved,Software,Account locked,Issue details for ticket 520,2025-11-26,2025-12-05,tech5,2025-11-26 07:17:11
+521,TCKT-10521,Urgent,Resolved,Hardware,Application crash,Issue details for ticket 521,2025-10-13,,tech6,2025-10-13 07:17:11
+522,TCKT-10522,Low,In Progress,Security,Account locked,Issue details for ticket 522,2025-04-04,2025-04-08,tech29,2025-04-04 07:17:11
+523,TCKT-10523,Low,Resolved,Hardware,Laptop not starting,Issue details for ticket 523,2025-03-12,2025-03-14,tech21,2025-03-12 07:17:11
+524,TCKT-10524,Low,Resolved,Security,Laptop not starting,Issue details for ticket 524,2025-04-05,2025-04-23,tech2,2025-04-05 07:17:11
+525,TCKT-10525,High,Open,Access,Password reset,Issue details for ticket 525,2025-03-05,2025-03-19,tech35,2025-03-05 07:17:11
+526,TCKT-10526,Medium,Open,Security,Account locked,Issue details for ticket 526,2025-09-17,2025-09-22,tech30,2025-09-17 07:17:11
+527,TCKT-10527,Urgent,Resolved,Access,WiFi down,Issue details for ticket 527,2025-02-06,2025-02-25,tech27,2025-02-06 07:17:11
+528,TCKT-10528,High,Closed,Security,WiFi down,Issue details for ticket 528,2025-08-03,2025-08-06,tech5,2025-08-03 07:17:11
+529,TCKT-10529,High,Open,Security,Email not syncing,Issue details for ticket 529,2025-04-13,2025-04-26,tech25,2025-04-13 07:17:11
+530,TCKT-10530,Low,Open,Hardware,WiFi down,Issue details for ticket 530,2025-01-13,,tech25,2025-01-13 07:17:11
+531,TCKT-10531,High,Closed,Software,WiFi down,Issue details for ticket 531,2025-05-17,,tech29,2025-05-17 07:17:11
+532,TCKT-10532,Medium,Open,Software,Email not syncing,Issue details for ticket 532,2025-04-09,2025-04-19,tech4,2025-04-09 07:17:11
+533,TCKT-10533,Medium,In Progress,Software,Password reset,Issue details for ticket 533,2025-05-01,2025-05-15,tech16,2025-05-01 07:17:11
+534,TCKT-10534,Low,Open,Access,WiFi down,Issue details for ticket 534,2025-11-30,2025-12-07,tech25,2025-11-30 07:17:11
+535,TCKT-10535,Urgent,In Progress,Security,WiFi down,Issue details for ticket 535,2025-09-12,2025-09-25,tech39,2025-09-12 07:17:11
+536,TCKT-10536,High,Closed,Security,VPN issue,Issue details for ticket 536,2024-12-30,,tech15,2024-12-30 07:17:11
+537,TCKT-10537,High,Closed,Network,Laptop not starting,Issue details for ticket 537,2025-04-19,2025-05-07,tech9,2025-04-19 07:17:11
+538,TCKT-10538,Low,Resolved,Security,Password reset,Issue details for ticket 538,2025-07-19,2025-07-24,tech37,2025-07-19 07:17:11
+539,TCKT-10539,High,Open,Security,Laptop not starting,Issue details for ticket 539,2025-05-17,2025-05-26,tech37,2025-05-17 07:17:11
+540,TCKT-10540,High,Resolved,Network,Laptop not starting,Issue details for ticket 540,2025-01-26,2025-02-13,tech30,2025-01-26 07:17:11
+541,TCKT-10541,Low,In Progress,Hardware,Email not syncing,Issue details for ticket 541,2025-05-19,2025-06-05,tech3,2025-05-19 07:17:11
+542,TCKT-10542,Urgent,Resolved,Access,VPN issue,Issue details for ticket 542,2025-07-14,2025-07-30,tech37,2025-07-14 07:17:11
+543,TCKT-10543,High,Closed,Hardware,Laptop not starting,Issue details for ticket 543,2025-09-02,2025-09-14,tech10,2025-09-02 07:17:11
+544,TCKT-10544,Low,In Progress,Network,Password reset,Issue details for ticket 544,2025-03-30,2025-04-02,tech19,2025-03-30 07:17:11
+545,TCKT-10545,Low,Open,Access,WiFi down,Issue details for ticket 545,2024-12-14,2024-12-16,tech4,2024-12-14 07:17:11
+546,TCKT-10546,High,Resolved,Hardware,Account locked,Issue details for ticket 546,2025-06-12,,tech4,2025-06-12 07:17:11
+547,TCKT-10547,Urgent,In Progress,Security,WiFi down,Issue details for ticket 547,2025-04-12,2025-04-19,tech35,2025-04-12 07:17:11
+548,TCKT-10548,High,Resolved,Security,Password reset,Issue details for ticket 548,2025-12-07,,tech40,2025-12-07 07:17:11
+549,TCKT-10549,Medium,Open,Network,Application crash,Issue details for ticket 549,2025-04-28,,tech17,2025-04-28 07:17:11
+550,TCKT-10550,Urgent,Open,Software,Laptop not starting,Issue details for ticket 550,2025-03-18,,tech39,2025-03-18 07:17:11
+551,TCKT-10551,High,Resolved,Software,Password reset,Issue details for ticket 551,2025-08-24,2025-08-27,tech10,2025-08-24 07:17:11
+552,TCKT-10552,Medium,In Progress,Software,Application crash,Issue details for ticket 552,2025-06-04,2025-06-23,tech4,2025-06-04 07:17:11
+553,TCKT-10553,Medium,In Progress,Security,System slow,Issue details for ticket 553,2025-01-01,,tech27,2025-01-01 07:17:11
+554,TCKT-10554,Low,Resolved,Security,System slow,Issue details for ticket 554,2025-05-02,2025-05-07,tech10,2025-05-02 07:17:11
+555,TCKT-10555,High,In Progress,Access,System slow,Issue details for ticket 555,2025-09-10,,tech13,2025-09-10 07:17:11
+556,TCKT-10556,Low,In Progress,Security,Email not syncing,Issue details for ticket 556,2025-04-18,2025-04-30,tech33,2025-04-18 07:17:11
+557,TCKT-10557,Medium,Open,Hardware,Account locked,Issue details for ticket 557,2024-12-14,2024-12-31,tech13,2024-12-14 07:17:11
+558,TCKT-10558,Urgent,In Progress,Software,Account locked,Issue details for ticket 558,2025-06-27,,tech5,2025-06-27 07:17:11
+559,TCKT-10559,Low,Open,Network,Laptop not starting,Issue details for ticket 559,2025-05-03,2025-05-09,tech23,2025-05-03 07:17:11
+560,TCKT-10560,Low,Resolved,Access,Laptop not starting,Issue details for ticket 560,2024-12-30,,tech30,2024-12-30 07:17:11
+561,TCKT-10561,High,Closed,Software,System slow,Issue details for ticket 561,2025-04-07,2025-04-08,tech16,2025-04-07 07:17:11
+562,TCKT-10562,Low,Closed,Access,Account locked,Issue details for ticket 562,2025-01-23,,tech30,2025-01-23 07:17:11
+563,TCKT-10563,Urgent,Closed,Network,WiFi down,Issue details for ticket 563,2025-04-25,2025-05-01,tech31,2025-04-25 07:17:11
+564,TCKT-10564,Urgent,Closed,Security,Laptop not starting,Issue details for ticket 564,2025-10-08,2025-10-21,tech7,2025-10-08 07:17:11
+565,TCKT-10565,Medium,In Progress,Software,Account locked,Issue details for ticket 565,2025-03-24,2025-04-03,tech28,2025-03-24 07:17:11
+566,TCKT-10566,Urgent,Open,Software,WiFi down,Issue details for ticket 566,2025-01-16,2025-01-26,tech11,2025-01-16 07:17:11
+567,TCKT-10567,Urgent,Open,Security,Email not syncing,Issue details for ticket 567,2025-07-19,2025-08-03,tech17,2025-07-19 07:17:11
+568,TCKT-10568,Medium,Closed,Network,Email not syncing,Issue details for ticket 568,2025-02-14,2025-02-17,tech4,2025-02-14 07:17:11
+569,TCKT-10569,Medium,In Progress,Network,Email not syncing,Issue details for ticket 569,2025-05-14,2025-05-18,tech1,2025-05-14 07:17:11
+570,TCKT-10570,Urgent,Resolved,Access,Email not syncing,Issue details for ticket 570,2025-03-09,2025-03-25,tech39,2025-03-09 07:17:11
+571,TCKT-10571,High,Closed,Software,Account locked,Issue details for ticket 571,2025-09-11,,tech31,2025-09-11 07:17:11
+572,TCKT-10572,High,Closed,Network,WiFi down,Issue details for ticket 572,2025-10-06,2025-10-24,tech21,2025-10-06 07:17:11
+573,TCKT-10573,High,Resolved,Network,VPN issue,Issue details for ticket 573,2025-03-31,2025-04-17,tech31,2025-03-31 07:17:11
+574,TCKT-10574,High,Resolved,Hardware,VPN issue,Issue details for ticket 574,2025-02-28,2025-03-07,tech13,2025-02-28 07:17:11
+575,TCKT-10575,Low,Open,Security,Laptop not starting,Issue details for ticket 575,2025-10-08,2025-10-26,tech9,2025-10-08 07:17:11
+576,TCKT-10576,Medium,Resolved,Network,Password reset,Issue details for ticket 576,2025-10-23,2025-10-28,tech23,2025-10-23 07:17:11
+577,TCKT-10577,High,In Progress,Hardware,VPN issue,Issue details for ticket 577,2025-05-02,,tech23,2025-05-02 07:17:11
+578,TCKT-10578,Medium,Open,Access,Email not syncing,Issue details for ticket 578,2025-06-07,2025-06-18,tech34,2025-06-07 07:17:11
+579,TCKT-10579,Urgent,Closed,Network,System slow,Issue details for ticket 579,2025-09-13,2025-10-03,tech12,2025-09-13 07:17:11
+580,TCKT-10580,Low,In Progress,Network,Laptop not starting,Issue details for ticket 580,2025-02-13,,tech40,2025-02-13 07:17:11
+581,TCKT-10581,Low,Open,Network,Email not syncing,Issue details for ticket 581,2025-03-10,,tech10,2025-03-10 07:17:11
+582,TCKT-10582,Urgent,Closed,Access,System slow,Issue details for ticket 582,2025-05-11,2025-05-22,tech27,2025-05-11 07:17:11
+583,TCKT-10583,High,Closed,Security,VPN issue,Issue details for ticket 583,2025-06-27,2025-07-04,tech21,2025-06-27 07:17:11
+584,TCKT-10584,Medium,Closed,Network,Email not syncing,Issue details for ticket 584,2025-06-07,,tech16,2025-06-07 07:17:11
+585,TCKT-10585,High,Open,Software,VPN issue,Issue details for ticket 585,2025-06-11,2025-06-13,tech38,2025-06-11 07:17:11
+586,TCKT-10586,High,Open,Software,Password reset,Issue details for ticket 586,2025-06-16,2025-06-23,tech16,2025-06-16 07:17:11
+587,TCKT-10587,Urgent,Open,Hardware,Application crash,Issue details for ticket 587,2025-11-16,2025-11-27,tech15,2025-11-16 07:17:11
+588,TCKT-10588,Urgent,Open,Hardware,WiFi down,Issue details for ticket 588,2025-01-24,2025-02-08,tech29,2025-01-24 07:17:11
+589,TCKT-10589,High,Resolved,Network,Email not syncing,Issue details for ticket 589,2025-07-04,2025-07-10,tech31,2025-07-04 07:17:11
+590,TCKT-10590,Urgent,Open,Access,Laptop not starting,Issue details for ticket 590,2024-12-10,,tech22,2024-12-10 07:17:11
+591,TCKT-10591,High,Closed,Hardware,Password reset,Issue details for ticket 591,2025-08-26,2025-09-14,tech10,2025-08-26 07:17:11
+592,TCKT-10592,Medium,Open,Hardware,Email not syncing,Issue details for ticket 592,2025-01-02,,tech14,2025-01-02 07:17:11
+593,TCKT-10593,Medium,Resolved,Network,Email not syncing,Issue details for ticket 593,2025-06-29,2025-07-12,tech35,2025-06-29 07:17:11
+594,TCKT-10594,Low,Resolved,Network,Laptop not starting,Issue details for ticket 594,2025-09-28,2025-10-04,tech22,2025-09-28 07:17:11
+595,TCKT-10595,Low,Resolved,Security,WiFi down,Issue details for ticket 595,2025-07-12,2025-07-28,tech8,2025-07-12 07:17:11
+596,TCKT-10596,Urgent,In Progress,Security,VPN issue,Issue details for ticket 596,2025-08-23,2025-09-01,tech8,2025-08-23 07:17:11
+597,TCKT-10597,High,Closed,Hardware,Email not syncing,Issue details for ticket 597,2025-03-29,2025-04-12,tech39,2025-03-29 07:17:11
+598,TCKT-10598,High,Resolved,Network,Laptop not starting,Issue details for ticket 598,2024-12-21,2025-01-04,tech11,2024-12-21 07:17:11
+599,TCKT-10599,Low,Resolved,Access,Account locked,Issue details for ticket 599,2025-04-25,2025-04-29,tech25,2025-04-25 07:17:11
+600,TCKT-10600,Urgent,Closed,Access,VPN issue,Issue details for ticket 600,2025-07-29,,tech1,2025-07-29 07:17:11
+601,TCKT-10601,Low,Closed,Network,WiFi down,Issue details for ticket 601,2025-10-18,2025-10-20,tech8,2025-10-18 07:17:11
+602,TCKT-10602,Medium,Open,Access,Application crash,Issue details for ticket 602,2025-03-21,2025-03-31,tech34,2025-03-21 07:17:11
+603,TCKT-10603,Urgent,Open,Hardware,Email not syncing,Issue details for ticket 603,2025-06-14,,tech33,2025-06-14 07:17:11
+604,TCKT-10604,High,In Progress,Security,VPN issue,Issue details for ticket 604,2024-12-21,2024-12-24,tech32,2024-12-21 07:17:11
+605,TCKT-10605,High,Resolved,Access,Laptop not starting,Issue details for ticket 605,2025-11-18,,tech28,2025-11-18 07:17:11
+606,TCKT-10606,Low,Open,Access,WiFi down,Issue details for ticket 606,2025-04-22,,tech15,2025-04-22 07:17:11
+607,TCKT-10607,Low,In Progress,Hardware,Account locked,Issue details for ticket 607,2024-12-27,2025-01-13,tech14,2024-12-27 07:17:11
+608,TCKT-10608,Medium,Closed,Access,Password reset,Issue details for ticket 608,2025-05-05,2025-05-06,tech37,2025-05-05 07:17:11
+609,TCKT-10609,Urgent,Open,Hardware,Password reset,Issue details for ticket 609,2025-09-02,2025-09-10,tech34,2025-09-02 07:17:11
+610,TCKT-10610,Urgent,In Progress,Security,Account locked,Issue details for ticket 610,2025-03-13,2025-03-29,tech29,2025-03-13 07:17:11
+611,TCKT-10611,Urgent,Open,Security,Email not syncing,Issue details for ticket 611,2025-02-20,,tech21,2025-02-20 07:17:11
+612,TCKT-10612,High,Closed,Software,Laptop not starting,Issue details for ticket 612,2024-12-31,,tech21,2024-12-31 07:17:11
+613,TCKT-10613,High,In Progress,Security,Password reset,Issue details for ticket 613,2025-03-05,2025-03-15,tech14,2025-03-05 07:17:11
+614,TCKT-10614,Low,Open,Security,Account locked,Issue details for ticket 614,2025-02-27,2025-03-13,tech4,2025-02-27 07:17:11
+615,TCKT-10615,Medium,Resolved,Software,Laptop not starting,Issue details for ticket 615,2025-02-01,,tech39,2025-02-01 07:17:11
+616,TCKT-10616,Urgent,In Progress,Access,Application crash,Issue details for ticket 616,2024-12-11,,tech15,2024-12-11 07:17:11
+617,TCKT-10617,Medium,Open,Access,Email not syncing,Issue details for ticket 617,2025-04-28,2025-05-12,tech27,2025-04-28 07:17:11
+618,TCKT-10618,High,In Progress,Network,Email not syncing,Issue details for ticket 618,2025-03-11,2025-03-28,tech23,2025-03-11 07:17:11
+619,TCKT-10619,Medium,In Progress,Access,Account locked,Issue details for ticket 619,2025-10-04,2025-10-18,tech24,2025-10-04 07:17:11
+620,TCKT-10620,Urgent,Resolved,Hardware,Password reset,Issue details for ticket 620,2025-04-11,2025-04-20,tech6,2025-04-11 07:17:11
+621,TCKT-10621,Medium,Closed,Hardware,WiFi down,Issue details for ticket 621,2025-05-24,2025-06-07,tech18,2025-05-24 07:17:11
+622,TCKT-10622,Urgent,Open,Network,VPN issue,Issue details for ticket 622,2025-10-01,2025-10-05,tech13,2025-10-01 07:17:11
+623,TCKT-10623,Low,In Progress,Network,VPN issue,Issue details for ticket 623,2025-11-01,2025-11-08,tech29,2025-11-01 07:17:11
+624,TCKT-10624,Urgent,Resolved,Access,VPN issue,Issue details for ticket 624,2025-04-05,2025-04-17,tech22,2025-04-05 07:17:11
+625,TCKT-10625,Medium,Resolved,Network,Laptop not starting,Issue details for ticket 625,2025-06-24,,tech10,2025-06-24 07:17:11
+626,TCKT-10626,High,Closed,Access,Account locked,Issue details for ticket 626,2025-05-24,2025-06-03,tech8,2025-05-24 07:17:11
+627,TCKT-10627,Urgent,Resolved,Hardware,WiFi down,Issue details for ticket 627,2025-07-22,,tech19,2025-07-22 07:17:11
+628,TCKT-10628,High,Open,Hardware,WiFi down,Issue details for ticket 628,2025-01-18,,tech11,2025-01-18 07:17:11
+629,TCKT-10629,Medium,Resolved,Hardware,WiFi down,Issue details for ticket 629,2025-01-28,,tech8,2025-01-28 07:17:11
+630,TCKT-10630,Low,Open,Security,WiFi down,Issue details for ticket 630,2025-09-23,2025-10-13,tech21,2025-09-23 07:17:11
+631,TCKT-10631,High,Resolved,Hardware,WiFi down,Issue details for ticket 631,2025-04-09,2025-04-15,tech13,2025-04-09 07:17:11
+632,TCKT-10632,High,Resolved,Security,Email not syncing,Issue details for ticket 632,2025-10-10,2025-10-26,tech28,2025-10-10 07:17:11
+633,TCKT-10633,Low,Resolved,Access,WiFi down,Issue details for ticket 633,2024-12-10,2024-12-15,tech28,2024-12-10 07:17:11
+634,TCKT-10634,Medium,Resolved,Network,Laptop not starting,Issue details for ticket 634,2025-10-29,,tech36,2025-10-29 07:17:11
+635,TCKT-10635,Urgent,Resolved,Hardware,WiFi down,Issue details for ticket 635,2025-04-01,2025-04-13,tech31,2025-04-01 07:17:11
+636,TCKT-10636,Urgent,Resolved,Security,Password reset,Issue details for ticket 636,2025-06-27,2025-06-28,tech8,2025-06-27 07:17:11
+637,TCKT-10637,Urgent,Closed,Hardware,Email not syncing,Issue details for ticket 637,2025-11-27,,tech24,2025-11-27 07:17:11
+638,TCKT-10638,Urgent,Resolved,Hardware,Password reset,Issue details for ticket 638,2025-07-13,2025-07-16,tech30,2025-07-13 07:17:11
+639,TCKT-10639,High,Closed,Network,Email not syncing,Issue details for ticket 639,2025-06-19,2025-06-29,tech40,2025-06-19 07:17:11
+640,TCKT-10640,Medium,Closed,Hardware,Account locked,Issue details for ticket 640,2025-11-26,2025-12-02,tech15,2025-11-26 07:17:11
+641,TCKT-10641,Medium,Closed,Hardware,Account locked,Issue details for ticket 641,2025-11-23,2025-12-02,tech28,2025-11-23 07:17:11
+642,TCKT-10642,Urgent,Resolved,Access,Laptop not starting,Issue details for ticket 642,2025-01-18,2025-01-28,tech24,2025-01-18 07:17:11
+643,TCKT-10643,Medium,Closed,Software,System slow,Issue details for ticket 643,2025-07-18,2025-08-07,tech28,2025-07-18 07:17:11
+644,TCKT-10644,Low,In Progress,Hardware,VPN issue,Issue details for ticket 644,2024-12-12,2024-12-19,tech12,2024-12-12 07:17:11
+645,TCKT-10645,Urgent,Open,Software,WiFi down,Issue details for ticket 645,2025-09-13,2025-09-21,tech24,2025-09-13 07:17:11
+646,TCKT-10646,Medium,Resolved,Security,Account locked,Issue details for ticket 646,2025-02-04,2025-02-10,tech19,2025-02-04 07:17:11
+647,TCKT-10647,Low,Closed,Security,Email not syncing,Issue details for ticket 647,2025-06-04,2025-06-17,tech32,2025-06-04 07:17:11
+648,TCKT-10648,Urgent,Open,Hardware,System slow,Issue details for ticket 648,2025-01-13,2025-01-30,tech37,2025-01-13 07:17:11
+649,TCKT-10649,High,Open,Hardware,Application crash,Issue details for ticket 649,2025-07-19,,tech26,2025-07-19 07:17:11
+650,TCKT-10650,High,In Progress,Access,VPN issue,Issue details for ticket 650,2025-10-28,2025-10-29,tech4,2025-10-28 07:17:11
+651,TCKT-10651,Urgent,Closed,Access,Email not syncing,Issue details for ticket 651,2025-10-01,,tech9,2025-10-01 07:17:11
+652,TCKT-10652,Urgent,In Progress,Access,Email not syncing,Issue details for ticket 652,2025-05-10,2025-05-21,tech20,2025-05-10 07:17:11
+653,TCKT-10653,Urgent,Closed,Security,VPN issue,Issue details for ticket 653,2025-08-13,,tech19,2025-08-13 07:17:11
+654,TCKT-10654,Urgent,In Progress,Hardware,Password reset,Issue details for ticket 654,2025-06-14,2025-06-27,tech19,2025-06-14 07:17:11
+655,TCKT-10655,Medium,Open,Security,Application crash,Issue details for ticket 655,2025-05-11,,tech5,2025-05-11 07:17:11
+656,TCKT-10656,Low,Closed,Hardware,Laptop not starting,Issue details for ticket 656,2025-01-08,2025-01-10,tech36,2025-01-08 07:17:11
+657,TCKT-10657,High,Open,Security,Account locked,Issue details for ticket 657,2025-05-11,2025-05-25,tech19,2025-05-11 07:17:11
+658,TCKT-10658,High,In Progress,Hardware,Application crash,Issue details for ticket 658,2025-11-20,2025-11-23,tech39,2025-11-20 07:17:11
+659,TCKT-10659,Low,In Progress,Hardware,Account locked,Issue details for ticket 659,2025-06-20,,tech26,2025-06-20 07:17:11
+660,TCKT-10660,Low,Open,Hardware,VPN issue,Issue details for ticket 660,2025-02-23,2025-03-03,tech15,2025-02-23 07:17:11
+661,TCKT-10661,Medium,In Progress,Access,Laptop not starting,Issue details for ticket 661,2025-11-01,2025-11-10,tech9,2025-11-01 07:17:11
+662,TCKT-10662,Low,In Progress,Access,Email not syncing,Issue details for ticket 662,2025-04-29,,tech28,2025-04-29 07:17:11
+663,TCKT-10663,High,Closed,Security,VPN issue,Issue details for ticket 663,2025-04-02,,tech1,2025-04-02 07:17:11
+664,TCKT-10664,Urgent,Closed,Hardware,Application crash,Issue details for ticket 664,2025-05-08,2025-05-13,tech39,2025-05-08 07:17:11
+665,TCKT-10665,Medium,Closed,Software,WiFi down,Issue details for ticket 665,2025-03-10,2025-03-26,tech10,2025-03-10 07:17:11
+666,TCKT-10666,Medium,Closed,Security,Password reset,Issue details for ticket 666,2025-07-01,2025-07-12,tech28,2025-07-01 07:17:11
+667,TCKT-10667,Medium,Resolved,Software,Email not syncing,Issue details for ticket 667,2025-11-06,2025-11-17,tech4,2025-11-06 07:17:11
+668,TCKT-10668,High,In Progress,Network,Password reset,Issue details for ticket 668,2025-07-28,2025-08-16,tech28,2025-07-28 07:17:11
+669,TCKT-10669,Low,In Progress,Security,Password reset,Issue details for ticket 669,2025-08-17,2025-09-06,tech38,2025-08-17 07:17:11
+670,TCKT-10670,Urgent,Open,Access,Password reset,Issue details for ticket 670,2024-12-28,2025-01-01,tech7,2024-12-28 07:17:11
+671,TCKT-10671,High,Closed,Access,Account locked,Issue details for ticket 671,2025-04-24,2025-05-05,tech12,2025-04-24 07:17:11
+672,TCKT-10672,Medium,Closed,Software,Account locked,Issue details for ticket 672,2025-04-25,2025-05-12,tech11,2025-04-25 07:17:11
+673,TCKT-10673,Medium,Resolved,Access,VPN issue,Issue details for ticket 673,2025-11-01,,tech32,2025-11-01 07:17:11
+674,TCKT-10674,Medium,Open,Security,Application crash,Issue details for ticket 674,2025-08-03,2025-08-12,tech34,2025-08-03 07:17:11
+675,TCKT-10675,Low,Closed,Network,System slow,Issue details for ticket 675,2025-07-30,2025-08-09,tech40,2025-07-30 07:17:11
+676,TCKT-10676,Medium,Closed,Security,System slow,Issue details for ticket 676,2025-05-14,,tech7,2025-05-14 07:17:11
+677,TCKT-10677,Medium,Open,Access,VPN issue,Issue details for ticket 677,2025-09-28,2025-10-14,tech20,2025-09-28 07:17:11
+678,TCKT-10678,High,Open,Security,Password reset,Issue details for ticket 678,2024-12-14,2024-12-28,tech24,2024-12-14 07:17:11
+679,TCKT-10679,Low,Resolved,Access,Account locked,Issue details for ticket 679,2025-03-06,2025-03-09,tech34,2025-03-06 07:17:11
+680,TCKT-10680,Low,In Progress,Software,Application crash,Issue details for ticket 680,2025-10-07,2025-10-15,tech38,2025-10-07 07:17:11
+681,TCKT-10681,Urgent,Closed,Network,VPN issue,Issue details for ticket 681,2025-10-28,2025-11-09,tech22,2025-10-28 07:17:11
+682,TCKT-10682,Low,Resolved,Network,WiFi down,Issue details for ticket 682,2025-03-03,,tech11,2025-03-03 07:17:11
+683,TCKT-10683,High,Closed,Software,VPN issue,Issue details for ticket 683,2025-02-02,2025-02-04,tech22,2025-02-02 07:17:11
+684,TCKT-10684,Medium,In Progress,Software,Password reset,Issue details for ticket 684,2025-08-01,2025-08-18,tech2,2025-08-01 07:17:11
+685,TCKT-10685,Low,Open,Network,Account locked,Issue details for ticket 685,2025-01-09,2025-01-25,tech14,2025-01-09 07:17:11
+686,TCKT-10686,Low,Resolved,Network,WiFi down,Issue details for ticket 686,2025-01-15,2025-01-27,tech37,2025-01-15 07:17:11
+687,TCKT-10687,High,Closed,Security,Password reset,Issue details for ticket 687,2025-06-23,2025-07-11,tech11,2025-06-23 07:17:11
+688,TCKT-10688,Medium,In Progress,Network,WiFi down,Issue details for ticket 688,2025-11-01,,tech39,2025-11-01 07:17:11
+689,TCKT-10689,Urgent,Open,Security,Application crash,Issue details for ticket 689,2025-02-28,2025-03-16,tech38,2025-02-28 07:17:11
+690,TCKT-10690,Low,Resolved,Hardware,WiFi down,Issue details for ticket 690,2025-03-16,2025-03-30,tech7,2025-03-16 07:17:11
+691,TCKT-10691,High,Open,Hardware,Email not syncing,Issue details for ticket 691,2025-09-13,,tech29,2025-09-13 07:17:11
+692,TCKT-10692,Medium,Resolved,Hardware,WiFi down,Issue details for ticket 692,2025-03-01,2025-03-10,tech7,2025-03-01 07:17:11
+693,TCKT-10693,Low,Closed,Hardware,VPN issue,Issue details for ticket 693,2025-06-01,,tech13,2025-06-01 07:17:11
+694,TCKT-10694,Urgent,Open,Access,Email not syncing,Issue details for ticket 694,2025-06-18,2025-06-23,tech28,2025-06-18 07:17:11
+695,TCKT-10695,Urgent,Open,Network,VPN issue,Issue details for ticket 695,2025-02-24,2025-02-28,tech14,2025-02-24 07:17:11
+696,TCKT-10696,Medium,Open,Software,WiFi down,Issue details for ticket 696,2025-07-01,2025-07-08,tech40,2025-07-01 07:17:11
+697,TCKT-10697,Urgent,In Progress,Hardware,Email not syncing,Issue details for ticket 697,2025-04-09,2025-04-29,tech39,2025-04-09 07:17:11
+698,TCKT-10698,Low,Resolved,Software,Account locked,Issue details for ticket 698,2025-05-07,,tech38,2025-05-07 07:17:11
+699,TCKT-10699,Urgent,Open,Access,Application crash,Issue details for ticket 699,2025-11-21,,tech9,2025-11-21 07:17:11
+700,TCKT-10700,Low,Open,Hardware,Email not syncing,Issue details for ticket 700,2025-05-03,,tech4,2025-05-03 07:17:11
+701,TCKT-10701,Low,Resolved,Software,WiFi down,Issue details for ticket 701,2025-02-09,2025-02-23,tech13,2025-02-09 07:17:11
+702,TCKT-10702,High,Closed,Software,Password reset,Issue details for ticket 702,2025-05-01,2025-05-18,tech4,2025-05-01 07:17:11
+703,TCKT-10703,Medium,Resolved,Access,Password reset,Issue details for ticket 703,2025-05-24,2025-06-02,tech25,2025-05-24 07:17:11
+704,TCKT-10704,High,Resolved,Hardware,Account locked,Issue details for ticket 704,2025-10-11,2025-10-24,tech26,2025-10-11 07:17:11
+705,TCKT-10705,Medium,In Progress,Security,Laptop not starting,Issue details for ticket 705,2025-10-31,2025-11-14,tech14,2025-10-31 07:17:11
+706,TCKT-10706,High,Resolved,Software,Laptop not starting,Issue details for ticket 706,2024-12-22,2025-01-03,tech16,2024-12-22 07:17:11
+707,TCKT-10707,Urgent,Closed,Security,System slow,Issue details for ticket 707,2025-01-30,,tech3,2025-01-30 07:17:11
+708,TCKT-10708,Medium,In Progress,Security,Password reset,Issue details for ticket 708,2025-10-02,,tech8,2025-10-02 07:17:11
+709,TCKT-10709,Low,Resolved,Software,Account locked,Issue details for ticket 709,2025-02-03,2025-02-13,tech5,2025-02-03 07:17:11
+710,TCKT-10710,Low,Resolved,Access,Password reset,Issue details for ticket 710,2025-05-25,2025-05-27,tech17,2025-05-25 07:17:11
+711,TCKT-10711,Low,Closed,Network,Laptop not starting,Issue details for ticket 711,2025-01-16,2025-01-23,tech10,2025-01-16 07:17:11
+712,TCKT-10712,Urgent,Open,Software,Email not syncing,Issue details for ticket 712,2025-06-16,2025-06-23,tech8,2025-06-16 07:17:11
+713,TCKT-10713,Urgent,In Progress,Security,VPN issue,Issue details for ticket 713,2025-01-22,2025-02-05,tech12,2025-01-22 07:17:11
+714,TCKT-10714,Urgent,Closed,Software,Email not syncing,Issue details for ticket 714,2025-02-23,2025-03-14,tech21,2025-02-23 07:17:11
+715,TCKT-10715,High,Closed,Access,Application crash,Issue details for ticket 715,2025-08-18,,tech26,2025-08-18 07:17:11
+716,TCKT-10716,Low,Resolved,Network,VPN issue,Issue details for ticket 716,2025-04-28,,tech17,2025-04-28 07:17:11
+717,TCKT-10717,Medium,Closed,Security,WiFi down,Issue details for ticket 717,2025-10-01,2025-10-21,tech32,2025-10-01 07:17:11
+718,TCKT-10718,High,Open,Software,Laptop not starting,Issue details for ticket 718,2025-04-11,2025-04-16,tech8,2025-04-11 07:17:11
+719,TCKT-10719,Urgent,In Progress,Hardware,Application crash,Issue details for ticket 719,2025-01-15,,tech17,2025-01-15 07:17:11
+720,TCKT-10720,Urgent,Open,Access,Laptop not starting,Issue details for ticket 720,2025-04-01,2025-04-08,tech35,2025-04-01 07:17:11
+721,TCKT-10721,Low,Closed,Network,Laptop not starting,Issue details for ticket 721,2024-12-17,2025-01-04,tech1,2024-12-17 07:17:11
+722,TCKT-10722,Low,Open,Network,Laptop not starting,Issue details for ticket 722,2025-08-30,2025-09-13,tech25,2025-08-30 07:17:11
+723,TCKT-10723,Low,Resolved,Security,WiFi down,Issue details for ticket 723,2025-03-09,2025-03-19,tech1,2025-03-09 07:17:11
+724,TCKT-10724,Medium,Open,Security,Laptop not starting,Issue details for ticket 724,2025-04-09,2025-04-15,tech27,2025-04-09 07:17:11
+725,TCKT-10725,Medium,Resolved,Access,Password reset,Issue details for ticket 725,2025-05-24,,tech37,2025-05-24 07:17:11
+726,TCKT-10726,Urgent,Resolved,Access,VPN issue,Issue details for ticket 726,2025-12-01,2025-12-16,tech22,2025-12-01 07:17:11
+727,TCKT-10727,Low,Open,Network,Password reset,Issue details for ticket 727,2025-08-10,2025-08-29,tech6,2025-08-10 07:17:11
+728,TCKT-10728,Urgent,In Progress,Network,Account locked,Issue details for ticket 728,2025-03-09,2025-03-28,tech26,2025-03-09 07:17:11
+729,TCKT-10729,High,Resolved,Security,VPN issue,Issue details for ticket 729,2025-08-05,,tech13,2025-08-05 07:17:11
+730,TCKT-10730,High,Open,Security,WiFi down,Issue details for ticket 730,2025-08-14,2025-08-25,tech24,2025-08-14 07:17:11
+731,TCKT-10731,High,Resolved,Hardware,Application crash,Issue details for ticket 731,2025-06-30,,tech39,2025-06-30 07:17:11
+732,TCKT-10732,High,Resolved,Network,System slow,Issue details for ticket 732,2025-07-13,2025-07-15,tech19,2025-07-13 07:17:11
+733,TCKT-10733,Low,Resolved,Network,VPN issue,Issue details for ticket 733,2025-11-16,,tech20,2025-11-16 07:17:11
+734,TCKT-10734,Low,In Progress,Software,Email not syncing,Issue details for ticket 734,2025-04-18,,tech10,2025-04-18 07:17:11
+735,TCKT-10735,Urgent,Closed,Software,Application crash,Issue details for ticket 735,2025-10-10,,tech23,2025-10-10 07:17:11
+736,TCKT-10736,High,Open,Network,Laptop not starting,Issue details for ticket 736,2025-08-09,2025-08-17,tech7,2025-08-09 07:17:11
+737,TCKT-10737,Urgent,Resolved,Hardware,Password reset,Issue details for ticket 737,2024-12-25,2025-01-06,tech19,2024-12-25 07:17:11
+738,TCKT-10738,Low,In Progress,Hardware,Password reset,Issue details for ticket 738,2025-08-02,2025-08-16,tech17,2025-08-02 07:17:11
+739,TCKT-10739,Medium,Open,Security,Email not syncing,Issue details for ticket 739,2025-09-15,,tech34,2025-09-15 07:17:11
+740,TCKT-10740,Low,Resolved,Network,VPN issue,Issue details for ticket 740,2025-03-20,2025-03-21,tech39,2025-03-20 07:17:11
+741,TCKT-10741,High,In Progress,Access,VPN issue,Issue details for ticket 741,2025-07-28,2025-08-04,tech6,2025-07-28 07:17:11
+742,TCKT-10742,Urgent,Resolved,Hardware,Application crash,Issue details for ticket 742,2025-01-22,2025-01-30,tech16,2025-01-22 07:17:11
+743,TCKT-10743,Medium,Resolved,Network,WiFi down,Issue details for ticket 743,2025-12-04,2025-12-10,tech33,2025-12-04 07:17:11
+744,TCKT-10744,High,In Progress,Security,Password reset,Issue details for ticket 744,2025-01-12,2025-01-30,tech39,2025-01-12 07:17:11
+745,TCKT-10745,Low,Closed,Network,Application crash,Issue details for ticket 745,2025-08-10,2025-08-28,tech4,2025-08-10 07:17:11
+746,TCKT-10746,Urgent,Closed,Access,Password reset,Issue details for ticket 746,2025-02-04,2025-02-14,tech10,2025-02-04 07:17:11
+747,TCKT-10747,Urgent,Open,Software,Password reset,Issue details for ticket 747,2025-06-08,2025-06-24,tech33,2025-06-08 07:17:11
+748,TCKT-10748,Medium,Open,Access,Account locked,Issue details for ticket 748,2025-08-22,,tech40,2025-08-22 07:17:11
+749,TCKT-10749,Medium,Resolved,Network,Password reset,Issue details for ticket 749,2025-10-02,2025-10-13,tech19,2025-10-02 07:17:11
+750,TCKT-10750,Urgent,Open,Network,Account locked,Issue details for ticket 750,2025-09-19,2025-09-26,tech37,2025-09-19 07:17:11
+751,TCKT-10751,Medium,Closed,Security,Laptop not starting,Issue details for ticket 751,2025-08-18,2025-08-31,tech3,2025-08-18 07:17:11
+752,TCKT-10752,Urgent,Closed,Access,Email not syncing,Issue details for ticket 752,2025-11-03,,tech28,2025-11-03 07:17:11
+753,TCKT-10753,Medium,Resolved,Security,Application crash,Issue details for ticket 753,2025-08-31,2025-09-15,tech27,2025-08-31 07:17:11
+754,TCKT-10754,Medium,Open,Access,Application crash,Issue details for ticket 754,2025-12-01,2025-12-09,tech27,2025-12-01 07:17:11
+755,TCKT-10755,Medium,Closed,Network,Password reset,Issue details for ticket 755,2025-03-13,2025-03-14,tech37,2025-03-13 07:17:11
+756,TCKT-10756,Urgent,Resolved,Software,WiFi down,Issue details for ticket 756,2025-02-13,2025-02-21,tech31,2025-02-13 07:17:11
+757,TCKT-10757,Urgent,In Progress,Software,Laptop not starting,Issue details for ticket 757,2025-01-18,2025-01-31,tech29,2025-01-18 07:17:11
+758,TCKT-10758,Low,In Progress,Security,System slow,Issue details for ticket 758,2025-02-04,,tech35,2025-02-04 07:17:11
+759,TCKT-10759,Urgent,Open,Security,Email not syncing,Issue details for ticket 759,2025-02-06,2025-02-17,tech30,2025-02-06 07:17:11
+760,TCKT-10760,Urgent,Closed,Access,VPN issue,Issue details for ticket 760,2025-09-27,2025-10-03,tech27,2025-09-27 07:17:11
+761,TCKT-10761,High,Closed,Hardware,Email not syncing,Issue details for ticket 761,2025-06-15,2025-06-18,tech15,2025-06-15 07:17:11
+762,TCKT-10762,High,Closed,Software,Application crash,Issue details for ticket 762,2025-07-14,2025-07-19,tech32,2025-07-14 07:17:11
+763,TCKT-10763,High,Closed,Hardware,Application crash,Issue details for ticket 763,2025-03-28,2025-04-16,tech24,2025-03-28 07:17:11
+764,TCKT-10764,High,Resolved,Security,Password reset,Issue details for ticket 764,2024-12-28,2025-01-03,tech2,2024-12-28 07:17:11
+765,TCKT-10765,High,Open,Hardware,System slow,Issue details for ticket 765,2025-01-05,2025-01-21,tech1,2025-01-05 07:17:11
+766,TCKT-10766,Medium,Resolved,Software,VPN issue,Issue details for ticket 766,2025-03-02,,tech20,2025-03-02 07:17:11
+767,TCKT-10767,High,Open,Hardware,WiFi down,Issue details for ticket 767,2025-10-29,2025-11-11,tech31,2025-10-29 07:17:11
+768,TCKT-10768,High,In Progress,Network,WiFi down,Issue details for ticket 768,2025-05-27,2025-05-30,tech21,2025-05-27 07:17:11
+769,TCKT-10769,Low,Resolved,Hardware,Account locked,Issue details for ticket 769,2025-04-22,2025-05-07,tech37,2025-04-22 07:17:11
+770,TCKT-10770,High,In Progress,Network,Email not syncing,Issue details for ticket 770,2025-10-08,2025-10-25,tech40,2025-10-08 07:17:11
+771,TCKT-10771,Medium,Open,Network,Laptop not starting,Issue details for ticket 771,2025-01-01,2025-01-15,tech32,2025-01-01 07:17:11
+772,TCKT-10772,High,Open,Hardware,System slow,Issue details for ticket 772,2025-10-05,2025-10-15,tech18,2025-10-05 07:17:11
+773,TCKT-10773,Medium,In Progress,Software,Email not syncing,Issue details for ticket 773,2025-12-06,2025-12-21,tech4,2025-12-06 07:17:11
+774,TCKT-10774,Medium,Open,Software,Application crash,Issue details for ticket 774,2025-01-14,,tech40,2025-01-14 07:17:11
+775,TCKT-10775,Medium,In Progress,Access,Laptop not starting,Issue details for ticket 775,2025-02-13,2025-02-16,tech8,2025-02-13 07:17:11
+776,TCKT-10776,Urgent,Open,Software,System slow,Issue details for ticket 776,2025-01-28,2025-02-10,tech19,2025-01-28 07:17:11
+777,TCKT-10777,Medium,In Progress,Network,Email not syncing,Issue details for ticket 777,2025-09-21,2025-10-06,tech5,2025-09-21 07:17:11
+778,TCKT-10778,Low,Closed,Security,VPN issue,Issue details for ticket 778,2024-12-07,2024-12-25,tech28,2024-12-07 07:17:11
+779,TCKT-10779,High,Resolved,Network,Account locked,Issue details for ticket 779,2025-01-13,2025-01-31,tech32,2025-01-13 07:17:11
+780,TCKT-10780,High,In Progress,Hardware,System slow,Issue details for ticket 780,2025-01-05,2025-01-24,tech32,2025-01-05 07:17:11
+781,TCKT-10781,High,Open,Software,WiFi down,Issue details for ticket 781,2025-03-29,,tech2,2025-03-29 07:17:11
+782,TCKT-10782,High,Closed,Security,Email not syncing,Issue details for ticket 782,2025-06-01,2025-06-04,tech26,2025-06-01 07:17:11
+783,TCKT-10783,High,Resolved,Network,Account locked,Issue details for ticket 783,2025-05-24,,tech39,2025-05-24 07:17:11
+784,TCKT-10784,Medium,In Progress,Access,Email not syncing,Issue details for ticket 784,2024-12-27,2024-12-30,tech20,2024-12-27 07:17:11
+785,TCKT-10785,Medium,Resolved,Access,WiFi down,Issue details for ticket 785,2025-10-30,2025-10-31,tech9,2025-10-30 07:17:11
+786,TCKT-10786,High,Closed,Software,Email not syncing,Issue details for ticket 786,2024-12-30,2025-01-15,tech17,2024-12-30 07:17:11
+787,TCKT-10787,Low,Closed,Access,Application crash,Issue details for ticket 787,2025-09-20,2025-09-28,tech17,2025-09-20 07:17:11
+788,TCKT-10788,Urgent,Resolved,Software,System slow,Issue details for ticket 788,2025-02-16,2025-02-18,tech16,2025-02-16 07:17:11
+789,TCKT-10789,Medium,Open,Software,Email not syncing,Issue details for ticket 789,2025-01-09,2025-01-20,tech31,2025-01-09 07:17:11
+790,TCKT-10790,High,Open,Access,WiFi down,Issue details for ticket 790,2025-06-30,2025-07-19,tech16,2025-06-30 07:17:11
+791,TCKT-10791,Low,Closed,Access,System slow,Issue details for ticket 791,2025-02-04,2025-02-07,tech1,2025-02-04 07:17:11
+792,TCKT-10792,Low,Closed,Access,Password reset,Issue details for ticket 792,2025-04-04,,tech19,2025-04-04 07:17:11
+793,TCKT-10793,Medium,In Progress,Security,Account locked,Issue details for ticket 793,2025-10-19,2025-10-28,tech12,2025-10-19 07:17:11
+794,TCKT-10794,High,In Progress,Software,Application crash,Issue details for ticket 794,2025-04-09,2025-04-11,tech14,2025-04-09 07:17:11
+795,TCKT-10795,Urgent,Resolved,Hardware,VPN issue,Issue details for ticket 795,2025-02-07,2025-02-26,tech28,2025-02-07 07:17:11
+796,TCKT-10796,Low,In Progress,Software,Password reset,Issue details for ticket 796,2025-11-28,2025-12-14,tech14,2025-11-28 07:17:11
+797,TCKT-10797,Urgent,Resolved,Software,Laptop not starting,Issue details for ticket 797,2025-09-16,2025-09-21,tech31,2025-09-16 07:17:11
+798,TCKT-10798,Urgent,Resolved,Access,Application crash,Issue details for ticket 798,2025-06-26,2025-06-30,tech6,2025-06-26 07:17:11
+799,TCKT-10799,Urgent,In Progress,Software,System slow,Issue details for ticket 799,2025-10-20,2025-10-24,tech9,2025-10-20 07:17:11
+800,TCKT-10800,Urgent,Resolved,Network,WiFi down,Issue details for ticket 800,2025-10-30,,tech40,2025-10-30 07:17:11
+801,TCKT-10801,Urgent,In Progress,Access,Application crash,Issue details for ticket 801,2025-03-10,2025-03-24,tech24,2025-03-10 07:17:11
+802,TCKT-10802,Urgent,Resolved,Hardware,System slow,Issue details for ticket 802,2025-11-28,,tech32,2025-11-28 07:17:11
+803,TCKT-10803,High,Open,Network,WiFi down,Issue details for ticket 803,2025-07-28,2025-08-14,tech32,2025-07-28 07:17:11
+804,TCKT-10804,Urgent,Closed,Access,VPN issue,Issue details for ticket 804,2025-01-20,,tech11,2025-01-20 07:17:11
+805,TCKT-10805,Low,In Progress,Network,VPN issue,Issue details for ticket 805,2025-03-19,,tech40,2025-03-19 07:17:11
+806,TCKT-10806,Low,Resolved,Hardware,Account locked,Issue details for ticket 806,2025-06-07,2025-06-11,tech37,2025-06-07 07:17:11
+807,TCKT-10807,Medium,Resolved,Security,System slow,Issue details for ticket 807,2025-02-10,,tech3,2025-02-10 07:17:11
+808,TCKT-10808,Low,Open,Software,Application crash,Issue details for ticket 808,2025-06-27,2025-07-01,tech34,2025-06-27 07:17:11
+809,TCKT-10809,Urgent,Resolved,Hardware,Account locked,Issue details for ticket 809,2025-07-05,2025-07-06,tech8,2025-07-05 07:17:11
+810,TCKT-10810,Urgent,Closed,Access,Email not syncing,Issue details for ticket 810,2025-08-12,2025-08-25,tech28,2025-08-12 07:17:11
+811,TCKT-10811,Medium,Closed,Access,Password reset,Issue details for ticket 811,2025-08-05,2025-08-11,tech34,2025-08-05 07:17:11
+812,TCKT-10812,High,Open,Security,WiFi down,Issue details for ticket 812,2025-08-07,,tech5,2025-08-07 07:17:11
+813,TCKT-10813,Medium,In Progress,Security,Laptop not starting,Issue details for ticket 813,2025-03-11,,tech28,2025-03-11 07:17:11
+814,TCKT-10814,Low,Closed,Software,Application crash,Issue details for ticket 814,2025-09-13,2025-09-20,tech15,2025-09-13 07:17:11
+815,TCKT-10815,High,Open,Software,Email not syncing,Issue details for ticket 815,2025-09-30,2025-10-18,tech14,2025-09-30 07:17:11
+816,TCKT-10816,High,Closed,Software,System slow,Issue details for ticket 816,2025-01-03,2025-01-10,tech21,2025-01-03 07:17:11
+817,TCKT-10817,Urgent,Open,Security,Application crash,Issue details for ticket 817,2025-06-28,,tech39,2025-06-28 07:17:11
+818,TCKT-10818,Medium,Resolved,Software,Email not syncing,Issue details for ticket 818,2025-08-25,,tech27,2025-08-25 07:17:11
+819,TCKT-10819,Urgent,Resolved,Network,Application crash,Issue details for ticket 819,2025-03-22,,tech6,2025-03-22 07:17:11
+820,TCKT-10820,Urgent,Open,Hardware,Email not syncing,Issue details for ticket 820,2025-11-22,2025-12-04,tech28,2025-11-22 07:17:11
+821,TCKT-10821,High,Closed,Software,Application crash,Issue details for ticket 821,2025-01-08,2025-01-27,tech21,2025-01-08 07:17:11
+822,TCKT-10822,Low,Closed,Access,Password reset,Issue details for ticket 822,2025-09-18,2025-09-21,tech23,2025-09-18 07:17:11
+823,TCKT-10823,Low,In Progress,Hardware,Account locked,Issue details for ticket 823,2025-06-10,2025-06-27,tech33,2025-06-10 07:17:11
+824,TCKT-10824,Medium,Open,Software,Application crash,Issue details for ticket 824,2025-10-18,2025-10-27,tech40,2025-10-18 07:17:11
+825,TCKT-10825,Low,Open,Hardware,Email not syncing,Issue details for ticket 825,2025-04-07,,tech23,2025-04-07 07:17:11
+826,TCKT-10826,Urgent,Open,Access,Laptop not starting,Issue details for ticket 826,2024-12-31,2025-01-10,tech14,2024-12-31 07:17:11
+827,TCKT-10827,Low,Resolved,Hardware,VPN issue,Issue details for ticket 827,2025-06-23,2025-06-28,tech31,2025-06-23 07:17:11
+828,TCKT-10828,Medium,Closed,Access,Application crash,Issue details for ticket 828,2025-03-04,2025-03-23,tech34,2025-03-04 07:17:11
+829,TCKT-10829,Medium,In Progress,Security,VPN issue,Issue details for ticket 829,2025-04-08,2025-04-27,tech19,2025-04-08 07:17:11
+830,TCKT-10830,Medium,In Progress,Hardware,Laptop not starting,Issue details for ticket 830,2025-11-29,2025-12-06,tech23,2025-11-29 07:17:11
+831,TCKT-10831,Low,Resolved,Hardware,Password reset,Issue details for ticket 831,2025-02-24,2025-02-27,tech18,2025-02-24 07:17:11
+832,TCKT-10832,High,Open,Security,Laptop not starting,Issue details for ticket 832,2025-08-15,2025-08-24,tech20,2025-08-15 07:17:11
+833,TCKT-10833,High,In Progress,Network,WiFi down,Issue details for ticket 833,2024-12-31,2025-01-03,tech1,2024-12-31 07:17:11
+834,TCKT-10834,High,Closed,Network,Laptop not starting,Issue details for ticket 834,2025-08-01,2025-08-07,tech7,2025-08-01 07:17:11
+835,TCKT-10835,Urgent,Resolved,Hardware,Application crash,Issue details for ticket 835,2025-01-15,2025-01-19,tech37,2025-01-15 07:17:11
+836,TCKT-10836,Low,Open,Network,System slow,Issue details for ticket 836,2025-10-18,2025-11-02,tech21,2025-10-18 07:17:11
+837,TCKT-10837,High,Closed,Access,WiFi down,Issue details for ticket 837,2024-12-24,2024-12-31,tech10,2024-12-24 07:17:11
+838,TCKT-10838,High,In Progress,Hardware,VPN issue,Issue details for ticket 838,2025-06-27,2025-06-30,tech31,2025-06-27 07:17:11
+839,TCKT-10839,Low,Closed,Security,Account locked,Issue details for ticket 839,2024-12-24,2025-01-02,tech24,2024-12-24 07:17:11
+840,TCKT-10840,Medium,Closed,Access,System slow,Issue details for ticket 840,2024-12-23,2024-12-26,tech34,2024-12-23 07:17:11
+841,TCKT-10841,Low,In Progress,Software,Password reset,Issue details for ticket 841,2024-12-15,2024-12-28,tech1,2024-12-15 07:17:11
+842,TCKT-10842,Medium,Closed,Security,Account locked,Issue details for ticket 842,2025-01-09,2025-01-24,tech15,2025-01-09 07:17:11
+843,TCKT-10843,Urgent,Closed,Software,Email not syncing,Issue details for ticket 843,2025-08-06,,tech7,2025-08-06 07:17:11
+844,TCKT-10844,High,Resolved,Network,VPN issue,Issue details for ticket 844,2024-12-17,2024-12-26,tech27,2024-12-17 07:17:11
+845,TCKT-10845,High,Open,Network,System slow,Issue details for ticket 845,2025-07-25,2025-08-13,tech3,2025-07-25 07:17:11
+846,TCKT-10846,Urgent,Resolved,Hardware,System slow,Issue details for ticket 846,2025-01-09,2025-01-27,tech8,2025-01-09 07:17:11
+847,TCKT-10847,Low,Resolved,Security,VPN issue,Issue details for ticket 847,2025-09-27,,tech9,2025-09-27 07:17:11
+848,TCKT-10848,Medium,Open,Access,Application crash,Issue details for ticket 848,2024-12-11,,tech37,2024-12-11 07:17:11
+849,TCKT-10849,Urgent,Closed,Hardware,VPN issue,Issue details for ticket 849,2025-11-13,2025-12-01,tech8,2025-11-13 07:17:11
+850,TCKT-10850,Urgent,Resolved,Access,Application crash,Issue details for ticket 850,2025-08-25,2025-09-10,tech6,2025-08-25 07:17:11
+851,TCKT-10851,Medium,Closed,Access,Application crash,Issue details for ticket 851,2025-08-21,2025-09-06,tech9,2025-08-21 07:17:11
+852,TCKT-10852,Medium,Closed,Security,Account locked,Issue details for ticket 852,2025-06-01,,tech26,2025-06-01 07:17:11
+853,TCKT-10853,High,Closed,Network,Password reset,Issue details for ticket 853,2025-03-22,,tech40,2025-03-22 07:17:11
+854,TCKT-10854,High,Resolved,Software,Laptop not starting,Issue details for ticket 854,2025-09-16,2025-10-04,tech19,2025-09-16 07:17:11
+855,TCKT-10855,Low,In Progress,Security,System slow,Issue details for ticket 855,2025-01-20,,tech35,2025-01-20 07:17:11
+856,TCKT-10856,High,In Progress,Access,VPN issue,Issue details for ticket 856,2025-07-01,2025-07-10,tech14,2025-07-01 07:17:11
+857,TCKT-10857,Low,Closed,Security,Password reset,Issue details for ticket 857,2025-02-14,2025-02-19,tech6,2025-02-14 07:17:11
+858,TCKT-10858,Medium,In Progress,Security,VPN issue,Issue details for ticket 858,2025-05-08,,tech21,2025-05-08 07:17:11
+859,TCKT-10859,High,Closed,Software,Password reset,Issue details for ticket 859,2025-01-17,2025-01-18,tech21,2025-01-17 07:17:11
+860,TCKT-10860,Medium,Open,Network,Laptop not starting,Issue details for ticket 860,2025-03-11,2025-03-18,tech25,2025-03-11 07:17:11
+861,TCKT-10861,Medium,Open,Access,VPN issue,Issue details for ticket 861,2025-04-06,2025-04-26,tech4,2025-04-06 07:17:11
+862,TCKT-10862,High,Closed,Software,Application crash,Issue details for ticket 862,2025-04-18,2025-05-05,tech28,2025-04-18 07:17:11
+863,TCKT-10863,High,Closed,Network,Application crash,Issue details for ticket 863,2025-06-23,2025-06-28,tech13,2025-06-23 07:17:11
+864,TCKT-10864,High,Closed,Security,Laptop not starting,Issue details for ticket 864,2025-10-31,2025-11-20,tech20,2025-10-31 07:17:11
+865,TCKT-10865,Medium,Resolved,Software,Account locked,Issue details for ticket 865,2025-10-11,2025-10-27,tech11,2025-10-11 07:17:11
+866,TCKT-10866,Medium,Closed,Security,Email not syncing,Issue details for ticket 866,2025-09-22,2025-09-27,tech25,2025-09-22 07:17:11
+867,TCKT-10867,Low,In Progress,Security,Email not syncing,Issue details for ticket 867,2025-06-20,2025-07-02,tech22,2025-06-20 07:17:11
+868,TCKT-10868,High,In Progress,Hardware,Email not syncing,Issue details for ticket 868,2025-01-05,2025-01-15,tech35,2025-01-05 07:17:11
+869,TCKT-10869,High,Resolved,Software,Password reset,Issue details for ticket 869,2025-05-11,2025-05-27,tech29,2025-05-11 07:17:11
+870,TCKT-10870,Urgent,In Progress,Hardware,Laptop not starting,Issue details for ticket 870,2025-06-03,,tech3,2025-06-03 07:17:11
+871,TCKT-10871,Urgent,Resolved,Software,Account locked,Issue details for ticket 871,2025-11-08,,tech30,2025-11-08 07:17:11
+872,TCKT-10872,Medium,Open,Security,Application crash,Issue details for ticket 872,2025-12-05,,tech16,2025-12-05 07:17:11
+873,TCKT-10873,Urgent,In Progress,Network,Password reset,Issue details for ticket 873,2025-03-03,2025-03-22,tech33,2025-03-03 07:17:11
+874,TCKT-10874,Urgent,Closed,Network,Application crash,Issue details for ticket 874,2025-05-31,2025-06-10,tech10,2025-05-31 07:17:11
+875,TCKT-10875,Urgent,Resolved,Hardware,Application crash,Issue details for ticket 875,2025-09-14,2025-09-25,tech10,2025-09-14 07:17:11
+876,TCKT-10876,Urgent,In Progress,Software,System slow,Issue details for ticket 876,2025-01-13,2025-01-18,tech35,2025-01-13 07:17:11
+877,TCKT-10877,Medium,Resolved,Access,Email not syncing,Issue details for ticket 877,2025-03-01,2025-03-03,tech4,2025-03-01 07:17:11
+878,TCKT-10878,Medium,Open,Security,VPN issue,Issue details for ticket 878,2025-09-28,2025-10-04,tech38,2025-09-28 07:17:11
+879,TCKT-10879,Medium,Open,Access,Account locked,Issue details for ticket 879,2025-11-15,2025-11-24,tech36,2025-11-15 07:17:11
+880,TCKT-10880,Low,Closed,Network,Laptop not starting,Issue details for ticket 880,2025-10-07,2025-10-09,tech10,2025-10-07 07:17:11
+881,TCKT-10881,Medium,In Progress,Network,Application crash,Issue details for ticket 881,2025-07-10,2025-07-24,tech12,2025-07-10 07:17:11
+882,TCKT-10882,High,In Progress,Network,WiFi down,Issue details for ticket 882,2025-12-06,2025-12-26,tech17,2025-12-06 07:17:11
+883,TCKT-10883,Urgent,Open,Hardware,Laptop not starting,Issue details for ticket 883,2025-10-13,2025-11-02,tech11,2025-10-13 07:17:11
+884,TCKT-10884,Low,Closed,Hardware,Application crash,Issue details for ticket 884,2025-03-22,2025-03-26,tech31,2025-03-22 07:17:11
+885,TCKT-10885,Urgent,In Progress,Software,Password reset,Issue details for ticket 885,2025-11-25,2025-12-10,tech17,2025-11-25 07:17:11
+886,TCKT-10886,Low,Closed,Network,Email not syncing,Issue details for ticket 886,2025-10-25,2025-11-04,tech2,2025-10-25 07:17:11
+887,TCKT-10887,Urgent,Open,Security,VPN issue,Issue details for ticket 887,2025-01-27,2025-02-10,tech23,2025-01-27 07:17:11
+888,TCKT-10888,Low,Closed,Access,Laptop not starting,Issue details for ticket 888,2025-11-06,2025-11-18,tech33,2025-11-06 07:17:11
+889,TCKT-10889,Urgent,Open,Hardware,System slow,Issue details for ticket 889,2025-02-21,2025-03-03,tech10,2025-02-21 07:17:11
+890,TCKT-10890,Low,Closed,Software,VPN issue,Issue details for ticket 890,2025-04-05,2025-04-07,tech10,2025-04-05 07:17:11
+891,TCKT-10891,Low,In Progress,Software,Password reset,Issue details for ticket 891,2025-09-28,2025-10-07,tech2,2025-09-28 07:17:11
+892,TCKT-10892,High,Resolved,Security,Email not syncing,Issue details for ticket 892,2024-12-15,2024-12-16,tech14,2024-12-15 07:17:11
+893,TCKT-10893,Low,Resolved,Network,Account locked,Issue details for ticket 893,2025-08-27,2025-09-13,tech16,2025-08-27 07:17:11
+894,TCKT-10894,Medium,In Progress,Software,System slow,Issue details for ticket 894,2025-04-25,2025-05-10,tech11,2025-04-25 07:17:11
+895,TCKT-10895,Medium,Open,Network,Password reset,Issue details for ticket 895,2025-07-03,2025-07-06,tech27,2025-07-03 07:17:11
+896,TCKT-10896,Medium,Open,Network,VPN issue,Issue details for ticket 896,2025-08-14,,tech3,2025-08-14 07:17:11
+897,TCKT-10897,Low,Open,Network,Email not syncing,Issue details for ticket 897,2024-12-24,2025-01-01,tech21,2024-12-24 07:17:11
+898,TCKT-10898,Low,Resolved,Hardware,Account locked,Issue details for ticket 898,2025-04-20,2025-05-06,tech21,2025-04-20 07:17:11
+899,TCKT-10899,Urgent,In Progress,Network,System slow,Issue details for ticket 899,2025-03-15,2025-03-27,tech16,2025-03-15 07:17:11
+900,TCKT-10900,High,Open,Software,Application crash,Issue details for ticket 900,2025-07-22,,tech24,2025-07-22 07:17:11
+901,TCKT-10901,Urgent,In Progress,Hardware,Account locked,Issue details for ticket 901,2025-08-16,,tech8,2025-08-16 07:17:11
+902,TCKT-10902,Low,Open,Hardware,Laptop not starting,Issue details for ticket 902,2025-08-25,2025-09-01,tech37,2025-08-25 07:17:11
+903,TCKT-10903,High,Resolved,Hardware,Laptop not starting,Issue details for ticket 903,2025-01-26,2025-01-31,tech26,2025-01-26 07:17:11
+904,TCKT-10904,Low,In Progress,Security,VPN issue,Issue details for ticket 904,2025-11-28,2025-12-14,tech1,2025-11-28 07:17:11
+905,TCKT-10905,Urgent,Resolved,Access,WiFi down,Issue details for ticket 905,2025-02-06,2025-02-22,tech26,2025-02-06 07:17:11
+906,TCKT-10906,Medium,Closed,Hardware,WiFi down,Issue details for ticket 906,2025-06-14,2025-06-20,tech19,2025-06-14 07:17:11
+907,TCKT-10907,Medium,In Progress,Access,Password reset,Issue details for ticket 907,2025-06-06,2025-06-20,tech40,2025-06-06 07:17:11
+908,TCKT-10908,Urgent,In Progress,Software,WiFi down,Issue details for ticket 908,2025-02-27,,tech40,2025-02-27 07:17:11
+909,TCKT-10909,Urgent,Resolved,Access,WiFi down,Issue details for ticket 909,2025-02-18,,tech19,2025-02-18 07:17:11
+910,TCKT-10910,Medium,Open,Access,WiFi down,Issue details for ticket 910,2025-11-10,2025-11-17,tech3,2025-11-10 07:17:11
+911,TCKT-10911,Medium,Closed,Security,Laptop not starting,Issue details for ticket 911,2025-11-07,,tech3,2025-11-07 07:17:11
+912,TCKT-10912,Medium,Resolved,Security,System slow,Issue details for ticket 912,2025-11-25,2025-12-04,tech10,2025-11-25 07:17:11
+913,TCKT-10913,High,Closed,Hardware,Password reset,Issue details for ticket 913,2025-02-16,,tech14,2025-02-16 07:17:11
+914,TCKT-10914,Low,In Progress,Hardware,VPN issue,Issue details for ticket 914,2025-05-14,2025-05-24,tech15,2025-05-14 07:17:11
+915,TCKT-10915,High,In Progress,Hardware,Account locked,Issue details for ticket 915,2025-08-27,,tech18,2025-08-27 07:17:11
+916,TCKT-10916,High,Closed,Network,VPN issue,Issue details for ticket 916,2025-01-08,2025-01-23,tech24,2025-01-08 07:17:11
+917,TCKT-10917,High,Resolved,Network,Account locked,Issue details for ticket 917,2024-12-21,2025-01-02,tech19,2024-12-21 07:17:11
+918,TCKT-10918,High,In Progress,Software,WiFi down,Issue details for ticket 918,2025-09-29,2025-10-15,tech34,2025-09-29 07:17:11
+919,TCKT-10919,Low,Resolved,Security,Application crash,Issue details for ticket 919,2025-08-21,2025-08-30,tech12,2025-08-21 07:17:11
+920,TCKT-10920,Urgent,Closed,Security,VPN issue,Issue details for ticket 920,2025-10-24,2025-11-13,tech2,2025-10-24 07:17:11
+921,TCKT-10921,Urgent,In Progress,Access,VPN issue,Issue details for ticket 921,2025-07-30,2025-08-17,tech29,2025-07-30 07:17:11
+922,TCKT-10922,Low,In Progress,Hardware,WiFi down,Issue details for ticket 922,2025-03-11,2025-03-30,tech24,2025-03-11 07:17:11
+923,TCKT-10923,Urgent,In Progress,Software,Account locked,Issue details for ticket 923,2025-08-06,2025-08-07,tech3,2025-08-06 07:17:11
+924,TCKT-10924,Urgent,Open,Security,Application crash,Issue details for ticket 924,2025-04-11,,tech18,2025-04-11 07:17:11
+925,TCKT-10925,Medium,Open,Hardware,Laptop not starting,Issue details for ticket 925,2025-09-21,2025-10-02,tech8,2025-09-21 07:17:11
+926,TCKT-10926,High,Closed,Hardware,Application crash,Issue details for ticket 926,2025-08-26,2025-09-09,tech31,2025-08-26 07:17:11
+927,TCKT-10927,Medium,Closed,Access,Laptop not starting,Issue details for ticket 927,2025-06-04,2025-06-10,tech22,2025-06-04 07:17:11
+928,TCKT-10928,High,Resolved,Hardware,VPN issue,Issue details for ticket 928,2024-12-11,2024-12-20,tech4,2024-12-11 07:17:11
+929,TCKT-10929,Medium,Resolved,Network,System slow,Issue details for ticket 929,2025-11-21,2025-11-27,tech4,2025-11-21 07:17:11
+930,TCKT-10930,High,Open,Software,VPN issue,Issue details for ticket 930,2025-10-01,,tech24,2025-10-01 07:17:11
+931,TCKT-10931,High,Open,Software,Password reset,Issue details for ticket 931,2025-11-20,2025-12-10,tech40,2025-11-20 07:17:11
+932,TCKT-10932,Medium,Closed,Hardware,VPN issue,Issue details for ticket 932,2025-06-11,,tech25,2025-06-11 07:17:11
+933,TCKT-10933,Low,In Progress,Security,Laptop not starting,Issue details for ticket 933,2025-01-17,2025-01-25,tech35,2025-01-17 07:17:11
+934,TCKT-10934,Low,Closed,Hardware,Account locked,Issue details for ticket 934,2025-11-11,2025-11-24,tech13,2025-11-11 07:17:11
+935,TCKT-10935,Medium,In Progress,Hardware,Email not syncing,Issue details for ticket 935,2025-02-26,2025-03-18,tech31,2025-02-26 07:17:11
+936,TCKT-10936,Low,Closed,Security,WiFi down,Issue details for ticket 936,2025-06-20,2025-07-05,tech40,2025-06-20 07:17:11
+937,TCKT-10937,Urgent,Closed,Security,Application crash,Issue details for ticket 937,2025-12-05,2025-12-13,tech8,2025-12-05 07:17:11
+938,TCKT-10938,Urgent,Closed,Hardware,Email not syncing,Issue details for ticket 938,2025-11-17,2025-11-23,tech27,2025-11-17 07:17:11
+939,TCKT-10939,Urgent,Open,Network,WiFi down,Issue details for ticket 939,2025-11-05,,tech21,2025-11-05 07:17:11
+940,TCKT-10940,High,Resolved,Access,VPN issue,Issue details for ticket 940,2025-11-29,2025-12-11,tech3,2025-11-29 07:17:11
+941,TCKT-10941,Urgent,In Progress,Hardware,System slow,Issue details for ticket 941,2025-09-13,2025-09-28,tech21,2025-09-13 07:17:11
+942,TCKT-10942,Medium,Open,Hardware,Laptop not starting,Issue details for ticket 942,2025-10-06,2025-10-15,tech32,2025-10-06 07:17:11
+943,TCKT-10943,Urgent,Resolved,Network,Laptop not starting,Issue details for ticket 943,2025-01-29,2025-02-18,tech26,2025-01-29 07:17:11
+944,TCKT-10944,Medium,Open,Security,Email not syncing,Issue details for ticket 944,2025-05-16,2025-05-27,tech22,2025-05-16 07:17:11
+945,TCKT-10945,Medium,Closed,Software,Laptop not starting,Issue details for ticket 945,2025-06-29,2025-07-01,tech37,2025-06-29 07:17:11
+946,TCKT-10946,High,Open,Hardware,Password reset,Issue details for ticket 946,2025-05-05,,tech27,2025-05-05 07:17:11
+947,TCKT-10947,High,Open,Security,Password reset,Issue details for ticket 947,2025-03-08,2025-03-18,tech35,2025-03-08 07:17:11
+948,TCKT-10948,Low,In Progress,Security,Application crash,Issue details for ticket 948,2025-07-04,,tech13,2025-07-04 07:17:11
+949,TCKT-10949,High,Open,Security,Application crash,Issue details for ticket 949,2025-06-21,2025-07-01,tech40,2025-06-21 07:17:11
+950,TCKT-10950,Medium,Closed,Security,Account locked,Issue details for ticket 950,2025-01-18,2025-01-26,tech38,2025-01-18 07:17:11
+951,TCKT-10951,Low,Closed,Hardware,Email not syncing,Issue details for ticket 951,2025-11-24,,tech5,2025-11-24 07:17:11
+952,TCKT-10952,Low,Closed,Network,WiFi down,Issue details for ticket 952,2025-04-16,2025-04-18,tech20,2025-04-16 07:17:11
+953,TCKT-10953,Urgent,Open,Access,WiFi down,Issue details for ticket 953,2025-03-02,2025-03-20,tech7,2025-03-02 07:17:11
+954,TCKT-10954,Urgent,Closed,Network,WiFi down,Issue details for ticket 954,2024-12-24,2024-12-30,tech34,2024-12-24 07:17:11
+955,TCKT-10955,Urgent,Open,Access,Email not syncing,Issue details for ticket 955,2025-01-22,2025-01-25,tech39,2025-01-22 07:17:11
+956,TCKT-10956,Medium,In Progress,Network,Account locked,Issue details for ticket 956,2025-01-07,2025-01-08,tech17,2025-01-07 07:17:11
+957,TCKT-10957,Low,Closed,Access,Laptop not starting,Issue details for ticket 957,2025-03-03,2025-03-12,tech8,2025-03-03 07:17:11
+958,TCKT-10958,Urgent,Closed,Access,VPN issue,Issue details for ticket 958,2025-09-18,2025-09-20,tech40,2025-09-18 07:17:11
+959,TCKT-10959,Medium,Resolved,Access,Account locked,Issue details for ticket 959,2025-02-15,,tech17,2025-02-15 07:17:11
+960,TCKT-10960,Urgent,Closed,Network,VPN issue,Issue details for ticket 960,2025-06-09,,tech14,2025-06-09 07:17:11
+961,TCKT-10961,Low,In Progress,Access,Password reset,Issue details for ticket 961,2025-10-02,2025-10-22,tech10,2025-10-02 07:17:11
+962,TCKT-10962,Medium,Resolved,Security,Account locked,Issue details for ticket 962,2025-11-07,,tech20,2025-11-07 07:17:11
+963,TCKT-10963,Medium,In Progress,Access,System slow,Issue details for ticket 963,2024-12-19,2025-01-03,tech14,2024-12-19 07:17:11
+964,TCKT-10964,High,Open,Hardware,Laptop not starting,Issue details for ticket 964,2025-10-02,2025-10-19,tech26,2025-10-02 07:17:11
+965,TCKT-10965,High,In Progress,Network,WiFi down,Issue details for ticket 965,2025-04-03,,tech24,2025-04-03 07:17:11
+966,TCKT-10966,Medium,Open,Network,Password reset,Issue details for ticket 966,2025-07-23,2025-07-29,tech31,2025-07-23 07:17:11
+967,TCKT-10967,Urgent,Open,Network,System slow,Issue details for ticket 967,2025-09-04,2025-09-07,tech12,2025-09-04 07:17:11
+968,TCKT-10968,Medium,Open,Software,WiFi down,Issue details for ticket 968,2025-04-28,,tech11,2025-04-28 07:17:11
+969,TCKT-10969,Medium,Closed,Hardware,VPN issue,Issue details for ticket 969,2025-11-23,2025-12-12,tech35,2025-11-23 07:17:11
+970,TCKT-10970,Urgent,Open,Network,WiFi down,Issue details for ticket 970,2025-01-01,2025-01-15,tech40,2025-01-01 07:17:11
+971,TCKT-10971,Urgent,Resolved,Hardware,Application crash,Issue details for ticket 971,2025-11-01,2025-11-19,tech38,2025-11-01 07:17:11
+972,TCKT-10972,High,In Progress,Hardware,VPN issue,Issue details for ticket 972,2025-10-30,2025-11-18,tech17,2025-10-30 07:17:11
+973,TCKT-10973,Low,Resolved,Hardware,Password reset,Issue details for ticket 973,2025-07-15,2025-07-25,tech38,2025-07-15 07:17:11
+974,TCKT-10974,Urgent,Resolved,Security,WiFi down,Issue details for ticket 974,2025-05-15,2025-05-27,tech29,2025-05-15 07:17:11
+975,TCKT-10975,Medium,Open,Software,Account locked,Issue details for ticket 975,2025-04-03,2025-04-11,tech30,2025-04-03 07:17:11
+976,TCKT-10976,Urgent,In Progress,Hardware,Application crash,Issue details for ticket 976,2025-05-06,2025-05-25,tech30,2025-05-06 07:17:11
+977,TCKT-10977,High,Closed,Security,WiFi down,Issue details for ticket 977,2025-06-07,2025-06-24,tech8,2025-06-07 07:17:11
+978,TCKT-10978,Medium,Open,Network,Application crash,Issue details for ticket 978,2025-03-06,,tech28,2025-03-06 07:17:11
+979,TCKT-10979,High,Resolved,Hardware,Email not syncing,Issue details for ticket 979,2025-08-21,2025-09-04,tech10,2025-08-21 07:17:11
+980,TCKT-10980,Low,Resolved,Software,Password reset,Issue details for ticket 980,2025-02-18,2025-02-27,tech40,2025-02-18 07:17:11
+981,TCKT-10981,High,Closed,Hardware,Account locked,Issue details for ticket 981,2025-01-29,2025-02-12,tech13,2025-01-29 07:17:11
+982,TCKT-10982,High,Resolved,Security,VPN issue,Issue details for ticket 982,2025-08-04,2025-08-19,tech3,2025-08-04 07:17:11
+983,TCKT-10983,High,Closed,Network,Email not syncing,Issue details for ticket 983,2025-09-09,2025-09-10,tech20,2025-09-09 07:17:11
+984,TCKT-10984,Medium,In Progress,Software,Password reset,Issue details for ticket 984,2024-12-13,,tech39,2024-12-13 07:17:11
+985,TCKT-10985,High,Resolved,Hardware,System slow,Issue details for ticket 985,2025-09-23,2025-10-13,tech34,2025-09-23 07:17:11
+986,TCKT-10986,Medium,Closed,Software,Account locked,Issue details for ticket 986,2024-12-15,,tech14,2024-12-15 07:17:11
+987,TCKT-10987,Low,Closed,Security,Account locked,Issue details for ticket 987,2025-08-22,2025-08-23,tech20,2025-08-22 07:17:11
+988,TCKT-10988,Urgent,Closed,Software,System slow,Issue details for ticket 988,2025-02-19,,tech13,2025-02-19 07:17:11
+989,TCKT-10989,High,Open,Security,System slow,Issue details for ticket 989,2025-02-25,2025-03-16,tech37,2025-02-25 07:17:11
+990,TCKT-10990,Urgent,Closed,Network,VPN issue,Issue details for ticket 990,2025-10-07,,tech14,2025-10-07 07:17:11
+991,TCKT-10991,Urgent,Open,Security,WiFi down,Issue details for ticket 991,2025-02-22,2025-02-27,tech5,2025-02-22 07:17:11
+992,TCKT-10992,Medium,Closed,Software,Account locked,Issue details for ticket 992,2025-04-07,2025-04-13,tech30,2025-04-07 07:17:11
+993,TCKT-10993,Urgent,Resolved,Network,Password reset,Issue details for ticket 993,2024-12-11,2024-12-22,tech19,2024-12-11 07:17:11
+994,TCKT-10994,High,Resolved,Network,Laptop not starting,Issue details for ticket 994,2025-04-27,2025-05-10,tech5,2025-04-27 07:17:11
+995,TCKT-10995,Urgent,Open,Security,Password reset,Issue details for ticket 995,2025-03-30,2025-04-06,tech2,2025-03-30 07:17:11
+996,TCKT-10996,Low,In Progress,Software,Laptop not starting,Issue details for ticket 996,2025-04-09,2025-04-17,tech19,2025-04-09 07:17:11
+997,TCKT-10997,High,Open,Software,Password reset,Issue details for ticket 997,2025-06-09,2025-06-18,tech18,2025-06-09 07:17:11
+998,TCKT-10998,Urgent,Resolved,Network,Password reset,Issue details for ticket 998,2025-10-28,2025-11-10,tech16,2025-10-28 07:17:11
+999,TCKT-10999,High,Closed,Access,Account locked,Issue details for ticket 999,2024-12-07,2024-12-11,tech39,2024-12-07 07:17:11
+1000,TCKT-11000,High,Closed,Access,Laptop not starting,Issue details for ticket 1000,2025-06-03,2025-06-16,tech13,2025-06-03 07:17:11

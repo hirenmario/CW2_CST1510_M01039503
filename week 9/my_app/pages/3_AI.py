@@ -2,31 +2,51 @@ import streamlit as st
 import pandas as pd
 import datetime
 import time 
-import numpy as np 
 
-# --- MOCK DB FUNCTIONS (Adapted for Dataset Metadata) ---
+@st.cache_data(ttl=600)
+def get_all_datasets():
+    """Fetches initial dataset metadata directly from the CSV file."""
+    try:
+        # Using the specified path structure for the CSV file
+        df = pd.read_csv("week 8/DATA/datasets_metadata.csv") 
+        if 'id' not in df.columns:
+            # Add an ID column if the CSV doesn't have one
+            df['id'] = range(1, len(df) + 1)
+        return df.sort_values(by='id')
+    except FileNotFoundError:
+        st.error("Error: 'week 8/DATA/datasets_metadata.csv' not found. Ensure the file path and structure are correct.")
+        return pd.DataFrame()
 
 def mock_get_all_datasets():
+    """Combines CSV data (initial state) with any dynamic changes in session state (CRUD)."""
+    df = get_all_datasets()
+    
     if 'datasets_db' not in st.session_state:
         st.session_state.datasets_db = {}
+    
+    if st.session_state.datasets_db:
+        session_data = pd.DataFrame(list(st.session_state.datasets_db.values()))
+        
+        if not session_data.empty:
+            df = pd.concat([df, session_data], ignore_index=True).drop_duplicates(subset='id', keep='last')
+            df['id'] = range(1, len(df) + 1)
+            
+    # Initial mock data setup if both CSV and session state are empty (fallback, based on previous mock data)
+    if df.empty and 'datasets_db' not in st.session_state:
+        st.session_state.datasets_db = {}
         today = str(datetime.date.today())
-        # Mock data based on schema.py: dataset_name, category, source, last_updated, record_count, file_size_mb
         mock_insert_dataset("ImageNetSubset", "Computer Vision", "Kaggle", today, 100000, 550.5)
         mock_insert_dataset("NLP_Corpus_v1", "NLP", "Internal", today, 500000, 12.8)
         mock_insert_dataset("Customer_Churn_v2", "Predictive Modeling", "CRM Export", str(datetime.date.today() - datetime.timedelta(days=30)), 20000, 1.2)
-        
-    data_list = list(st.session_state.datasets_db.values())
-    if not data_list:
-        return pd.DataFrame()
-        
-    df = pd.DataFrame(data_list)
+        df = pd.DataFrame(list(st.session_state.datasets_db.values()))
+    
     return df.sort_values(by='id')
 
 def mock_insert_dataset(dataset_name, category, source, last_updated, record_count, file_size_mb):
     if 'next_dataset_id' not in st.session_state:
-        st.session_state.next_dataset_id = 1
+        st.session_state.next_dataset_id = 1000
     
-    if any(ds['dataset_name'] == dataset_name for ds in st.session_state.datasets_db.values()):
+    if any(ds.get('dataset_name') == dataset_name for ds in st.session_state.datasets_db.values()):
         st.error(f"Dataset name {dataset_name} already exists.")
         return
 
@@ -42,14 +62,22 @@ def mock_update_dataset(pk_id, new_record_count, new_size_mb):
         st.session_state.datasets_db[pk_id]['record_count'] = new_record_count
         st.session_state.datasets_db[pk_id]['file_size_mb'] = new_size_mb
         st.session_state.datasets_db[pk_id]['last_updated'] = str(datetime.date.today())
+    else:
+        df_temp = get_all_datasets().set_index('id')
+        if pk_id in df_temp.index:
+            updated_dataset = df_temp.loc[pk_id].to_dict()
+            updated_dataset['record_count'] = new_record_count
+            updated_dataset['file_size_mb'] = new_size_mb
+            updated_dataset['last_updated'] = str(datetime.date.today())
+            st.session_state.datasets_db[pk_id] = updated_dataset
 
 def mock_delete_dataset(pk_id):
     if pk_id in st.session_state.datasets_db:
         del st.session_state.datasets_db[pk_id]
 
-# --- STREAMLIT PAGE SETUP ---
+# --- STREAMLIT PAGE CONTENT ---
 
-st.set_page_config(page_title="AI Dashboard", page_icon="🤖", layout="wide")
+st.set_page_config(page_title="AI/ML Operations", page_icon="🤖", layout="wide")
 
 if "logged_in" not in st.session_state or not st.session_state.logged_in:
     st.error("You must be logged in to view the dashboard.")
@@ -57,11 +85,9 @@ if "logged_in" not in st.session_state or not st.session_state.logged_in:
         st.switch_page("Home.py")
     st.stop()
 
-st.title("AI Dashboard 🤖")
+st.title("AI/ML Platform Dashboard 🤖")
 
 df_datasets = mock_get_all_datasets()
-
-# --- METRICS & CHARTS ---
 
 if not df_datasets.empty:
     st.subheader("Data Metrics")
@@ -83,8 +109,6 @@ if not df_datasets.empty:
 
 else:
     st.info("No datasets found. Use the 'Create Metadata' tab to add a new entry.")
-
-# --- CRUD OPERATIONS (Dataset Metadata Management) ---
 
 st.divider()
 st.header("Dataset Metadata Management")

@@ -18,10 +18,10 @@ def main():
     migrate_users_from_file()
     
     # 3. Test authentication
-    success, msg = register_user("alice2", "SecurePass123!", "analyst")
+    success, msg = register_user("alfred", "SecurePass123!", "analyst")
     print(msg)
     
-    success, msg = login_user("alice2", "SecurePass123!")
+    success, msg = login_user("alfred", "SecurePass123!")
     print(msg)
     
     # 4. Test CRUD
@@ -31,7 +31,7 @@ def main():
         "High",
         "Open",
         "Suspicious email detected",
-        "alice2"
+        "alfred"
     )
     print(f"Created incident #{incident_id}")
     
