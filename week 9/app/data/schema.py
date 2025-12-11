@@ -10,7 +10,7 @@ def create_users_table(conn):
         )
     """)
     conn.commit()
-    print("✅ Users table created successfully!")
+    print("Users table created successfully!")
 
 def create_cyber_incidents_table(conn):
     cursor = conn.cursor()

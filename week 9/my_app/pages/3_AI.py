@@ -1,83 +1,81 @@
 import streamlit as st
 import pandas as pd
 import datetime
-import time 
+import time
+import os
 
-@st.cache_data(ttl=600)
+# --- FILE PATHS ---
+ABSOLUTE_PATH = r"C:\Users\DELL\Desktop\CST1510\CW2_CST1510_M01039503\week 9\DATA\datasets_metadata.csv"
+RELATIVE_PATH = os.path.join("week 9", "DATA", "datasets_metadata.csv")
+
+def resolve_csv_path():
+    """Return whichever path exists: absolute first, then relative."""
+    if os.path.exists(ABSOLUTE_PATH):
+        return ABSOLUTE_PATH
+    elif os.path.exists(RELATIVE_PATH):
+        return RELATIVE_PATH
+    else:
+        return None
+
+CSV_PATH = resolve_csv_path()
+
+# --- DATA ACCESS ---
 def get_all_datasets():
-    """Fetches initial dataset metadata directly from the CSV file."""
-    try:
-        # Using the specified path structure for the CSV file
-        df = pd.read_csv("week 8/DATA/datasets_metadata.csv") 
-        if 'id' not in df.columns:
-            # Add an ID column if the CSV doesn't have one
-            df['id'] = range(1, len(df) + 1)
-        return df.sort_values(by='id')
-    except FileNotFoundError:
-        st.error("Error: 'week 8/DATA/datasets_metadata.csv' not found. Ensure the file path and structure are correct.")
+    """Fetch dataset metadata directly from the CSV file."""
+    if not CSV_PATH:
+        st.error("CSV file not found. Please ensure datasets_metadata.csv exists in the correct folder.")
         return pd.DataFrame()
-
-def mock_get_all_datasets():
-    """Combines CSV data (initial state) with any dynamic changes in session state (CRUD)."""
-    df = get_all_datasets()
-    
-    if 'datasets_db' not in st.session_state:
-        st.session_state.datasets_db = {}
-    
-    if st.session_state.datasets_db:
-        session_data = pd.DataFrame(list(st.session_state.datasets_db.values()))
-        
-        if not session_data.empty:
-            df = pd.concat([df, session_data], ignore_index=True).drop_duplicates(subset='id', keep='last')
-            df['id'] = range(1, len(df) + 1)
-            
-    # Initial mock data setup if both CSV and session state are empty (fallback, based on previous mock data)
-    if df.empty and 'datasets_db' not in st.session_state:
-        st.session_state.datasets_db = {}
-        today = str(datetime.date.today())
-        mock_insert_dataset("ImageNetSubset", "Computer Vision", "Kaggle", today, 100000, 550.5)
-        mock_insert_dataset("NLP_Corpus_v1", "NLP", "Internal", today, 500000, 12.8)
-        mock_insert_dataset("Customer_Churn_v2", "Predictive Modeling", "CRM Export", str(datetime.date.today() - datetime.timedelta(days=30)), 20000, 1.2)
-        df = pd.DataFrame(list(st.session_state.datasets_db.values()))
-    
+    df = pd.read_csv(CSV_PATH)
+    if 'id' not in df.columns:
+        df['id'] = range(1, len(df) + 1)
     return df.sort_values(by='id')
 
-def mock_insert_dataset(dataset_name, category, source, last_updated, record_count, file_size_mb):
-    if 'next_dataset_id' not in st.session_state:
-        st.session_state.next_dataset_id = 1000
-    
-    if any(ds.get('dataset_name') == dataset_name for ds in st.session_state.datasets_db.values()):
+def save_to_csv(df):
+    """Write dataframe back to CSV."""
+    if CSV_PATH:
+        df.to_csv(CSV_PATH, index=False)
+
+def insert_dataset(dataset_name, category, source, last_updated, record_count, file_size_mb):
+    df = get_all_datasets()
+    if dataset_name in df['dataset_name'].values:
         st.error(f"Dataset name {dataset_name} already exists.")
         return
-
-    new_id = st.session_state.next_dataset_id
-    st.session_state.datasets_db[new_id] = {
-        'id': new_id, 'dataset_name': dataset_name, 'category': category, 'source': source, 
-        'last_updated': last_updated, 'record_count': record_count, 'file_size_mb': file_size_mb,
+    new_id = df['id'].max() + 1 if not df.empty else 1
+    new_row = {
+        'id': new_id,
+        'dataset_name': dataset_name,
+        'category': category,
+        'source': source,
+        'last_updated': last_updated,
+        'record_count': record_count,
+        'file_size_mb': file_size_mb,
     }
-    st.session_state.next_dataset_id += 1
+    df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
+    save_to_csv(df)
+    st.success(f"Metadata for **{dataset_name}** created.")
 
-def mock_update_dataset(pk_id, new_record_count, new_size_mb):
-    if pk_id in st.session_state.datasets_db:
-        st.session_state.datasets_db[pk_id]['record_count'] = new_record_count
-        st.session_state.datasets_db[pk_id]['file_size_mb'] = new_size_mb
-        st.session_state.datasets_db[pk_id]['last_updated'] = str(datetime.date.today())
+def update_dataset(pk_id, new_record_count, new_size_mb):
+    df = get_all_datasets()
+    if pk_id in df['id'].values:
+        df.loc[df['id'] == pk_id, 'record_count'] = new_record_count
+        df.loc[df['id'] == pk_id, 'file_size_mb'] = new_size_mb
+        df.loc[df['id'] == pk_id, 'last_updated'] = str(datetime.date.today())
+        save_to_csv(df)
+        st.success("Dataset updated.")
     else:
-        df_temp = get_all_datasets().set_index('id')
-        if pk_id in df_temp.index:
-            updated_dataset = df_temp.loc[pk_id].to_dict()
-            updated_dataset['record_count'] = new_record_count
-            updated_dataset['file_size_mb'] = new_size_mb
-            updated_dataset['last_updated'] = str(datetime.date.today())
-            st.session_state.datasets_db[pk_id] = updated_dataset
+        st.error("Dataset ID not found.")
 
-def mock_delete_dataset(pk_id):
-    if pk_id in st.session_state.datasets_db:
-        del st.session_state.datasets_db[pk_id]
+def delete_dataset(pk_id):
+    df = get_all_datasets()
+    if pk_id in df['id'].values:
+        df = df[df['id'] != pk_id]
+        save_to_csv(df)
+        st.success("Dataset deleted.")
+    else:
+        st.error("Dataset ID not found.")
 
 # --- STREAMLIT PAGE CONTENT ---
-
-st.set_page_config(page_title="AI/ML Operations", page_icon="🤖", layout="wide")
+st.set_page_config(page_title="AI Operations", page_icon="🤖", layout="wide")
 
 if "logged_in" not in st.session_state or not st.session_state.logged_in:
     st.error("You must be logged in to view the dashboard.")
@@ -85,13 +83,12 @@ if "logged_in" not in st.session_state or not st.session_state.logged_in:
         st.switch_page("Home.py")
     st.stop()
 
-st.title("AI/ML Platform Dashboard 🤖")
+st.title("AI Platform Dashboard 🤖")
 
-df_datasets = mock_get_all_datasets()
+df_datasets = get_all_datasets()
 
 if not df_datasets.empty:
     st.subheader("Data Metrics")
-    
     total = len(df_datasets)
     total_records = df_datasets['record_count'].sum()
     total_size = df_datasets['file_size_mb'].sum()
@@ -100,13 +97,11 @@ if not df_datasets.empty:
     col1.metric("Total Datasets", total)
     col2.metric("Total Records", f"{total_records/1000000:.1f}M")
     col3.metric("Total Storage (GB)", f"{total_size/1024:.2f} GB")
-    
-    st.markdown("---")
 
+    st.markdown("---")
     st.subheader("Dataset Category Distribution")
     category_counts = df_datasets['category'].value_counts()
     st.bar_chart(category_counts)
-
 else:
     st.info("No datasets found. Use the 'Create Metadata' tab to add a new entry.")
 
@@ -126,33 +121,29 @@ with tab_add:
         ds_src = st.text_input("Source")
         ds_recs = st.number_input("Record Count", min_value=1, value=1000)
         ds_size = st.number_input("File Size (MB)", min_value=0.1, value=1.0)
-        
+
         if st.form_submit_button("Submit New Dataset", type="primary"):
             if not ds_name or not ds_src:
                 st.error("Please fill in Dataset Name and Source.")
             else:
-                mock_insert_dataset(ds_name, ds_cat, ds_src, str(datetime.date.today()), ds_recs, ds_size)
-                st.success(f"Metadata for **{ds_name}** created.")
-                time.sleep(1) 
+                insert_dataset(ds_name, ds_cat, ds_src, str(datetime.date.today()), ds_recs, ds_size)
+                time.sleep(1)
                 st.rerun()
 
 with tab_update:
     if not df_datasets.empty:
-        opts = {f"{row['dataset_name']} ({row['category']})": row['id'] for i, row in df_datasets.iterrows()}
+        opts = {f"{row['dataset_name']} ({row['category']})": row['id'] for _, row in df_datasets.iterrows()}
         sel_lbl = st.selectbox("Select Dataset to Update", list(opts.keys()))
-        
         if sel_lbl:
             sel_id = opts[sel_lbl]
-            
-            current_recs = df_datasets[df_datasets['id'] == sel_id]['record_count'].iloc[0]
-            current_size = df_datasets[df_datasets['id'] == sel_id]['file_size_mb'].iloc[0]
+            current_recs = int(df_datasets[df_datasets['id'] == sel_id]['record_count'].iloc[0])
+            current_size = float(df_datasets[df_datasets['id'] == sel_id]['file_size_mb'].iloc[0])
 
-            new_recs = st.number_input("New Record Count", min_value=1, value=int(current_recs))
-            new_size = st.number_input("New File Size (MB)", min_value=0.1, value=float(current_size))
+            new_recs = st.number_input("New Record Count", min_value=1, value=current_recs)
+            new_size = st.number_input("New File Size (MB)", min_value=0.1, value=current_size)
 
             if st.button("Update Metadata", type="primary"):
-                mock_update_dataset(sel_id, new_recs, new_size)
-                st.success(f"Metadata for **{sel_lbl.split('(')[0].strip()}** updated.")
+                update_dataset(sel_id, new_recs, new_size)
                 time.sleep(1)
                 st.rerun()
     else:
@@ -160,23 +151,21 @@ with tab_update:
 
 with tab_delete:
     if not df_datasets.empty:
-        del_opts = {f"{row['dataset_name']} ({row['id']})": row['id'] for i, row in df_datasets.iterrows()}
+        del_opts = {f"{row['dataset_name']} ({row['id']})": row['id'] for _, row in df_datasets.iterrows()}
         del_lbl = st.selectbox("Select Dataset to Delete", list(del_opts.keys()))
-        
         if del_lbl:
             del_id = del_opts[del_lbl]
             st.warning(f"Confirm deletion of dataset metadata **{del_lbl}**.")
-            
             if st.button("Confirm Delete", type="primary"):
-                mock_delete_dataset(del_id)
-                st.success("Dataset metadata deleted.")
+                delete_dataset(del_id)
                 time.sleep(1)
                 st.rerun()
 
-# Logout button
+# --- LOGOUT BUTTON ---
 st.divider()
-if st.button("Log out"):
+if st.button("Logout", type="primary"):
     st.session_state.logged_in = False
     st.session_state.username = ""
-    st.info("You have logged out.")
+    st.success("You have been logged out.")
+    time.sleep(1)
     st.switch_page("Home.py")
