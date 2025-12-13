@@ -5,8 +5,6 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent
 USER_DATA_FILE = BASE_DIR / "DATA" / "users.txt"
 
-# USER_DATA_FILE = "users.txt"
-
 def hash_password(plain_text_password):
     password_bytes = plain_text_password.encode('utf-8')
     salt = bcrypt.gensalt()

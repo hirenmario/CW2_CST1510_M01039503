@@ -80,9 +80,18 @@ if not df_incidents.empty:
 
     st.markdown("---")
 
+    # --- BAR CHART: Incident Type Distribution ---
     st.subheader("Incident Type Distribution")
     type_counts = df_incidents["incident_type"].value_counts()
     st.bar_chart(type_counts)
+
+    # --- LINE CHART: Incidents Over Time ---
+    st.subheader("Incidents Over Time")
+    df_incidents["date"] = pd.to_datetime(df_incidents["date"], errors="coerce")
+    incidents_over_time = df_incidents.groupby(df_incidents["date"].dt.date).size()
+    incidents_over_time_df = incidents_over_time.reset_index()
+    incidents_over_time_df.columns = ["Date", "Incident Count"]
+    st.line_chart(incidents_over_time_df.set_index("Date"))
 
 else:
     st.info("No incidents found. Use the 'Report Incident' tab to log a new case.")
@@ -119,7 +128,7 @@ with tab_update:
     if not df_incidents.empty:
         active_incidents_df = df_incidents[df_incidents["status"].isin(["Triage", "Active"])]
         if active_incidents_df.empty:
-            st.info("No active incidents to update.")
+            st.info("No incidents to update.")
         else:
             opts = {f"ID {row['id']} - {row['incident_type']} ({row['severity']})": row["id"] for i, row in active_incidents_df.iterrows()}
             sel_lbl = st.selectbox("Select Incident to Update", list(opts.keys()))
@@ -138,7 +147,7 @@ with tab_update:
                     time.sleep(1)
                     st.rerun()
     else:
-        st.info("No incidents available for status update.")
+        st.info("No incidents available to update status.")
 
 with tab_delete:
     if not df_incidents.empty:
@@ -155,8 +164,7 @@ with tab_delete:
                 time.sleep(1)
                 st.rerun()
     else:
-        st.info("No incidents available to delete.")
-# Logout button
+        st.info("No other incidents available to delete.")
 
 # --- LOGOUT BUTTON ---
 st.divider()

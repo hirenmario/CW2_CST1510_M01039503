@@ -3,12 +3,12 @@ import pandas as pd
 import datetime
 import time
 import os
+from week10.chatgptslit import generate_response  # Ensure this import path matches your structure
 
 # --- ABSOLUTE FILE PATH TO EXISTING CSV ---
 CSV_PATH = r"C:\Users\DELL\Desktop\CST1510\CW2_CST1510_M01039503\week 9\DATA\it_tickets.csv"
 
 # --- DB FUNCTIONS USING EXISTING CSV ONLY ---
-
 def load_tickets():
     if not os.path.exists(CSV_PATH):
         st.error(f"CSV file not found at {CSV_PATH}. Please ensure the file exists.")
@@ -53,7 +53,6 @@ def delete_ticket(pk_id):
     save_tickets(df)
 
 # --- STREAMLIT PAGE SETUP ---
-
 st.set_page_config(page_title="IT Operations", layout="wide")
 
 if "logged_in" not in st.session_state or not st.session_state.logged_in:
@@ -77,9 +76,18 @@ if not df_tickets.empty:
     col2.metric("High Priority", high)
     col3.metric("Open Tickets", open_t)
 
+    # --- BAR CHART: Current Ticket Status ---
     st.subheader("Current Ticket Status")
     status_counts = df_tickets['status'].value_counts()
     st.bar_chart(status_counts)
+
+    # --- LINE GRAPH: Tickets Over Time ---
+    st.subheader("Tickets Over Time")
+    df_tickets['created_at'] = pd.to_datetime(df_tickets['created_at'], errors='coerce')
+    tickets_over_time = df_tickets.groupby(df_tickets['created_at'].dt.date).size()
+    tickets_over_time_df = tickets_over_time.reset_index()
+    tickets_over_time_df.columns = ['Date', 'Ticket Count']
+    st.line_chart(tickets_over_time_df.set_index('Date'))
 
 else:
     st.info("No tickets found.")
@@ -133,6 +141,24 @@ with tab_delete:
             delete_ticket(del_id)
             st.success("Deleted.")
             st.rerun()
+
+# --- CHATBOX FOR IT ANALYTICS ---
+st.divider()
+st.header("IT Analytics Chat Assistant")
+
+if "chat_history_it" not in st.session_state:
+    st.session_state.chat_history_it = []
+
+user_query = st.chat_input("Ask about IT operations, ticket trends, or analytics")
+
+if user_query:
+    st.session_state.chat_history_it.append(("user", user_query))
+    reply = generate_response(f"IT Analytics Query: {user_query}")
+    st.session_state.chat_history_it.append(("assistant", reply))
+
+for role, msg in st.session_state.chat_history_it:
+    with st.chat_message(role):
+        st.markdown(msg)
 
 # --- LOGOUT BUTTON ---
 st.divider()

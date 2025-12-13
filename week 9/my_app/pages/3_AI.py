@@ -74,7 +74,7 @@ def delete_dataset(pk_id):
     else:
         st.error("Dataset ID not found.")
 
-# --- STREAMLIT PAGE CONTENT ---
+
 st.set_page_config(page_title="AI Operations", page_icon="🤖", layout="wide")
 
 if "logged_in" not in st.session_state or not st.session_state.logged_in:
@@ -83,7 +83,7 @@ if "logged_in" not in st.session_state or not st.session_state.logged_in:
         st.switch_page("Home.py")
     st.stop()
 
-st.title("AI Platform Dashboard 🤖")
+st.title("AI Analytics Dashboard")
 
 df_datasets = get_all_datasets()
 
