@@ -34,7 +34,6 @@ with tab_login:
     login_password = st.text_input("Password", type="password", key="login_password")
 
     if st.button("Log in", type="primary"):
-        # Simple credential check (for teaching only – not secure!)
         users = st.session_state.users
         if login_username in users and users[login_username] == login_password:
             st.session_state.logged_in = True
@@ -47,7 +46,6 @@ with tab_login:
             st.error("Invalid username or password.")
 
 
-# ----- REGISTER TAB -----
 with tab_register:
     st.subheader("Register")
 

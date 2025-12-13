@@ -40,10 +40,7 @@ def load_all_csv_data(conn):
     total_rows += load_csv_to_table(conn, DATA_DIR / "it_tickets.csv", "it_tickets")
     return total_rows
 
-
-# -----------------------------
 # Database Setup
-# -----------------------------
 
 def setup_database_complete():
     """
@@ -66,7 +63,7 @@ def setup_database_complete():
 
     # 3. Migrate users
     print("\n[3/5] Migrating users from users.txt...")
-    migrate_users_from_file()  # Function handles its own connection and printout
+    migrate_users_from_file()  
 
     # 4. Load CSV data
     print("\n[4/5] Loading CSV data...")
@@ -94,9 +91,8 @@ def setup_database_complete():
     print(f"\n Database location: {DB_PATH.resolve()}")
 
 
-# -----------------------------
-# Test Queries
-# -----------------------------
+# Query test
+
 
 def run_test_queries():
     """Run simple tests on authentication and CRUD."""
@@ -134,7 +130,6 @@ def run_test_queries():
 
 # -----------------------------
 # Entry Point
-# -----------------------------
 
 if __name__ == "__main__":
     setup_database_complete()
