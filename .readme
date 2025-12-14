@@ -1,1 +1,4 @@
-# readme 
+Running instructions:
+Have installed pandas, openai, streamlit, bcrypt.
+
+Use own API key to run this project.
