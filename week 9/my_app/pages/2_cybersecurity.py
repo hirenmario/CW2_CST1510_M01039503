@@ -1,14 +1,34 @@
 import streamlit as st
 import pandas as pd
 import datetime
-import time
 import os
+from openai import OpenAI
 
 # --- ABSOLUTE FILE PATH TO EXISTING CSV ---
 CSV_PATH = r"C:\Users\DELL\Desktop\CST1510\CW2_CST1510_M01039503\week 9\DATA\cyber_incidents.csv"
 
-# --- DB FUNCTIONS USING EXISTING CSV ONLY ---
+# --- Initialize OpenAI client ---
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
+# --- STREAMLIT PAGE SETUP ---
+st.set_page_config(page_title="Cybersecurity", page_icon="🛡️", layout="wide")
+
+# --- AUTH CHECK ---
+if "logged_in" not in st.session_state or not st.session_state.logged_in:
+    st.error("You must be logged in to view the dashboard.")
+    if st.button("Go to login page"):
+        st.switch_page("Home.py")
+    st.stop()
+
+# --- Title + AI Assistant Button ---
+col_title, col_button = st.columns([0.85, 0.15])
+with col_title:
+    st.title("Cybersecurity Incident Dashboard")
+with col_button:
+    if st.button("AI Assistant (bottom of page)", use_container_width=True):
+        st.session_state.show_chat = not st.session_state.get("show_chat", False)
+
+# --- DB FUNCTIONS USING EXISTING CSV ONLY ---
 def load_incidents():
     if not os.path.exists(CSV_PATH):
         st.error(f"CSV file not found at {CSV_PATH}. Please ensure the file exists.")
@@ -20,9 +40,7 @@ def save_incidents(df):
 
 def get_all_incidents():
     df = load_incidents()
-    if df.empty:
-        return df
-    return df.sort_values(by="id")
+    return df.sort_values(by="id") if not df.empty else df
 
 def insert_incident(date, type, severity, status, description, reported_by, created_at):
     df = load_incidents()
@@ -50,22 +68,14 @@ def delete_incident(pk_id):
     df = df[df["id"] != pk_id]
     save_incidents(df)
 
-# --- STREAMLIT PAGE SETUP ---
-
-st.set_page_config(page_title="Cybersecurity", page_icon="🛡️", layout="wide")
-
-if "logged_in" not in st.session_state or not st.session_state.logged_in:
-    st.error("You must be logged in to view the dashboard.")
-    if st.button("Go to login page"):
-        st.switch_page("Home.py")
-    st.stop()
-
-st.title("Cybersecurity Incident Dashboard")
-
-df_incidents = get_all_incidents()
+# --- REFRESH HANDLING ---
+if "refresh" in st.session_state and st.session_state.refresh:
+    df_incidents = get_all_incidents()
+    st.session_state.refresh = False
+else:
+    df_incidents = get_all_incidents()
 
 # --- METRICS & CHARTS ---
-
 if not df_incidents.empty:
     st.subheader("Incident Metrics")
 
@@ -97,7 +107,6 @@ else:
     st.info("No incidents found. Use the 'Report Incident' tab to log a new case.")
 
 # --- CRUD OPERATIONS (Incident Management) ---
-
 st.divider()
 st.header("Incident Management")
 
@@ -113,7 +122,7 @@ with tab_add:
         inc_type = st.selectbox("Type", ["DDoS Attack", "Phishing Email", "Malware Infection", "Unauthorized Access"])
         inc_sev = st.selectbox("Severity", ["Low", "Medium", "High", "Critical"])
         inc_desc = st.text_area("Description")
-        inc_rpt = st.text_input("Reported By", value=st.session_state.username)
+        inc_rpt = st.text_input("Reported By", value=st.session_state.get("username", ""))
 
         if st.form_submit_button("Submit Incident Report", type="primary"):
             if not inc_desc:
@@ -121,8 +130,7 @@ with tab_add:
             else:
                 insert_incident(inc_date, inc_type, inc_sev, "Triage", inc_desc, inc_rpt, str(datetime.date.today()))
                 st.success(f"Incident of type **{inc_type}** reported successfully.")
-                time.sleep(1)
-                st.rerun()
+                st.session_state.refresh = True
 
 with tab_update:
     if not df_incidents.empty:
@@ -130,7 +138,10 @@ with tab_update:
         if active_incidents_df.empty:
             st.info("No incidents to update.")
         else:
-            opts = {f"ID {row['id']} - {row['incident_type']} ({row['severity']})": row["id"] for i, row in active_incidents_df.iterrows()}
+            opts = {
+                f"ID {row['id']} - {row['incident_type']} ({row['severity']})": row["id"]
+                for _, row in active_incidents_df.iterrows()
+            }
             sel_lbl = st.selectbox("Select Incident to Update", list(opts.keys()))
 
             if sel_lbl:
@@ -144,14 +155,16 @@ with tab_update:
                 if st.button("Update Status", type="primary"):
                     update_incident_status(sel_id, new_stat)
                     st.success(f"Incident status updated to **{new_stat}**.")
-                    time.sleep(1)
-                    st.rerun()
+                    st.session_state.refresh = True
     else:
         st.info("No incidents available to update status.")
 
 with tab_delete:
     if not df_incidents.empty:
-        del_opts = {f"ID {row['id']} - {row['incident_type']} ({row['severity']})": row["id"] for i, row in df_incidents.iterrows()}
+        del_opts = {
+            f"ID {row['id']} - {row['incident_type']} ({row['severity']})": row["id"]
+            for _, row in df_incidents.iterrows()
+        }
         del_lbl = st.selectbox("Select Incident to Delete", list(del_opts.keys()))
 
         if del_lbl:
@@ -161,15 +174,58 @@ with tab_delete:
             if st.button("Confirm Delete", type="primary"):
                 delete_incident(del_id)
                 st.success("Incident deleted.")
-                time.sleep(1)
-                st.rerun()
+                st.session_state.refresh = True
     else:
         st.info("No other incidents available to delete.")
+
+# --- CHATGPT ASSISTANT (only shown when button clicked) ---
+if st.session_state.get("show_chat"):
+    st.divider()
+    st.header("ChatGPT Assistant")
+    st.caption("Powered by GPT-4o Mini")
+
+    if "messages" not in st.session_state:
+        st.session_state.messages = [
+            {"role": "system", "content": "You are a helpful cybersecurity assistant."}
+        ]
+
+    with st.sidebar:
+        st.subheader("Chat Controls")
+        message_count = len([m for m in st.session_state.messages if m["role"] != "system"])
+        st.metric("Messages", message_count)
+        if st.button("🗑 Clear Chat", use_container_width=True):
+            st.session_state.messages = []
+            st.success("Chat cleared.")
+
+    chat_box = st.container()
+    for message in st.session_state.messages:
+        if message["role"] != "system":
+            chat_box.markdown(f"**{message['role'].capitalize()}:** {message['content']}")
+
+
+    prompt = st.text_input("Ask me anything about cybersecurity incidents...", key="cyber_chat_prompt")
+    if prompt:
+        st.session_state.messages.append({"role": "user", "content": prompt})
+        st.session_state.cyber_chat_prompt = ""  
+
+        with st.spinner("Thinking..."):
+            completion = client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=st.session_state.messages,
+                stream=True
+            )
+
+        full_reply = ""
+        for chunk in completion:
+            delta = chunk.choices[0].delta
+            if delta.content:
+                full_reply += delta.content
+
+        st.session_state.messages.append({"role": "assistant", "content": full_reply})
 
 # --- LOGOUT BUTTON ---
 st.divider()
 if st.button("Logout", type="primary"):
     st.session_state.logged_in = False
     st.success("You have been logged out.")
-    time.sleep(1)
     st.switch_page("Home.py")
