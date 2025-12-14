@@ -198,7 +198,7 @@ if st.session_state.get("show_chat"):
         st.subheader("Chat Controls")
         message_count = len([m for m in st.session_state.messages if m["role"] != "system"])
         st.metric("Messages", message_count)
-        if st.button("🗑 Clear Chat", use_container_width=True):
+        if st.button("Clear Chat", use_container_width=True):
             st.session_state.messages = []
             st.success("Chat cleared.")
 
@@ -207,7 +207,7 @@ if st.session_state.get("show_chat"):
         if message["role"] != "system":
             chat_box.markdown(f"**{message['role'].capitalize()}:** {message['content']}")
 
-    prompt = st.text_input("Ask me anything about datasets or AI operations...", key="ai_chat_prompt")
+    prompt = st.text_input("Ask me anything about AI operations...", key="ai_chat_prompt")
     if prompt:
         st.session_state.messages.append({"role": "user", "content": prompt})
         st.session_state.ai_chat_prompt = ""
