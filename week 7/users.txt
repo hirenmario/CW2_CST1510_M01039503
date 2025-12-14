@@ -1,1 +1,2 @@
 mario,$2b$12$YtVXkfqxsgHkECujuHKyuOWYUfDGJbTTM9hnf9/s8w9x5qPnQZjZG
+bob,$2b$12$YuJSXHXC3j4P04XyHuT1EeDZi/qfRUruE93ngatj5nTnBQtEmUczu
